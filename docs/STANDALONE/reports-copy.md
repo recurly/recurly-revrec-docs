@@ -17,7 +17,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Standalone. \[<a href="https://docs.recurly.com/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Standalone. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
 
 ### Required plan
 
