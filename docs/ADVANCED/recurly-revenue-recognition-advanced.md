@@ -1,5 +1,5 @@
 ---
-title: 'Overview: Advanced'
+title: 'Overview: RevRec Advanced'
 excerpt: >-
   Unlock precise and compliant revenue recognition with Recurly's Advanced
   solution. Streamline financial operations, ensure ASC 606, IFRS 15/16, and
