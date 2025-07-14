@@ -1,5 +1,5 @@
 ---
-title: Recurly Revenue Recognition Standalone
+title: 'Overview: Standalone'
 excerpt: >-
   Unlock precise and compliant revenue recognition with Recurly's Standalone
   solution. Streamline financial operations, ensure ASC 606, IFRS 15/16, and
