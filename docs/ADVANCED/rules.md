@@ -15,7 +15,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Advanced. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ This feature is part of our product, Recurly Revenue Recognition Advanced. [<a h
 * Access to Recurly Revenue Recognition Advanced module.
 * Necessary permissions to configure rules and holds.
 
-> **Please note:** 
+> **Please note:**
 >
 > * Once a Contract Grouping Rule is created, it cannot be deleted but can be inactivated.
 > * Approved SSP data cannot be deleted.
@@ -43,7 +43,7 @@ In Recurly's revenue recognition, the Rules section is advanced and seamlessly i
 
 # Rules functionalities
 
-<Image align="center" className="border" width="25% " border={true} src="https://files.readme.io/d33a162-image.png" />
+<Image align="center" className="border" border={true} width="25% " src="https://files.readme.io/d33a162-image.png" />
 
 ## Contract grouping
 
@@ -55,15 +55,15 @@ This essential feature allows you to define specific criteria for grouping trans
 
 2. Click on the “+” icon in the right menu to create a new grouping rule.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/73e91e0-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/73e91e0-image.png" />
 
 3. Provide a name for the contract grouping and specify the active date.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/7609ae3-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/7609ae3-image.png" />
 
 4. Under the "Grouping" section, click on the "+" button to add grouping criteria.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/37d95e4-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/37d95e4-image.png" />
 
 5. Select the required grouping attribute(s) to define how contracts should be grouped.
 6. Specify the rolling date and the number of days for the grouping rule.
@@ -87,7 +87,7 @@ To inactivate a grouping rule, follow these steps:
 3. **Click** on the Save icon to save the changes.
 
 **Points to Remember:**\
-➔	Only the active grouping rules will be visible in the Contract Grouping section.\
+➔	Only the active grouping rules will be visible in the Contract Grouping section.
 ➔	Once a grouping rule is made inactive, it will be moved to the inactive tab for reference.
 
 ➔	The inactive grouping rule cannot be made active.
@@ -137,8 +137,8 @@ After completing step 1 – 6, save your changes and then your POB could look li
 ![](https://files.readme.io/2a3d5ab-image.png)
 
 8. You can choose how a date change in a contract affects the waterfall:\
-   **Default (Blank)**: The waterfall remains unchanged.\
-   **Cumulative Date Change**: The entire waterfall is recalculated, considering both past and future payments. This ensures that the total amount is distributed accurately based on the new dates.\
+   **Default (Blank)**: The waterfall remains unchanged.
+   **Cumulative Date Change**: The entire waterfall is recalculated, considering both past and future payments. This ensures that the total amount is distributed accurately based on the new dates.
    **Prospective Date Change**: Only future payments are adjusted to reflect the new dates. Past payments remain unaffected
 9. In the POB configuration screen, locate the Revenue Release section.
 10. Click on the "+" button in the Revenue Release section to add a new release event.
@@ -182,7 +182,7 @@ Once in the Rules section, follow these steps to add POB Rules:
 
 3. Define the attribute value used for recognizing the POB. For example, select the "Item" attribute. If the desired value is not available, click on the window-shaped button and select the attribute from the window that appears, then click on "Save." In this case, we have chosen "Account Code" as the attribute for POB recognition.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/8698dfd-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/8698dfd-image.png" />
 
 ![](https://files.readme.io/79bb6b3-image.png)
 
@@ -214,11 +214,11 @@ Forecast Management allows you to forecast revenue based on both external events
 #### Steps for configuring the Forecast for POBs:
 
 1. Navigate to the required POB
-2. Click on Forecast. This will land you in the forecast page. 
+2. Click on Forecast. This will land you in the forecast page.
 3. Select the waterfall type for forecast.\
-   Point in time\
-   Overtime\
-   Overtime Slide\
+   Point in time
+   Overtime
+   Overtime Slide
    Overtime Condense
 4. Enter the percent of revenue you need to forecast based on this rule. At any given point, the forecast release should not be more than 100%.
 5. Select the “forecast on” date. This is the date on which revenue has to be forecasted. The system gives several forecasts on options like Book Date, Start date, End date, delivery date.
@@ -274,7 +274,7 @@ Setting up the Stand-Alone Selling Price (SSP) involves a streamlined process co
 5. Define the active dates, including the start and end date (if applicable), for the SSP data.
 6. Once you have configured the SSP Analyzer, click the Save icon to save your changes.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/c58f0b0-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/c58f0b0-image.png" />
 
 7. The Flow Status will be displayed as "New" once the configuration is saved.
 
@@ -320,14 +320,14 @@ If the Analyzer type under SSP analyzer is selected as “Analysis”, the syste
 
 Note: All the other fields like range, type, stats, value and base would be seen as configured while configuring the SSP. You cannot make any changes here.
 
-6. Once it is done, add criteria. Criteria means the data that has to be included while deriving the SSP values. In the below screenshot, you can see the criteria as greater than a certain book date. 
+6. Once it is done, add criteria. Criteria means the data that has to be included while deriving the SSP values. In the below screenshot, you can see the criteria as greater than a certain book date.
 7. Once the criteria is defined, click on the analysis icon on the right hand side. Now, the system will collect all the data that matches the criteria and gives us the SSP breakup as per the grouping.
 8. As the SSP grouping was “Item”, the data collected is spread into different rows based on the grouping. This complete the data collection process.
 9. Now the SSP needs to be approved to use the same.
 
 ## Variable considerations
 
-In Recurly Revenue Recognition Advanced, the setup for automatically applying variable consideration (VC) estimates to transaction lines is done on the Variable Considerations page. Variable considerations refer to charges associated with discounts, rebates, refunds, credits, price concessions, incentives, performance bonuses, penalties, and other similar items that are determined by factors unrelated to the cost of producing goods or services. These amounts can be estimated using historical data and other calculations. 
+In Recurly Revenue Recognition Advanced, the setup for automatically applying variable consideration (VC) estimates to transaction lines is done on the Variable Considerations page. Variable considerations refer to charges associated with discounts, rebates, refunds, credits, price concessions, incentives, performance bonuses, penalties, and other similar items that are determined by factors unrelated to the cost of producing goods or services. These amounts can be estimated using historical data and other calculations.
 
 ### How to configure Variable Considerations
 
@@ -397,7 +397,7 @@ Recurly Revenue Recognition Advanced includes functionality to account for costs
 
 1. Navigate to Rules and select Cost from the menu.
 
-<Image align="center" className="border" width="25% " border={true} src="https://files.readme.io/f03f8f4-image.png" />
+<Image align="center" className="border" border={true} width="25% " src="https://files.readme.io/f03f8f4-image.png" />
 
 2. Enter the 'Cost Type' to specify the type of cost you are defining.
 3. Determine the cost treatment based on the following options:
@@ -440,7 +440,7 @@ By utilizing the Cost file upload functionality, you can streamline the process 
 
 ## Holds
 
-In Recurly Revenue Recognition Advanced, the Holds feature allows for holding revenue recognition based on specific conditions set by management. 
+In Recurly Revenue Recognition Advanced, the Holds feature allows for holding revenue recognition based on specific conditions set by management.
 
 There are two types of holds available: Contract Level hold and Element Level hold.
 
@@ -465,7 +465,7 @@ The **Holds** feature in Recurly Revenue Recognition Advanced provides flexibili
 
 1. Navigation: Go to Rules → Holds
 
-<Image align="center" className="border" width="25% " border={true} src="https://files.readme.io/f03f8f4-image.png" />
+<Image align="center" className="border" border={true} width="25% " src="https://files.readme.io/f03f8f4-image.png" />
 
 2. **Name:** Enter a name for the hold, such as "Delivery Hold."
 3. **Apply on:** Select whether the hold should be applied at the Contract level or Element level.
@@ -559,7 +559,7 @@ Navigation: Go to Rules → Additional Journals
 1. Name: Enter a unique name for the additional journal.
 2. Books: Choose the books in which the journal is to be posted - example; Primary, Secondary or All.
 3. JE Type: Select the JE type as Document. If the user needs to create an additional Journal based on the billed amount, then choose “document” as value for the JE type. In addition to the billed amount, users may be able to create journals based on any calculated columns in the document/billing record.
-4. Select the POB Type for which the additional journals are to be applied. This selection would bring in additional journals only if the subscription belongs to the selected POB type.  If, instead, the additional journals are required for Cost/Expenses, then the cost type must also be selected. 
+4. Select the POB Type for which the additional journals are to be applied. This selection would bring in additional journals only if the subscription belongs to the selected POB type.  If, instead, the additional journals are required for Cost/Expenses, then the cost type must also be selected.
 5. In the Amount field select the data type for the amount required in the journal entry. This feature is available only when the additional journals JE type selected is Document. As you can see below, the drop down under amount will display all the data type amounts for the document’s attributes .
 
 This screenshot is displaying all the document attributes of data type “amount” defined in the instance.
@@ -569,7 +569,7 @@ This screenshot is displaying all the document attributes of data type “amount
 8. Auto Reverse is an option available to reverse the JE passed in the next period of the contract. It is available only when the JE type is Document.
 9. Retirement is available when additional journals are configured for cost type. This will create additional journals at the end of the contract period.
 
-Note: The POB type and cost type are exclusive from each other and cannot be selected at the same time. 
+Note: The POB type and cost type are exclusive from each other and cannot be selected at the same time.
 
 ### Additional Journals for Revenue waterfall amount
 
@@ -577,7 +577,7 @@ Note: The POB type and cost type are exclusive from each other and cannot be sel
 2. Books: Choose the books in which the journal is to be posted - example; Primary, Secondary or All.
 3. JE Type: Select the JE type as Revenue Waterfall. If the JE type is Revenue waterfall, the JE will be posted in the contract for the amounts in the Revenue waterfall. This can be applied only based on POB type. If the additional journal to be applied for all the contracts, then please leave the POB type blank.
 4. Enter the debit and credit account information for the additional journals.
-5. Enter the active date. Choose the beginning and ending date that the JE should be active. You can leave the End date blank if you want to apply for the JE forever. 
+5. Enter the active date. Choose the beginning and ending date that the JE should be active. You can leave the End date blank if you want to apply for the JE forever.
 
 ### Additional Journals for Adjustment waterfall amount
 
@@ -585,6 +585,6 @@ Note: The POB type and cost type are exclusive from each other and cannot be sel
 2. Books: Choose the books in which the journal is to be posted - example; Primary, Secondary or All
 3. JE Type: Select the JE type as Adjustment Waterfall. If the JE type is Adjustment waterfall, the entries will be posted in the adjustment waterfall. Adjustment waterfall refers to the waterfall that arises due to the carve ins and carve outs at the time of allocation. Hence, this is applicable only when the merchant has allocations.
 4. Enter the debit and credit account values for the additional configured journals.
-5. Enter the active date. Choose the beginning and ending date that the JE should be active. You can leave the End date blank if you want to apply the JE forever. 
+5. Enter the active date. Choose the beginning and ending date that the JE should be active. You can leave the End date blank if you want to apply the JE forever.
 
-Note: Adjustment waterfall additional journals do not get an option to choose POB type and they do not have an option for auto reverse.
+> **Note:** Adjustment waterfall additional journals do not get an option to choose POB type and they do not have an option for auto reverse.
