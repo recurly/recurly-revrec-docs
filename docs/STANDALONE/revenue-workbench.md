@@ -14,11 +14,11 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Standalone. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Standalone. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
 
 ### Required plan
 
-The Standalone Revenue Recognition module is available to merchants who need a Revenue tool to automate their ASC 606 / IFRS 15 accounting but do not, at this time, need the Recurly billing platform. 
+The Standalone Revenue Recognition module is available to merchants who need a Revenue tool to automate their ASC 606 / IFRS 15 accounting but do not, at this time, need the Recurly billing platform.
 
 ### Cost
 
@@ -47,7 +47,7 @@ Please reach out to [support@recurly.com](mailto:support@recurly.com) for more p
 
 The revenue workbench is a comprehensive tool that provides valuable insights into contracts and their related aspects. It allows you to review performance obligations, variable consideration, billing information, costs, revenue waterfalls, journal entries, modifications, allocation details, contract balances, business events, holds, and audit trails.
 
-<Embed url="https://drive.google.com/file/d/1hkvIZeDUmZ1AJAE0CrppcjyoUG3-5G3D/preview" title="iframe" provider="drive.google.com" href="https://drive.google.com/file/d/1hkvIZeDUmZ1AJAE0CrppcjyoUG3-5G3D/preview" typeOfEmbed="iframe" height="450px" width="800%" iframe="true" />
+<Embed url="https://drive.google.com/file/d/1hkvIZeDUmZ1AJAE0CrppcjyoUG3-5G3D/preview" href="https://drive.google.com/file/d/1hkvIZeDUmZ1AJAE0CrppcjyoUG3-5G3D/preview" typeOfEmbed="iframe" height="450px" width="800%" iframe="true" />
 
 # Centralized contract management
 
@@ -61,7 +61,7 @@ The Revenue Workbench is designed for optimal contract management. Its intuitive
 1. **Tab-based Contract Analysis:** Navigate through various tabs to access different contract perspectives, such as Performance Obligations (POB), Variable Considerations (VC), Billing, Cost, Waterfall, Journals, Modifications, Allocation Details, Contract Balance, Business Events, Holds, and Audit.\
    ![](https://files.readme.io/f115581-image.png)
 2. Manual Adjustments: Modify contract details directly within the Revenue Workbench. All changes are logged in the Audit tab for transparency.\
-   ![](https://files.readme.io/27ffae3-image.png)\
+   ![](https://files.readme.io/27ffae3-image.png)
    ![](https://files.readme.io/e779592-image.png)
 3. **In-depth Insights:** Utilize the Workbench's detailed contract insights for strategic decision-making. Review specific elements, understand contract balances, and navigate manual adjustments with ease.
 
@@ -102,7 +102,7 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 ### Moving the POB
 
 1. Click on the "Move POB" option. A dialogue box will open, presenting you with various link features.\
-      **New POB:** Select this option if you want to assign a new POB to the selected line(s). This allows you to create a new performance obligation specifically for those lines.\
+   **New POB:** Select this option if you want to assign a new POB to the selected line(s). This allows you to create a new performance obligation specifically for those lines.
    ![](https://files.readme.io/40ee378-image.png)
 2. **Add to Existing POB:** Choose this option if you want to manually add the selected line(s) to an existing POB within the same contract. This enables consolidation of related lines under a single performance obligation.\
    ![](https://files.readme.io/0ad7cba-image.png)
@@ -141,8 +141,8 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 1. **Select** the line/lines that you want to manually Enable/Disable SSP.
 2. **Click** on the Allocation option to open a dialogue box with Allocation features.
 3. **Under** the Allocation option, select one of the two options from the drop-down list:\
-      a.	**Enable**: Select this option to enable SSP allocation for the selected line/lines.\
-      b.	**Disable**: Select this option to disable SSP allocation for the selected line/lines.
+   a.	**Enable**: Select this option to enable SSP allocation for the selected line/lines.
+   b.	**Disable**: Select this option to disable SSP allocation for the selected line/lines.
 
    <Image align="center" className="border" border={true} src="https://files.readme.io/e8a8f4f-image.png" />
 4. After selecting the appropriate option under the Allocation tab, **explain** the reason in the Comments box.
