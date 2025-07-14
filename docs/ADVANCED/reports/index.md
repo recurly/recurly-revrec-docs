@@ -107,43 +107,43 @@ Find a comprehensive list of reports below, with a detailed guide for each categ
 
 * **Revenue Reports**
 
-  * <a href="https://docs.recurly.com/docs/revenue-insights-report#/" target="_blank" rel="noopener noreferrer">Revenue Insights</a>
-  * <a href="https://docs.recurly.com/docs/revenue-waterfall-report#/" target="_blank" rel="noopener noreferrer">Revenue Waterfall</a>
-  * <a href="https://docs.recurly.com/docs/defer-revenue-waterfall-report#/" target="_blank" rel="noopener noreferrer">Defer Revenue Waterfall</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/revenue-insights-report#/" target="_blank" rel="noopener noreferrer">Revenue Insights</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/revenue-waterfall-report#/" target="_blank" rel="noopener noreferrer">Revenue Waterfall</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/defer-revenue-waterfall-report#/" target="_blank" rel="noopener noreferrer">Defer Revenue Waterfall</a>
 * **Cost / VC Report**
 
-  * <a href="https://docs.recurly.com/docs/cost-details-report#/" target="_blank" rel="noopener noreferrer">Cost Details</a>
-  * <a href="https://docs.recurly.com/docs/cost-waterfall-report#/" target="_blank" rel="noopener noreferrer">Cost Waterfall</a>
-  * <a href="http://docs.recurly.com/docs/cost-balances-report#/" target="_blank" rel="noopener noreferrer">Cost Balances</a>
-  * <a href="https://docs.recurly.com/docs/vc-details-report#/" target="_blank" rel="noopener noreferrer">VC Details</a>
-  * <a href="https://docs.recurly.com/docs/vc-waterfall-report#/" target="_blank" rel="noopener noreferrer">VC Waterfall</a>
-  * <a href="http://docs.recurly.com/docs/vc-balances#/" target="_blank" rel="noopener noreferrer">VC Balances</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/cost-details-report#/" target="_blank" rel="noopener noreferrer">Cost Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec-docs/cost-waterfall-report#/" target="_blank" rel="noopener noreferrer">Cost Waterfall</a>
+  * <a href="http://docs.recurly.com/recurly-revec/docs/cost-balances-report#/" target="_blank" rel="noopener noreferrer">Cost Balances</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/vc-details-report#/" target="_blank" rel="noopener noreferrer">VC Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/vc-waterfall-report#/" target="_blank" rel="noopener noreferrer">VC Waterfall</a>
+  * <a href="http://docs.recurly.com/recurly-revrec/docs/vc-balances#/" target="_blank" rel="noopener noreferrer">VC Balances</a>
 * **Transaction Details Reports**
 
-  * <a href="https://docs.recurly.com/docs/billing-transaction-details#/" target="_blank" rel="noopener noreferrer">Billing Transaction Details</a>
-  * <a href="https://docs.recurly.com/docs/contract-transaction-details#/" target="_blank" rel="noopener noreferrer">Contract Transaction Details</a>
-  * <a href="https://docs.recurly.com/docs/cost-transaction-details-report#/" target="_blank" rel="noopener noreferrer">Cost Transaction Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/billing-transaction-details#/" target="_blank" rel="noopener noreferrer">Billing Transaction Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/contract-transaction-details#/" target="_blank" rel="noopener noreferrer">Contract Transaction Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/cost-transaction-details-report#/" target="_blank" rel="noopener noreferrer">Cost Transaction Details</a>
 * **Stage Details Reports**
 
-  * <a href="https://docs.recurly.com/docs/doc-stage-details-report#/" target="_blank" rel="noopener noreferrer">Doc Stage Details</a>
-  * <a href="https://docs.recurly.com/docs/contract-stage-report#/" target="_blank" rel="noopener noreferrer">Contract Stage Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/doc-stage-details-report#/" target="_blank" rel="noopener noreferrer">Doc Stage Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/contract-stage-report#/" target="_blank" rel="noopener noreferrer">Contract Stage Details</a>
   * Cost Stage Details
-  * <a href="https://docs.recurly.com/docs/event-stage-report#/" target="_blank" rel="noopener noreferrer">Event Stage Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/event-stage-report#/" target="_blank" rel="noopener noreferrer">Event Stage Details</a>
 * **Balances Reports**
 
-  * <a href="https://docs.recurly.com/docs/contract-balances-report#/" target="_blank" rel="noopener noreferrer">Contract Balances</a>
-  * <a href="https://docs.recurly.com/docs/unbilled-balances-report#/" target="_blank" rel="noopener noreferrer">Unbilled Balances</a>
-  * <a href="https://docs.recurly.com/docs/remaining-pob#/" target="_blank" rel="noopener noreferrer">Remaining POB</a>
-  * <a href="https://docs.recurly.com/docs/asset-balances-report#/" target="_blank" rel="noopener noreferrer">Asset Balances</a>
-  * <a href="http://docs.recurly.com/docs/liability-balances-report#/" target="_blank" rel="noopener noreferrer">Liability Balances</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/contract-balances-report#/" target="_blank" rel="noopener noreferrer">Contract Balances</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/unbilled-balances-report#/" target="_blank" rel="noopener noreferrer">Unbilled Balances</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/remaining-pob#/" target="_blank" rel="noopener noreferrer">Remaining POB</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/asset-balances-report#/" target="_blank" rel="noopener noreferrer">Asset Balances</a>
+  * <a href="http://docs.recurly.com/recurly-revrec/docs/liability-balances-report#/" target="_blank" rel="noopener noreferrer">Liability Balances</a>
 * **Audit Reports**
 
-  * <a href="https://docs.recurly.com/docs/user-and-role-access-report#/" target="_blank" rel="noopener noreferrer">User & Role Access</a>
-  * <a href="https://docs.recurly.com/docs/role-details#/" target="_blank" rel="noopener noreferrer">Role Details</a>
-  * <a href="https://docs.recurly.com/docs/audit-details-report#/" target="_blank" rel="noopener noreferrer">Audit Details</a>
-  * <a href="https://docs.recurly.com/docs/config-audit-report#/" target="_blank" rel="noopener noreferrer">Config Audit</a>
-  * <a href="https://docs.recurly.com/docs/transfer-accounting-details-report#/" target="_blank" rel="noopener noreferrer">Transfer Accounting Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/user-and-role-access-report#/" target="_blank" rel="noopener noreferrer">User and Role Access</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/role-details#/" target="_blank" rel="noopener noreferrer">Role Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/audit-details-report#/" target="_blank" rel="noopener noreferrer">Audit Details</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/config-audit-report#/" target="_blank" rel="noopener noreferrer">Config Audit</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/transfer-accounting-details-report#/" target="_blank" rel="noopener noreferrer">Transfer Accounting Details</a>
 * **Exception Reports**
 
-  * <a href="https://docs.recurly.com/docs/ssp-exception-report#/" target="_blank" rel="noopener noreferrer">SSP Exception</a>
-  * <a href="https://docs.recurly.com/docs/hold-exceptions-report#/" target="_blank" rel="noopener noreferrer">Hold Exceptions</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/ssp-exception-report#/" target="_blank" rel="noopener noreferrer">SSP Exception</a>
+  * <a href="https://docs.recurly.com/recurly-revrec/docs/hold-exceptions-report#/" target="_blank" rel="noopener noreferrer">Hold Exceptions</a>
