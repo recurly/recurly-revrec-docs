@@ -40,18 +40,18 @@ You have the flexibility to incorporate credits into your revenue recognition in
 1. **Navigate** to Setup → Profiles
 2. Under 'Ignore Credit Event Transactions' **select** 'Yes' or 'No'.
 
-<Image align="center" className="border" width="50% " border={true} src="https://files.readme.io/5e90165b450dba809bb3614de2b2eba06b3b2d562d3ec5f1af57539d9f9909b4-Screenshot_2024-10-15_at_12.05.59_PM.png" />
+<Image align="center" className="border" border={true} width="50% " src="https://files.readme.io/5e90165b450dba809bb3614de2b2eba06b3b2d562d3ec5f1af57539d9f9909b4-Screenshot_2024-10-15_at_12.05.59_PM.png" />
 
 ## Key details
 
 ### Goodwill credit
 
-[Goodwill credit](https://docs.recurly.com/docs/goodwill-credit) represents a balance added to a customer's account as an acknowledgment of their importance to the business. Utilized to address service issues, reward loyalty, or compensate for inconveniences, it plays a crucial role in maintaining positive customer relationships. Importantly, goodwill credits are seamlessly integrated into revenue recognition reports, allowing businesses to accurately reflect these balances and their potential impact on revenue.
+[Goodwill credit](goodwill-credit)  represents a balance added to a customer's account as an acknowledgment of their importance to the business. Utilized to address service issues, reward loyalty, or compensate for inconveniences, it plays a crucial role in maintaining positive customer relationships. Importantly, goodwill credits are seamlessly integrated into revenue recognition reports, allowing businesses to accurately reflect these balances and their potential impact on revenue.
 
 ### On-account credit
 
-[On-account credit](https://docs.recurly.com/docs/on-account-credit) is issued in lieu of cash refunds when a customer cancels a subscription. This approach not only retains the customer's engagement by encouraging the use of credits for purchases but also facilitates the financial reporting process. By converting refunds into on-account credits, businesses can more accurately track and report these balances in their revenue recognition reports, enhancing financial transparency and insight.
+[On-account credit](on-account-credit) is issued in lieu of cash refunds when a customer cancels a subscription. This approach not only retains the customer's engagement by encouraging the use of credits for purchases but also facilitates the financial reporting process. By converting refunds into on-account credits, businesses can more accurately track and report these balances in their revenue recognition reports, enhancing financial transparency and insight.
 
 ### Prepayment credit
 
-[Prepayment credit](https://docs.recurly.com/docs/prepayment-credit) offers customers the option to pay in advance for services or products, benefiting both the customer for convenience and the business for financial stability. This method is integral to Recurly's revenue recognition strategy, as it ensures that prepaid amounts are accurately recorded and applied to transactions in financial statements. The systematic tracking and reporting of prepayment credits in revenue recognition reports streamline accounting processes and improve financial forecasting.
+[Prepayment credit](prepayment-credit) offers customers the option to pay in advance for services or products, benefiting both the customer for convenience and the business for financial stability. This method is integral to Recurly's revenue recognition strategy, as it ensures that prepaid amounts are accurately recorded and applied to transactions in financial statements. The systematic tracking and reporting of prepayment credits in revenue recognition reports streamline accounting processes and improve financial forecasting.
