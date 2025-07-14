@@ -1,10 +1,13 @@
 ---
-title: Reports - Revenue Recognition Standalone
+title: RevRec Standalone Reports
 excerpt: >-
   Recurly Revenue Recognition Standalone reports: Comprehensive insights for
   informed financial decisions.
 deprecated: false
 hidden: false
+link:
+  new_tab: true
+  url: https://docs.recurly.com/recurly-revrec/docs/reports#/
 metadata:
   title: ''
   description: ''
