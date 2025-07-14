@@ -1,5 +1,5 @@
 ---
-title: Revenue Recognition Advanced Reports
+title: RevRec Advanced Reports
 excerpt: >-
   Recurly Revenue Recognition Advanced reports: Comprehensive insights for
   informed financial decisions.
