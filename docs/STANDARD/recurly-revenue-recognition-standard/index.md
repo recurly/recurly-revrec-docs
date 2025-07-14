@@ -1,5 +1,5 @@
 ---
-title: Recurly Revenue Recognition Standard
+title: 'Overview: Standard'
 excerpt: >-
   Automate and Simplify Revenue Reporting with Recurly's revenue recognition
   standard. Align effortlessly with ASC 606 and IFRS 15, reduce errors, enhance
