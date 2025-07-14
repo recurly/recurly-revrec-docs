@@ -13,7 +13,7 @@ metadata:
 
 ### Required plan
 
-This feature is included in Recurly Revenue Recognition Advanced. [Learn more here](https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced).
+This feature is included in Recurly Revenue Recognition Advanced. [Learn more here](recurly-revenue-recognition-advanced).
 
 ### Additional cost
 
