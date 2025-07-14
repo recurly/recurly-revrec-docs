@@ -12,7 +12,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites
 

@@ -62,7 +62,7 @@ The end result is a significant reduction in audit and revenue reporting errors,
 
 **Q:** Can I purchase the Standard edition as a standalone product?
 
-**A:** No, the Standard edition of Recurly Revenue Recognition is not available as a standalone product. It is a feature embedded right within the Recurly platform. To access the Standard edition, you will need a Recurly subscription. However, <a href="https://docs.recurly.com/docs/recurly-revenue-recognition-advanced" target="_blank">Recurly Revenue Recognition Advanced</a> is available for purchase as a standalone product.
+**A:** No, the Standard edition of Recurly Revenue Recognition is not available as a standalone product. It is a feature embedded right within the Recurly platform. To access the Standard edition, you will need a Recurly subscription. However, <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Recurly Revenue Recognition Advanced</a> is available for purchase as a standalone product.
 
 **Q:** Which is better for me - the standard or advanced solution of Recurly revenue recognition?
 

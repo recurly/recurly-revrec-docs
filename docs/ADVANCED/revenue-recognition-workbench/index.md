@@ -20,7 +20,7 @@ Checkout below our overview of the 5 key features of the **Revenue workbench**.
 
 <Embed url="https://drive.google.com/file/d/1EDkssBWGG2bw-Urp2gAGEnM3BH9Q8RZW/preview" title="iframe" provider="drive.google.com" href="https://drive.google.com/file/d/1EDkssBWGG2bw-Urp2gAGEnM3BH9Q8RZW/preview" typeOfEmbed="iframe" height="450px" width="800px" iframe="true" />
 
-This feature is part of our product, **Recurly Revenue Recognition Advanced**. [<a href="https://docs.recurly.com/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, **Recurly Revenue Recognition Advanced**. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ## Prerequisites
 

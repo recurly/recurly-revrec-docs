@@ -14,7 +14,7 @@ next:
 ---
 # Overview
 
-These Data Transformation features are part of **Recurly Revenue Recognition Advanced**. \[<a href="https://docs.recurly.com/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+These Data Transformation features are part of **Recurly Revenue Recognition Advanced**. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 <Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/6cb0c82-image.png" />
 
