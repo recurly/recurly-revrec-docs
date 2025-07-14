@@ -15,11 +15,11 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Standalone. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Standalone. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
 
 ### Required plan
 
-The Standalone Revenue Recognition module is available to merchants who need a revenue tool to automate their ASC 606 / IFRS 15 accounting but do not, at this time, need the Recurly billing platform. 
+The Standalone Revenue Recognition module is available to merchants who need a revenue tool to automate their ASC 606 / IFRS 15 accounting but do not, at this time, need the Recurly billing platform.
 
 ### Cost
 
@@ -47,7 +47,7 @@ Please reach out to [support@recurly.com](mailto:support@recurly.com) for more p
 
 # Rules functionalities
 
-<Image align="center" className="border" width="25% " border={true} src="https://files.readme.io/d33a162-image.png" />
+<Image align="center" className="border" border={true} width="25% " src="https://files.readme.io/d33a162-image.png" />
 
 ## Contract grouping
 
@@ -59,15 +59,15 @@ This essential feature allows you to define specific criteria for grouping trans
 
 2. **Click** on the “+” icon in the right menu to create a new grouping rule.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/73e91e0-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/73e91e0-image.png" />
 
 3. **Provide** a name for the contract grouping and specify the active date.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/7609ae3-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/7609ae3-image.png" />
 
 4. Under the 'Grouping' section, **click** on the gray "+" button to add grouping criteria.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/37d95e4-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/37d95e4-image.png" />
 
 5. **Select** the required grouping attribute(s) to define how contracts should be grouped.
 6. **Specify** the rolling date and the number of days for the grouping rule.
@@ -91,7 +91,7 @@ To inactivate a grouping rule, follow these steps:
 3. **Click** on the Save icon to save the changes.
 
 **Points to Remember:**\
-➔	Only the active grouping rules will be visible in the Contract Grouping section.\
+➔	Only the active grouping rules will be visible in the Contract Grouping section.
 ➔	Once a grouping rule is made inactive, it will be moved to the inactive tab for reference.
 
 ## Performance obligation
@@ -186,7 +186,7 @@ Once in the Rules section, follow these steps to add POB Rules:
 
 3. Define the attribute value used for recognizing the POB. For example, select the "Item" attribute. If the desired value is not available, click on the window-shaped button and select the attribute from the window that appears, then click on "Save." In this case, we have chosen "Account Code" as the attribute for POB recognition.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/8698dfd-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/8698dfd-image.png" />
 
 ![](https://files.readme.io/79bb6b3-image.png)
 
@@ -259,7 +259,7 @@ Setting up the Stand-Alone Selling Price (SSP) involves a streamlined process co
 5. Define the active dates, including the start and end date (if applicable), for the SSP data.
 6. Once you have configured the SSP Analyzer, click the Save icon to save your changes.
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/c58f0b0-image.png" />
+<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/c58f0b0-image.png" />
 
 7. The Flow Status will be displayed as "New" once the configuration is saved.
 
@@ -367,7 +367,7 @@ Recurly Revenue Recognition Standalone includes functionality to account for cos
 
 1. Navigate to Rules and select Cost from the menu.
 
-<Image align="center" className="border" width="25% " border={true} src="https://files.readme.io/f03f8f4-image.png" />
+<Image align="center" className="border" border={true} width="25% " src="https://files.readme.io/f03f8f4-image.png" />
 
 2. Enter the 'Cost Type' to specify the type of cost you are defining.
 3. Determine the cost treatment based on the following options:
@@ -410,7 +410,7 @@ By utilizing the Cost file upload functionality, you can streamline the process 
 
 ## Holds
 
-In Recurly Revenue Recognition Standalone, the Holds feature allows for holding revenue recognition based on specific conditions set by management. 
+In Recurly Revenue Recognition Standalone, the Holds feature allows for holding revenue recognition based on specific conditions set by management.
 
 There are two types of holds available: Contract Level hold and Element Level hold.
 
@@ -435,7 +435,7 @@ The **Holds** feature in Recurly Revenue Recognition Standalone provides flexibi
 
 1. Navigation: Go to Rules → Holds
 
-<Image align="center" className="border" width="25% " border={true} src="https://files.readme.io/f03f8f4-image.png" />
+<Image align="center" className="border" border={true} width="25% " src="https://files.readme.io/f03f8f4-image.png" />
 
 2. **Name:** Enter a name for the hold, such as "Delivery Hold."
 3. **Apply on:** Select whether the hold should be applied at the Contract level or Element level.
@@ -526,7 +526,7 @@ Recurly's Revenue Recognition Standalone comes with a feature to generate journa
 
 1. **Go** to Rules → Additional Journals
 
-<Image align="center" className="border" width="30% " border={true} src="https://files.readme.io/e0b70c66e6d6fd6289df33a903195f396cadb173a04374f19eda1e61976c2e27-image.png" />
+<Image align="center" className="border" border={true} width="30% " src="https://files.readme.io/e0b70c66e6d6fd6289df33a903195f396cadb173a04374f19eda1e61976c2e27-image.png" />
 
 <br />
 
@@ -538,17 +538,17 @@ Recurly's Revenue Recognition Standalone comes with a feature to generate journa
 
 If the user needs to create an additional Journal based on the billed amount, then choose “document” as value for the JE type. In addition to the billed amount, users may be able to create journals based on any calculated columns in the document/billing record.
 
-4. **Select** the POB Type for which the additional journals are to be applied. This selection would bring in additional journals only if the subscription belongs to the selected POB type.  If, instead, the additional journals are required for Cost/Expenses, then the cost type must also be selected. 
+4. **Select** the POB Type for which the additional journals are to be applied. This selection would bring in additional journals only if the subscription belongs to the selected POB type.  If, instead, the additional journals are required for Cost/Expenses, then the cost type must also be selected.
 5. In the Amount field **select** the data type for the amount required in the journal entry. This feature is available only when the additional journals JE type selected is Document. As you can see below, the drop down under amount will display all the data type amounts for the document’s attributes.
 
-<Image align="center" className="border" width="50% " border={true} src="https://files.readme.io/69087afb25503ce1e19aece61588b7a7fee9675ab9e7b73c0312b9af56201ad0-image.png" />
+<Image align="center" className="border" border={true} width="50% " src="https://files.readme.io/69087afb25503ce1e19aece61588b7a7fee9675ab9e7b73c0312b9af56201ad0-image.png" />
 
 6. **Enter** the debit and credit account information for the additional journals.
 7. **Enter** the active date. Choose the beginning and ending date that the JE should be active.  You can leave the end date blank if you want the JE to be applied forever.
 8. Auto Reverse is an option available to reverse the JE passed in the next period of the contract. It is available only when the JE type is Document.
 9. Retirement is available when additional journals are configured for cost type. This will create additional journals at the end of the contract period.
 
-> **Note:** The POB type and cost type are exclusive from each other and cannot be selected at the same time. 
+> **Note:** The POB type and cost type are exclusive from each other and cannot be selected at the same time.
 
 ### Additional Journals for revenue waterfall amount
 
@@ -559,7 +559,7 @@ If the user needs to create an additional Journal based on the billed amount, th
 If the JE type is Revenue waterfall, the JE will be posted in the contract for the amounts in the Revenue waterfall. This can be applied only based on POB type. If the additional journal to be applied for all the contracts, then please leave the POB type blank.
 
 4. **Enter** the debit and credit account information for the additional journals.
-5. **Enter** the active date. Choose the beginning and ending date that the JE should be active. You can leave the End date blank if you want to apply for the JE forever. 
+5. **Enter** the active date. Choose the beginning and ending date that the JE should be active. You can leave the End date blank if you want to apply for the JE forever.
 
 <Image align="center" className="border" border={true} src="https://files.readme.io/4dff3811167ce087e8e44d51026e1c52cb01fce83455cb64f1cfad42a9a7bcd7-image.png" />
 
