@@ -1,5 +1,5 @@
 ---
-title: Access management -  Revenue Recognition Standalone
+title: Access management
 excerpt: >-
   Recurly access management: Tailored user privileges for secure financial
   operations.
@@ -14,11 +14,11 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Standalone. [<a href="https://docs.recurly.com/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Standalone. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
 
 ### Required plan
 
-The Standalone Revenue Recognition module is available to merchants who need a Revenue tool to automate their ASC 606 / IFRS 15 accounting but do not, at this time, need the Recurly billing platform. 
+The Standalone Revenue Recognition module is available to merchants who need a Revenue tool to automate their ASC 606 / IFRS 15 accounting but do not, at this time, need the Recurly billing platform.
 
 ### Cost
 
