@@ -19,14 +19,33 @@ next:
 
 To access this feature or setting, you must have an active subscription to either the Recurly Revenue Recognition Advanced or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
 
-### Prerequisites
+export const PrerequisitesLimitations = ({ header }) => {
+  return (
+    <div className="flex justify-start">
+      <div className="rounded-md p-6 m-4 max-w-lg shadow-md border border-gray-300 dark:bg-gray-800 dark:border-gray-600">
+        <p className="text-lg font-bold">{header}</p>
 
-* Cancellation and refund policy that supports account crediting.
+        {/* Prerequisite */}
+        <p>
+          <i className="fa-solid fa-check mr-2" />
+          Cancellation and refund policy that supports account crediting.
+        </p>
 
-### Limitations
+        {/* Limitations */}
+        <p>
+          <i className="fa-solid fa-exclamation-triangle mr-4" />
+          Goodwill credits are non-transferable and must be used within the issuing account.
+        </p>
+        <p>
+          <i className="fa-solid fa-exclamation-triangle mr-4" />
+          Credits may have expiration dates or usage conditions, depending on the business policy.
+        </p>
+      </div>
+    </div>
+  );
+};
 
-* Goodwill credits are non-transferable and must be used within the issuing account.
-* Credits may have expiration dates or usage conditions, depending on the business policy.
+<PrerequisitesLimitations header="Prerequisites & limitations" />
 
 # Definition
 
@@ -40,11 +59,11 @@ Goodwill credit is a complimentary credit balance given to customers as a gestur
 
 # Key details
 
-To support business growth and enhance customer satisfaction, companies can issue goodwill credits. These credits serve as a balance in the customer's account, applicable towards purchases. 
+To support business growth and enhance customer satisfaction, companies can issue goodwill credits. These credits serve as a balance in the customer's account, applicable towards purchases.
 
 When goodwill credit is allocated, Recurly generates a credit invoice, reflecting the credit balance which can be adjusted against subsequent payments. This process not only simplifies account management but also ensures transparency in financial transactions.
 
-<Image align="center" className="border" width="80% " border={true} src="https://files.readme.io/82c8766-Screenshot_1_2024-03-04_at_4.45.08_PM.png" />
+<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/82c8766-Screenshot_1_2024-03-04_at_4.45.08_PM.png" />
 
 The issuing and redemption of goodwill credits are accurately documented, facilitating seamless financial reporting. Credits are recorded as a single line in revenue recognition reports, with redemptions detailed separately. This clear delineation helps businesses track credit usage and its impact on financial health.
 
