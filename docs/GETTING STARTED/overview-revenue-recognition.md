@@ -58,11 +58,19 @@ By following these standards, businesses can provide a clear and reliable pictur
 
 Before we dive into the specifics, let's highlight the benefits of using Recurly Revenue Recognition in general. By leveraging our robust revenue recognition capabilities, you can:
 
-**Cut time and costs for revenue compliance:** Say goodbye to manual, error-prone reporting processes and higher accounting and audit costs associated with ASC-606 and IFRS compliance. Recurly streamlines Revenue Recognition, automating the entire process and ensuring accurate and compliant revenue reporting.
+<Cards columns={3}>
+  <Card title="Cut time and costs for compliance" icon="fa-clock">
+    Automate ASC 606 and IFRS reporting—eliminate manual processes and audit headaches.
+  </Card>
 
-**Achieve unified billing and revenue recognition:** With Recurly, you can bridge the gap between billing and revenue data. Our amazing solution seamlessly integrates billing and revenue recognition, providing you with a unified view of your financials and eliminating any disconnected data silos.
+  <Card title="Unify billing and revenue" icon="fa-link">
+    Seamlessly bridge billing with revenue recognition for a single, accurate financial view.
+  </Card>
 
-**Gain valuable revenue insights:** Unlock powerful revenue insights across periods with Recurly's comprehensive reporting capabilities. Say goodbye to limited visibility and hello to real-time revenue waterfall and liability reports. Make data-driven decisions and drive your business forward with confidence.
+  <Card title="Gain powerful revenue insights" icon="fa-chart-line">
+    Unlock real-time waterfall and liability reports to drive data-driven decisions confidently.
+  </Card>
+</Cards>
 
 # Recurly Revenue Recognition products
 
