@@ -19,15 +19,37 @@ next:
 
 To access these features or settings, you must have an active subscription to either the Recurly Revenue Recognition Advanced or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
 
-### Prerequisites
+export const PrerequisitesLimitations = ({ header }) => {
+  return (
+    <div className="flex justify-start">
+      <div className="rounded-md p-6 m-4 max-w-lg shadow-md border border-gray-300 dark:bg-gray-800 dark:border-gray-600">
+        <p className="text-lg font-bold">{header}</p>
 
-* Cancellation and refund policy that supports account crediting.
+        {/* Prerequisite */}
+        <p>
+          <i className="fa-solid fa-check mr-2" />
+          Cancellation and refund policy that supports account crediting.
+        </p>
 
-### Limitations
+        {/* Limitations */}
+        <p>
+          <i className="fa-solid fa-exclamation-triangle mr-4" />
+          Prepayment credits can only be used for purchases and cannot be refunded.
+        </p>
+        <p>
+          <i className="fa-solid fa-exclamation-triangle mr-4" />
+          Goodwill credits are non-transferable and must be used within the issuing account.
+        </p>
+        <p>
+          <i className="fa-solid fa-exclamation-triangle mr-4" />
+          Credits may have expiration dates or usage conditions, depending on the business policy.
+        </p>
+      </div>
+    </div>
+  );
+};
 
-* Prepayment credits can only be used for purchases and cannot be refunded.
-* Goodwill credits are non-transferable and must be used within the issuing account.
-* Credits may have expiration dates or usage conditions, depending on the business policy.
+<PrerequisitesLimitations header="Prerequisites & limitations" />
 
 # Definition
 
