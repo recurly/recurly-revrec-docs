@@ -44,6 +44,8 @@ You have the flexibility to incorporate credits into your revenue recognition in
 
 ## Key details
 
+Visit our dedicated guides:
+
 <Cards columns={3}>
   <Card title="Goodwill credit" href="goodwill-credit" icon="fa-handshake">
     Balance added to a customer’s account to acknowledge loyalty, resolve issues, or offer compensation. Integrated into revenue recognition reports.
