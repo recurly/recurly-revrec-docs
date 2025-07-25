@@ -19,14 +19,33 @@ next:
 
 To access this feature or setting, you must have an active subscription to either the Recurly Revenue Recognition Advanced or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
 
-### Prerequisites
+export const PrerequisitesLimitations = ({ header }) => {
+  return (
+    <div className="flex justify-start">
+      <div className="rounded-md p-6 m-4 max-w-lg shadow-md border border-gray-300 dark:bg-gray-800 dark:border-gray-600">
+        <p className="text-lg font-bold">{header}</p>
 
-* Cancellation and refund policy that supports account crediting.
+        {/* Prerequisite */}
+        <p>
+          <i className="fa-solid fa-check mr-2" />
+          Cancellation and refund policy that supports account crediting.
+        </p>
 
-### Limitations
+        {/* Limitations */}
+        <p>
+          <i className="fa-solid fa-exclamation-triangle mr-4" />
+          On-account credits are non-transferable between accounts.
+        </p>
+        <p>
+          <i className="fa-solid fa-exclamation-triangle mr-4" />
+          Credits may be subject to expiration as per the business's terms and conditions.
+        </p>
+      </div>
+    </div>
+  );
+};
 
-* On-account credits are non-transferable between accounts.
-* Credits may be subject to expiration as per the business's terms and conditions.
+<PrerequisitesLimitations header="Prerequisites & limitations" />
 
 # Definition
 
@@ -48,7 +67,7 @@ Upon issuing on-account credit, Recurly generates a credit invoice, reflecting t
 
 The credits and their redemptions are recorded in Recurly Revenue Recognition as distinct entries, allowing for clear financial tracking and reporting. These entries are categorized based on their origin (credit-event) and specified by unique plan codes, enabling easy identification and reconciliation.
 
-<Image align="center" className="border" width="80% " border={true} src="https://files.readme.io/8ed64f5-image.png" />
+<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/8ed64f5-image.png" />
 
 ### Accounting table for on-account credits
 
