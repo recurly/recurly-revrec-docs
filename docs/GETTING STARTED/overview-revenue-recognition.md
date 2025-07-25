@@ -99,13 +99,29 @@ Each product is crafted with precision, ensuring that businesses can choose a so
 
 Recurly provides robust features and capabilities to support businesses in their revenue recognition process. Here's how Recurly helps streamline and simplify revenue recognition:
 
-* **Automated revenue recognition:** Recurly automates the complex calculations and allocation of revenue, streamlining recognition according to the specific rules and guidelines of accounting standards such as ASC-606 and IFRS-15. This automation eliminates manual errors and saves time for finance teams.
-* **Multiple revenue  models:** Recurly supports multiple revenue recognition methods to accommodate various pricing and monetization scenarios. Whether you recognize revenue at a point-in-time or over-time , Recurly can adapt to your specific requirements. You can configure revenue recognition rules based on different billing events, subscription types, or performance obligations.
-* **Ready-to-use revenue reports:** Recurly provides comprehensive revenue reports and packaged dashboards that give you a clear and real-time view of your revenue performance. You can easily track revenue waterfalls, deferred revenue and liability balances, and other key metrics across different time periods, product type, or revenue source . These insights enable you to make data-driven decisions and monitor the financial health of your subscription business.
-* **Integration with financial systems:** Recurly seamlessly integrates with popular accounting and financial systems, such as QuickBooks, NetSuite, and Xero, to ensure a smooth flow of revenue data to the general ledger. This integration eliminates manual data entry and improves accuracy by synchronizing revenue recognition information between Recurly and your core financial or ERP systems.
-* **Compliance and audit support:** With Recurly, you can confidently meet the requirements of revenue recognition standards and be well-prepared for audits. Recurly provides audit-ready documentation, detailed transaction histories, and granular revenue data that can be easily accessed and shared with auditors or accounting teams.
+<Cards columns={3}>
+  <Card title="Automated revenue recognition" icon="fa-calculator">
+    Recurly automates complex revenue calculations and allocations per ASC 606 and IFRS 15 guidelines, eliminating manual errors and saving finance teams valuable time.
+  </Card>
 
-## Advanced vs Standard Edition
+  <Card title="Multiple revenue models" icon="fa-chart-bar">
+    Support both point-in-time and over-time recognition. Configure rules by billing event, subscription type, or performance obligation to fit any monetization scenario.
+  </Card>
+
+  <Card title="Ready-to-use revenue reports" icon="fa-file-alt">
+    Access real-time dashboards showing revenue waterfalls, deferred revenue, and liability balances across periods, products, and revenue sources—no manual setup required.
+  </Card>
+
+  <Card title="Integration with financial systems" icon="fa-exchange-alt">
+    Seamlessly sync recognized revenue to QuickBooks, NetSuite, Xero, and other ERP systems—eliminating manual entry and ensuring accurate general ledger data.
+  </Card>
+
+  <Card title="Compliance and audit support" icon="fa-shield-alt">
+    Deliver audit-ready documentation, detailed transaction histories, and granular revenue data to satisfy auditors and maintain compliance with all recognition standards.
+  </Card>
+</Cards>
+
+## Advanced vs Standard edition
 
 | Features / Edition                                 | Standard | Advanced |
 | -------------------------------------------------- | :------: | :------: |
