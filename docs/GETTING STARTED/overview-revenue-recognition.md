@@ -44,12 +44,13 @@ In simple terms, revenue recognition is about properly recognizing and reporting
 
 Compliance with revenue recognition standards, such as GAAP (Generally Accepted Accounting Principles) in the US and IFRS (International Financial Reporting Standards) globally, is essential for businesses to maintain transparency, accuracy, and consistency in their financial reporting.
 
-Under ASC 606/IFRS 15 five steps have been identified to determine revenue recognition:\
-Step 1 – Identify contract with the Customer
-Step 2 – Identify the separate performance obligations within the contract
-Step 3 – Determine transaction price
-Step 4 – Allocate the transaction price to the separate performance obligations
-Step 5 – Recognize revenue when (or as) the entity satisfies a performance obligation
+Under ASC 606/IFRS 15 five steps have been identified to determine revenue recognition:
+
+* **Step 1** – Identify contract with the Customer
+* **Step 2** – Identify the separate performance obligations within the contract
+* **Step 3** – Determine transaction price
+* **Step 4** – Allocate the transaction price to the separate performance obligations
+* **Step 5** – Recognize revenue when (or as) the entity satisfies a performance obligation
 
 By following these standards, businesses can provide a clear and reliable picture of their financial performance, which is crucial for investors, lenders, and other stakeholders to assess the company's health and make informed decisions.
 
