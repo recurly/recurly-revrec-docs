@@ -14,7 +14,7 @@ next:
 ---
 # Overview
 
-These Data Transformation features are part of **Recurly Revenue Recognition Advanced**. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+These Data Transformation features are part of **Recurly Revenue Recognition Advanced**. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 <Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/6cb0c82-image.png" />
 
@@ -52,5 +52,5 @@ Data Transformation in Recurly Revenue Recognition Advanced lets you:
 * **Product bundle**: Group multiple SKUs into a single “Parent” unit; define child lines with pricing, cost, and commission formulas. [Learn more](product-bundle)
 * **Data rules**: Create transaction-level logic—apply formulas, sub-criteria, and attributes to orders or contract lines. [Learn more](data-rules)
 * **Auto Bill for external data**: Automatically generate invoices from imported sales orders when billing terms match subscription terms. [Learn more](autobill-for-external-data)
-* **Derive ExRate for external data**: Automatically fetch and apply correct exchange rates for off-platform contracts and invoices. [Learn more](derive-exrate-for-external-data)
-* **Datasets**: Define analysis tables with primary attributes; updated daily and inactivated when no longer needed. [Learn more](datasets)
+* **Derive Exchange Rate for external data**: Automatically fetch and apply correct exchange rates for off-platform contracts and invoices. [Learn more](derive-exrate-for-external-data)
+* **Datasets**: Define analysis tables with primary attributes; updated daily and inactivated when no longer needed. [Learn more](data-sets)
