@@ -20,7 +20,7 @@ next:
 ---
 # Definition
 
-Recurly's revenue recognition standard is an integrated solution designed to automate revenue recognition in compliance with major reporting standards, including ASC 606 and IFRS 15. As a part of Recurly's subscription management application, this feature simplifies the way businesses track, manage, and report revenue. 
+Recurly's revenue recognition standard is an integrated solution designed to automate revenue recognition in compliance with major reporting standards, including ASC 606 and IFRS 15. As a part of Recurly's subscription management application, this feature simplifies the way businesses track, manage, and report revenue.
 
 With a single, intuitive interface, users can set up recognition rules and automate accounting processes. It offers in-depth, built-in reports such as the Revenue Waterfall Report, Liability Balances Report, and Transfer Accounting Report. These reports equip businesses with vital insights into contracted revenue, enabling enhanced compliance, reduced audit and revenue reporting errors, and improved revenue insights and accuracy.
 
@@ -90,4 +90,4 @@ Customizing your reports is paramount for effective data analysis and presentati
 * **Applying Filters and Slicers**: Use filters and slicers for a focused view of specific data subsets, enabling dynamic exploration of data.
 * **Leveraging Aggregation Functions**: Use functions, like "sum", to calculate summary statistics, adding depth to your analysis.
 
-For a deep understanding of the setup process for Recurly's revenue recognition standard, please visit our dedicated page [here](https://docs.recurly.com/docs/recurly-builder).
+For a deep understanding of the setup process for Recurly's revenue recognition standard, please visit our dedicated page [here](recurly-revenue-recognition-standard-edition-setup).
