@@ -97,7 +97,7 @@ Within the access configuration screen, specifically in the revenue recognition 
 
 A read-only user has limited access and can only view data and reports within the revenue recognition platform, without the ability to make modifications. On the other hand, an Administrator user has full access and can perform various administrative tasks, including managing users, configuring settings, and overseeing the overall workflow.
 
-## Creating users and providing Recurly access
+## Creating RevRec users and providing Recurly access
 
 In the Recurly User Management section, you have the ability to create new users and grant them access to Recurly's revenue recognition platform. This functionality is available during the initial configuration phase, assuming you have purchased Recurly's revenue recognition service.
 
