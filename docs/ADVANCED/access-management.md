@@ -14,7 +14,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly revenue recognition advanced. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly revenue recognition advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 export const PrerequisitesLimitations = ({ header }) => {
   return (
@@ -82,29 +82,30 @@ To create roles and manage their specific settings, follow these steps:
 
 1. From the **Recurly** main menu, navigate to Admin → Roles → Create a Role.
 
-<Image align="center" className="border" border={true} width="60% " src="https://files.readme.io/c995693-image.png" />
+<Image align="center" border={true} width="60% " src="https://files.readme.io/c995693-image.png" className="border" />
 
 2. Fill in the Role Name and Roles Description fields.
 3. Select the desired configuration in the Permissions section.
    1. Note that in the revenue recognition settings, you can select whether that role provides read-only or admin access. This is something that can only be managed in this initial configuration. We advise you to create two different roles differentiating both read-only and admin access.
-   2. However, you can always manage user’s privileges within the revenue recognition [platform](https://docs.recurly.com/docs/access-management#providing-administrator-or-read-only-privileges-in-the-revenue-recognition-site).\
+   2. However, you can always manage user’s privileges within the revenue recognition [platform](https://docs.recurly.com/docs/access-management#providing-administrator-or-read-only-privileges-in-the-revenue-recognition-site).
       ![](https://files.readme.io/12745bb-image.png)
 4. Press Create Role.
 
 Within the access configuration screen, specifically in the revenue recognition option, you can specify whether a user with a particular role can access and edit information within the revenue recognition tool. Please note that the configuration of editing privileges or read-only access within the revenue recognition platform must be done within the platform itself.
 
-![](https://files.readme.io/a379b5c-image.png)
+<Image border={false} src="https://files.readme.io/a379b5c-image.png" />
 
 A read-only user has limited access and can only view data and reports within the revenue recognition platform, without the ability to make modifications. On the other hand, an Administrator user has full access and can perform various administrative tasks, including managing users, configuring settings, and overseeing the overall workflow.
 
 ## Creating users and providing Recurly access
 
-In the Recurly User Management section, you have the ability to create new users and grant them access to Recurly's revenue recognition platform. This functionality is available during the initial configuration phase, assuming you have purchased Recurly's revenue recognition service.\
+In the Recurly User Management section, you have the ability to create new users and grant them access to Recurly's revenue recognition platform. This functionality is available during the initial configuration phase, assuming you have purchased Recurly's revenue recognition service.
+
 To create a new user and provide them with access to Recurly, follow these steps:
 
 1. From the Recurly main menu, navigate to Admin → Users → User Actions → Invite Users.
 
-2. Fill in the user's email address and select their access level/role. Then, click "Send Invite."\
+2. Fill in the user's email address and select their access level/role. Then, click "Send Invite."
    ![](https://files.readme.io/b51b780-image.png)
 
 3. The user will receive an invitation to join the platform and must accept it to participate as part of your team.
@@ -125,7 +126,7 @@ To create a new user and provide them with access to Recurly, follow these steps
 
 5. Configure the role settings by clicking on each dropdown button and selecting the desired options.
 
-   <Image align="center" className="border" border={true} width="60% " src="https://files.readme.io/4e5c5bc-image.png" />
+   <Image align="center" border={true} width="60% " src="https://files.readme.io/4e5c5bc-image.png" className="border" />
 
 6. Once you have configured the role settings, click Save to create the new role with the specified configurations.
 
@@ -139,7 +140,7 @@ To create a new user and provide them with access to Recurly, follow these steps
 
 4. In the Roles section, press “+” to add a role configuration and set to active. The roles available depend on those created previously.
 
-   <Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/f3ff6a4-image.png" />
+   <Image align="center" border={true} width="75% " src="https://files.readme.io/f3ff6a4-image.png" className="border" />
 
 5. Press Save to update the user privileges.
 
