@@ -106,7 +106,6 @@ To create a new user and provide them with access to Recurly, follow these steps
 1. From the Recurly main menu, navigate to Admin → Users → User Actions → Invite Users.
 
 2. Fill in the user's email address and select their access level/role. Then, click "Send Invite."
-   ![](https://files.readme.io/b51b780-image.png)
 
 3. The user will receive an invitation to join the platform and must accept it to participate as part of your team.
 
