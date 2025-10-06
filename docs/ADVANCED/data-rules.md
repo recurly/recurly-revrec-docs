@@ -26,51 +26,106 @@ A **Data Rule** is a configurable set of conditions, formulas, and effective dat
 
 1. **Navigate** to **Transformation → Data Rules**.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/bb61372-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/bb61372-image.png" className="border" />
 
 2. **Enter** a **Rule Name**.
-3. **Select** the **Object** level: Contract, Order Line, Doc Line, or Cost.
+3. **Select** the **Object** level: Contract, Order Line, Doc Line, Integration, or Cost.
 4. **Choose** the **Book** that the rule applies to.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/34685d1-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/34685d1-image.png" className="border" />
 
 5. **Set** **Effective Start** and **End Dates**.
 6. **Click** the **Save** icon.
 
 > **Note:** Data Rules cannot be deleted once created, but you can toggle them to **Inactive** under the Status column and save changes. To edit, modify fields and click **Save**.
 
-## Defining Rule Logic
+## Defining rule logic
 
 1. In your Data Rule, **open** the **Rules** tab and click the **Add** icon.
 2. **Select** an **Application** attribute (fields vary by object).
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/aa3f447-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/aa3f447-image.png" className="border" />
 
 3. **Enter** a **Formula** or static value to assign to that attribute.
 4. (Optional) **Click** **Add** under **Sub Criteria** to refine when this rule fires: choose a field, operator, and value.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/2bebae0-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/2bebae0-image.png" className="border" />
 
 5. **Click** **Save**.
 6. **Repeat** to add multiple rules or sub-criteria.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/bda0b72-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/bda0b72-image.png" className="border" />
 
 5. To delete a rule or sub-criteria, select its row and click the **Delete** icon, then save.
+
+Note: Rules section is not applicable for object type “Integration”.
 
 ## Configuring criteria
 
 1. In the **Criteria** section, **click** the **Add** icon.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/2f8bfa0-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/2f8bfa0-image.png" className="border" />
 
 2. **Choose** a **Field** from the dropdown.
 3. **Select** an **Operator**.
 4. **Enter** the matching **Value**.
 5. **Add** multiple rows as needed.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/9e698ad-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/9e698ad-image.png" className="border" />
 
 6. **Edit** any row inline and click **Save**, or remove it via the **Delete** icon.
 
 > **Tip:** Carefully review and test your Data Rules after configuration to confirm they behave as expected before running large imports.
+
+# Data rule with object integration
+
+This Data Rule is a special, pre-processing rule designed to prevent specific transaction data from entering the Revenue Workbench. It acts as a filter, identifying and archiving unwanted data from integrations before it is processed for revenue recognition.
+
+### Key characteristics
+
+* **Pre-Processing Filter:** It runs before data is loaded into the Revenue Workbench.
+* **Data Archival:** Any data matching the criteria is not processed or displayed in the workbench. Instead, it is directly archived.
+* **Criteria-Only Logic:** Unlike other data rules, this rule does not have a "Rules"  section. It operates solely based on the criteria you define. You specify what to block, and the system's action is always to exclude and archive it.
+* **Use Case:** It is primarily used to restrict irrelevant, test, or unwanted data (e.g., from trial periods, specific legacy systems, or promotions) from impacting your revenue data.
+
+**Example: Excluding "Trial" Transactions**
+
+Let's say you want to prevent any transaction originating from a free trial from entering the Revenue Workbench.
+
+* **Object:** Select Integration (or the specific transaction object).
+* **Criteria:** Set the condition Origin equals trial.
+* **Rules Section:** This section will be disabled and remain empty.
+
+**Result:** With this rule active, any incoming transaction line where the Origin field is set to trial will be automatically intercepted. It will not appear in the Revenue Workbench for processing and will be sent directly to the archive.
+
+## Examples for different types of data rules
+
+### Contract
+
+This rule applies to all contracts meeting the criteria. For example, the contract-level data rule below automatically sets the application attribute - Country. The system checks the 'Origin' field of each line item in the contract. If any line item’s 'Origin' is not 'Plan', the rule sets the contract’s 'Country' attribute to 'US', ensuring consistent data for contracts with non-standard origins.
+
+<Image align="center" border={true} width="80% " src="https://files.readme.io/d0d2f232022f005efb075edb48d2b49341f61e1d4ae4a00b3c5fc1ee722b09bf-1._SS.png" className="border" />
+
+### Order line
+
+This order line-level rule automatically sets the application attribute - Payment Method. The system checks the 'Origin' of each order line flowing into RevRec. If the source is not “Recurly”, the rule sets the payment method for those lines to “Manual”.
+
+<Image align="center" border={true} width="80% " src="https://files.readme.io/16565dfccce8fd4e973165eca42f2ab5dfbc77b70ccb61adc853c322336bf28b-2._SS.png" className="border" />
+
+### Doc Line
+
+This cost-level rule automatically sets the application attributes - Doc Liability Account and Doc Revenue Account. The system checks the 'Source' of each order line flowing into RevRec. If the source is “Recurly”, the rule sets the Doc Liability Account to 20001 and the Doc Revenue Account to 40001 for those lines.
+
+### Cost
+
+This cost-level rule automatically sets the application attributes - Cost Liability Account and Cost Revenue Account. The system checks the 'Source' of each order line flowing into RevRec. If the source is “Recurly”, the rule sets the Cost Liability Account to 36001 and the Cost Revenue Account to 37001 for those lines.
+
+<Image align="center" border={true} width="80% " src="https://files.readme.io/69ded519cbc1fb2c3270b422ab889df9a34d2dcab67b3bf0d52ee31b5577c89d-3._SS.png" className="border" />
+
+### Integration
+
+Here, the object is "Integration". The rules section is empty, and the criteria is Origin equal to “trial”. All lines with origin “trial” will not be processed.
+
+<Image align="center" border={true} width="80% " src="https://files.readme.io/7775a126615e2e8571de8a43237d56f4a64fd20051db4e7976fac9f44d8c9057-4._SS.png" className="border" />
+
+<br />
