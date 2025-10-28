@@ -13,7 +13,7 @@ next:
 # Overview
 
 <Callout icon="⚠️" theme="warn">
-  <strong>Legacy Revenue Recognition sunset — November 1, 2025.</strong><br />
+  <strong>Legacy Revenue Recognition sunset — November 1, 2025.</strong> <br/>
 
   This feature will be fully sunset on <strong>November 1, 2025</strong>. Access will become read-only prior to retirement.
 
