@@ -67,7 +67,7 @@ Upon issuing on-account credit, Recurly generates a credit invoice, reflecting t
 
 The credits and their redemptions are recorded in Recurly Revenue Recognition as distinct entries, allowing for clear financial tracking and reporting. These entries are categorized based on their origin (credit-event) and specified by unique plan codes, enabling easy identification and reconciliation.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/8ed64f5-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/8ed64f5-image.png" className="border" />
 
 ### Accounting table for on-account credits
 
@@ -78,6 +78,19 @@ The credits and their redemptions are recorded in Recurly Revenue Recognition as
 | credit-event | on-account credit Voided   | credit-voided              |
 | credit-event | on-account credit Refunded | credit-paid                |
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/ccb7b62-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/ccb7b62-image.png" className="border" />
 
 This feature not only enhances customer satisfaction by providing flexible refund options but also streamlines financial processes, making it a valuable tool for businesses looking to improve their subscription management and accounting practices.
+
+# FAQ
+
+**Q: How is an on-account credit created in our billing system?**
+A: When an on-account credit is issued, Recurly creates a **credit invoice** showing the initial credit amount. As the credit is redeemed, the invoice reflects the **remaining balance** over time.
+
+**Q: How can I differentiate on-account credit activities in RevRec?**
+A: Look for **origin = credit-event** and these **plan codes**:
+
+* **Credit issued:** `credit-on-account`
+* **Credit used/redeemed:** `credit-on-account-redeemed`
+* **Credit canceled/voided:** `credit-voided`
+* **Credit refunded (paid out as cash):** `credit-paid`
