@@ -14,7 +14,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites
 
@@ -50,9 +50,9 @@ In Recurly Revenue Recognition Advanced, books are instrumental in determining t
 
 1. **Navigate to:** Set Up → Books
 
-<Image align="center" className="border" border="true" src="https://files.readme.io/69476ad-image.png" />
+<Image align="center" border="true" src="https://files.readme.io/69476ad-image.png" className="border" />
 
-2. \*\*Click \*\*on the “+” to initiate book creation. Ensure the following fields are completed:
+2. **Click **on the “+” to initiate book creation. Ensure the following fields are completed:
    * **Name:** Must be unique (e.g., Revenue subledger book).
    * **Compliance:** Choose the relevant accounting standard (e.g., ASC 606 or IFRS 15).
    * **Type of Transactions:** Opt for either booking or pipeline transactions.
@@ -60,9 +60,9 @@ In Recurly Revenue Recognition Advanced, books are instrumental in determining t
    * **Status:** Mark as Active if the book is in use. Once deactivated, a book cannot be reactivated.
    * **System controls:** Choose among Allocation, forecasting, cost, posting. Note: Primary books must always have posting active.
 
-<Image align="center" className="border" border="true" src="https://files.readme.io/3a64df9-image.png" />
+<Image align="center" border="true" src="https://files.readme.io/3a64df9-image.png" className="border" />
 
-3. After setting up the book(s),\*\* click the Save icon\*\*.
+3. After setting up the book(s),** click the Save icon**.
 4. Once books are established, the Revenue workbench offers options to view contracts under each book individually or collectively. Reports are tailored based on the created books.
 
 > **Note:** Secondary books exclusively use the pipeline features for forecasting, resembling orders booked via opportunities rather than sales orders.
@@ -75,7 +75,7 @@ Profiles in Recurly Revenue Recognition Advanced are designed to set application
 
 1. **Navigate** to: Set Up → Profiles
 
-<Image align="center" className="border" border="true" src="https://files.readme.io/8ea6717-image.png" />
+<Image align="center" border="true" src="https://files.readme.io/8ea6717-image.png" className="border" />
 
 2. **Profile Options:**
    * **Account separator:** Specifies the value for account separation.
@@ -108,12 +108,12 @@ Attribute labels bridge the gap between Recurly attribute names and their counte
 
 1. **Navigate to** Setup → Attribute Labels.
 
-<Image align="center" className="border" border="true" src="https://files.readme.io/735ad0b-image.png" />
+<Image align="center" border="true" src="https://files.readme.io/735ad0b-image.png" className="border" />
 
 2. **Adjust** and add attribute labels as required.
-3. \*\*Click \*\*the Save icon after configuration.
+3. **Click **the Save icon after configuration.
 
-**Notes:**\
+**Notes:**  
 Attributes must be defined here for Recurly Revenue Recognition Advanced to gather data.
 
 ## Segments
@@ -124,9 +124,9 @@ Segments help define a company's accounting structure, typically based on report
 
 1. **Navigate** to setup.
 2. **Select** “Segment”.
-3. \*\*Click \*\*“+” to add new segments and mark the natural segment containing the account.
+3. **Click **“+” to add new segments and mark the natural segment containing the account.
 
-<Image align="center" className="border" border="true" src="https://files.readme.io/3c26ee3-image.png" />
+<Image align="center" border="true" src="https://files.readme.io/3c26ee3-image.png" className="border" />
 
 ### Segment mapper
 
@@ -140,8 +140,8 @@ In Recurly Revenue Recognition Advanced, business events are either custom or st
 
 Standard events are built-in business triggers in Recurly Revenue Recognition Advanced that aid in releasing POB. Examples include:
 
-1. \*\*Upon Billing: \*\*Events occur upon billing for sales orders.
-2. \*\*Upon Booking: \*\*Events occur upon sales order loading.
+1. **Upon Billing: **Events occur upon billing for sales orders.
+2. **Upon Booking: **Events occur upon sales order loading.
 3. **Expiration:** An event triggers upon expiration.
 
 ### Custom Event
@@ -155,9 +155,9 @@ Users can create custom events in Recurly Revenue Recognition Advanced, such as:
 
 1. **Navigate** to Set up → Events
 
-<Image align="center" className="border" border="true" src="https://files.readme.io/9648676-image.png" />
+<Image align="center" border="true" src="https://files.readme.io/9648676-image.png" className="border" />
 
-2. \*\*Fill in \*\*the necessary fields and select options as needed.
+2. **Fill in **the necessary fields and select options as needed.
 3. After setting up the event, **click the Save icon**.
 
 **Associating an Event with POB:**
@@ -172,7 +172,7 @@ Before uploading an event file to Recurly Revenue Recognition Advanced, it's ess
 
 3. Once done, **click on the Save icon**.
 
-**Event File Template**\
+**Event File Template**  
 Your event file template should resemble the table below:
 
 | Attribute 1 (from event mapper) | Attribute 2 (from event mapper) | Event Action | Start Date | End Date | Release Date | Effective Date | Expiry Date |
@@ -207,9 +207,20 @@ Recurly Revenue Recognition Advanced predefines all currencies as ISO Codes, eac
 
 **Editing Currencies Configuration:**
 
-1. **Navigate** to Setup → Currencies\
+1. **Navigate** to Setup → Currencies  
    ![](https://files.readme.io/4ae93a3-image.png)
 2. All currencies are predefined in Recurly Revenue Recognition Advanced. To edit:
    * **Double-click** on the desired currency or precision field.
    * **Make** the necessary changes.
    * **Click** the Save icon.
+
+# FAQ
+
+**Q: How do I create and manage Books in Recurly RevRec?**
+A: Manage Books in **Application setup → Books**. For step-by-step guidance, see the **Setup: Books** documentation.
+
+**Q: What are Business Events and how do I configure them?**
+A: Business Events define how transactions are processed in RevRec. Configure them in **Application setup → Business events**. Refer to **Setup: Business Events** for details.
+
+**Q: Where can I find information on setting up Segments?**
+A: Segments are configured in **Application setup → Segments**. See the **Setup: Segments** section for configuration steps.
