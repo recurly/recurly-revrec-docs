@@ -63,7 +63,7 @@ To support business growth and enhance customer satisfaction, companies can issu
 
 When goodwill credit is allocated, Recurly generates a credit invoice, reflecting the credit balance which can be adjusted against subsequent payments. This process not only simplifies account management but also ensures transparency in financial transactions.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/82c8766-Screenshot_1_2024-03-04_at_4.45.08_PM.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/82c8766-Screenshot_1_2024-03-04_at_4.45.08_PM.png" className="border" />
 
 The issuing and redemption of goodwill credits are accurately documented, facilitating seamless financial reporting. Credits are recorded as a single line in revenue recognition reports, with redemptions detailed separately. This clear delineation helps businesses track credit usage and its impact on financial health.
 
@@ -75,8 +75,21 @@ The following table outlines the identifiers for goodwill credit transactions:
 | credit-event | Goodwill redeemed | credit-goodwill-redeemed |
 | credit-event | Goodwill voided   | credit-goodwill-voided   |
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/19cd870-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/19cd870-image.png" className="border" />
 
 In instances where goodwill credit is issued erroneously or remains unused, it can be voided, removing the balance from the customer's account. This action, along with all other credit transactions, is recorded in Revenue Recogntion, ensuring comprehensive financial oversight.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/efb1208-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/efb1208-image.png" className="border" />
+
+# FAQ
+
+**Q: How are Goodwill Credits and their usage tracked in RevRec?**
+A: Goodwill credits appear as distinct lines that you can identify by **plan code**:
+
+* **Credit issued:** `credit-goodwill`
+* **Credit used/redeemed:** `credit-goodwill-redeemed`
+* **Credit canceled/voided:** `credit-goodwill-voided`
+  Tip: Credit-related lines also show **origin = credit-event**.
+
+**Q: What happens if a Goodwill Credit is given by mistake or is never used?**
+A: Void the credit. A voided credit is no longer available to the customer, and RevRec records a reversal line with plan code **`credit-goodwill-voided`**.
