@@ -67,13 +67,20 @@ Customers can view their total credit balance in Recurly, which is equal to the 
 
 Through prepayment credits, Recurly provides a flexible and efficient way for businesses and customers to recognize and manage advance payments, offering benefits such as improved cash flow, convenience, and simplified billing processes.
 
-# FAQ 
+# FAQ
 
-**Q: What makes a Prepayment Credit different from the other two credit types?**
-A: A **Prepayment credit** is **funded by the customer**. They pay in advance, and that amount is held as a credit balance to use on future subscriptions or purchases.
+**Q: What makes a Prepayment credit different from the other two credit types?**
+A: A **prepayment credit** is **funded by the customer**. They pay in advance, and that amount is held as a credit balance to use on future subscriptions or purchases.
 
-**Q: Why do I see two credit-event invoices in Recurly when a Prepayment Credit is issued?**
+**Q: Why do I see two credit-event invoices in Recurly when a prepayment credit is issued?**
 A: Two invoices are created to make the accounting clear:
 
 * **Payment invoice:** Acknowledges receipt of the customer’s advance payment.
 * **Credit invoice:** Converts that payment into a usable **credit balance** on the customer’s account.
+
+**Q: How are prepayment credits and their adjustments tracked in RevRec?**
+A: Filter for **origin = credit-event** and use these **plan codes**:
+
+* **Credit issued:** `credit-prepayment`
+* **Credit used/redeemed:** `credit-prepayment-redeemed`
+* **Credit canceled/voided:** `credit-prepayment-voided`
