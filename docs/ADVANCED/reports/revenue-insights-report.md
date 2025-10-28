@@ -52,3 +52,8 @@ To access and configure the Revenue Insights Report:
 * **Hold**: Marks transactions that are on hold and pending further action or approval.
 * **Accounted**: Indicates transactions that have been fully processed and recorded in the accounting system.
 * **Unaccounted**: Denotes transactions that have not yet been processed or recorded in the accounting system.
+
+# FAQ
+
+**Q: What are the key filters and data points available in the Revenue Insights report?**
+A: The report provides high-level revenue summaries with flexible scoping. Typical **filters** include **Book**, **reporting period** (date/fiscal period), **currency**, **customer/account**, **product/item**, **segment/contract group**, **POB**, and **custom dimensions**. Common **data points** include **recognized revenue**, **deferred revenue movements** (begin/additions/releases/end), **waterfall totals**, **unbilled/backlog**, and relevant **adjustments** (e.g., holds or catch-up entries), with drill-through to contract/line where supported. For exact options in your environment, see the **Revenue Insights report** documentation.
