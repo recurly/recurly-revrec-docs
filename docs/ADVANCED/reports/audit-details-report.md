@@ -45,3 +45,6 @@ To access and configure the Audit Details Report:
 
 **Q: I need to reconcile my revenue journal entries. Where can I access the Audit Details report?**
 A: Open **RevRec**, go to **Analytics → Reports → Audit details**. This report provides line-level entries, references, and filters needed for reconciliation and controls. For step-by-step usage and field definitions, see the **Audit Details Report** documentation.
+
+**Q: What report provides detail on the ASC 606 5-Step Model process for an individual contract?**
+A: The **Audit Details** report. It offers the most granular, step-by-step view of how ASC 606 was applied to a contract—covering identification of the contract/POBs, transaction price, allocation, recognition scheduling, and journal postings—with drill-through to supporting lines. See the **Audit Details Report** documentation for navigation and field definitions.
