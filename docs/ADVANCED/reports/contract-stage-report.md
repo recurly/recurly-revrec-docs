@@ -28,7 +28,7 @@ To access and configure the Contract Stage Report:
 
 * Go to **Reports** and select **Contract Stage Details Report** from the menu.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/be81036fc19601f9bcfd024114dbeff55387bff825f1f5a500f0e5fc0700623f-1.Introduction.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/be81036fc19601f9bcfd024114dbeff55387bff825f1f5a500f0e5fc0700623f-1.Introduction.png" className="border" />
 
 2. **Access the Mapper:**
 
@@ -38,7 +38,7 @@ To access and configure the Contract Stage Report:
 
 * Within the Mapper, select and add the specific columns (attributes) you wish to include. By default, the report includes the **Processed Flag** and **Error Message** columns.
 
-<Image align="center" className="border" border={true} width="60% " src="https://files.readme.io/1cc1ed3d34d9bcb7d464cf21124c7572f73d2c9e362c7eac5331d4874879a8b3-2._Contract_Stage_Report_Mapper.png" />
+<Image align="center" border={true} width="60% " src="https://files.readme.io/1cc1ed3d34d9bcb7d464cf21124c7572f73d2c9e362c7eac5331d4874879a8b3-2._Contract_Stage_Report_Mapper.png" className="border" />
 
 4. **Run the Report:**
 
@@ -65,3 +65,38 @@ The following table outlines the possible error messages and their potential cau
 | Debit Account is Blank                                             | The line stuck has no debit account assigned. Please check the configurations to add in the debit account.                                                           |
 | Pob Rule setup is missing in book                                  | The line has no POB rules configured. Please check the POB rules section and configure the POB rules to process this line.                                           |
 | Pob setup missing for some lines in this contract in book          | One or more of the lines in the contract are missing POB Rule configuration. Please check and update the POB rules for the concerned lines to process this line.     |
+
+# FAQ
+
+**Q: What does “Debit Account is Blank” or “Credit Account is Blank” mean?**
+A: A transaction line is missing its assigned debit or credit account. Review your configuration and assign the correct accounts to the affected lines.
+
+**Q: Why am I seeing “Updated SO Amount is in a different sign than previous Billed Amount”?**
+A: The updated Sales Order (SO) amount uses a different sign (positive/negative) than the original billed amount. Ensure the updated SO amount uses the same sign as the original.
+
+**Q: What causes “Error Processing SO update”?**
+A: This can occur (e.g., with a Credit Memo Request) when the updated SO amount is less than the amount already billed. Verify the SO update amount; it must not be less than the billed amount.
+
+**Q: What does “Updated SO Amount is less than Billed Amount” mean?**
+A: The total billed amount exceeds the SO amount. Increase the SO amount to match or exceed the billed amount, or enable overage per your system policy.
+
+**Q: Why am I getting “Bundle child updates are not allowed”?**
+A: Direct updates to bundle child lines aren’t permitted. Make updates on the parent bundle line instead.
+
+**Q: How do I fix “POB Rule setup is missing in the book” or “POB setup missing for some lines in this contract in book”?**
+A: One or more lines do not have a Performance Obligation (POB) rule configured. Configure the appropriate POB rules for all missing lines. Note: if any line lacks a POB, the entire contract may remain stuck in Stage.
+
+**Q: What should I do for “Error Loading SO Line”?**
+A: The associated SO line hasn’t successfully processed from the contract stage. Resolve the SO in Contract Stage first, then proceed with downstream documents.
+
+**Q: What does “Invalid Cost, SO not present in system” mean?**
+A: The SO number in the cost file is incorrect or doesn’t exist. Verify the SO number and re-upload the file.
+
+**Q: Why am I seeing “Bundle child updates are not allowed” in the Cost Stage?**
+A: The no-update rule for bundle child lines applies to costs as well. Update costs on the parent bundle line.
+
+**Q: How do I fix “Invalid Cost Type, Cost Type setup is missing”?**
+A: The specified Cost Type hasn’t been configured. Add/configure the Cost Type correctly, then re-process.
+
+**Q: What does “Allocated Commission lines cannot be updated” mean?**
+A: Lines with allocated commission are locked from updates. Use a new transaction or a reversal rather than editing the original line.
