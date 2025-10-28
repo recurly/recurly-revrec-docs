@@ -91,3 +91,47 @@ Customizing your reports is paramount for effective data analysis and presentati
 * **Leveraging Aggregation Functions**: Use functions, like "sum", to calculate summary statistics, adding depth to your analysis.
 
 For a deep understanding of the setup process for Recurly's revenue recognition standard, please visit our dedicated page [here](recurly-revenue-recognition-standard-edition-setup).
+
+# FAQ
+
+**Q: How do I access the Revenue Recognition reports in Recurly?**
+A: Log in to your Recurly account, select **Analytics** in the left sidebar, then choose the desired report from the submenu.
+
+**Q: What are the main components of the report interface?**
+A: Typically: **Report filters** to customize scope, **report metrics** for key values, **graphs/visualizations** for trends, and **download options** to export data.
+
+**Q: In what formats can I download the reports?**
+A: You can export data to **CSV** or **Excel** for further analysis or sharing.
+
+**Q: What is the purpose of the Revenue Waterfall report?**
+A: It shows how contracted revenue is recognized across accounting periods, helping you visualize recognition over time.
+
+**Q: What kind of data can I see in the Revenue Waterfall report?**
+A: Detailed revenue and transaction data by **customer account**, **plan**, **transaction**, and **company currency**.
+
+**Q: What is the Liability Balance report used for?**
+A: Tracking and managing **deferred revenue balances** across periods.
+
+**Q: How can I analyze deferred revenue using the Liability Balance report?**
+A: Review balances by period, apply filters to break down by **product** or **customer segment**, and track by **plan**.
+
+**Q: What information does the Transfer Accounting report provide?**
+A: Details of revenue transfers between accounts/entities, including **source**, **destination**, and **amounts transferred**.
+
+**Q: How can the Transfer Accounting report help with financial accuracy?**
+A: It highlights discrepancies in transfers so you can verify the **accuracy and integrity** of financial records.
+
+**Q: How can I customize my reports in Recurly?**
+A: Create **custom dimensions**, rename columns, add/remove fields, choose visualizations, apply filters, and use aggregation functions.
+
+**Q: What are custom dimensions?**
+A: User-defined attributes that add context—built from existing fields or calculated values.
+
+**Q: How do I focus on the most important metrics in a report?**
+A: **Add/remove fields** in the report to streamline options and emphasize your key metrics and dimensions.
+
+**Q: How can I get a more focused view of my data?**
+A: Use **filters** and **slicers** to isolate specific subsets for targeted exploration.
+
+**Q: What are aggregation functions and how are they useful?**
+A: Functions like **SUM** (and others) compute summary statistics, adding depth to your analysis.
