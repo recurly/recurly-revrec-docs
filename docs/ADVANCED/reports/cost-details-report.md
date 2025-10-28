@@ -47,3 +47,8 @@ To access and configure the Cost Detail Report:
 * **Unaccounted:** Highlights cost amounts that are pending accounting entries.
 
 These columns collectively enable a detailed analysis of cost schedules, providing valuable insights into cost allocation and financial management.
+
+# FAQ
+
+**Q: How can I use the Cost Details report (Expense) to analyze revenue recognition expenses?**
+A: The **Cost Details** report breaks down expenses tied to revenue recognition and links them to the related revenue activity. Use it to review period movements (beginning balance, additions, amortization, ending balance), drill into contract/POB line items, and filter by book, period, customer, product, or segment. You can also export results to CSV/Excel for reconciliation. For step-by-step usage and field definitions, see the **Cost Details Report** documentation.
