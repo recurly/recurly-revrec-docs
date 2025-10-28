@@ -14,7 +14,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Standalone. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly Revenue Recognition Standalone. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone" target="_blank">Learn more here</a>].
 
 ### Required plan
 
@@ -51,16 +51,16 @@ The revenue workbench is a comprehensive tool that provides valuable insights in
 
 # Centralized contract management
 
-The Revenue Workbench provides a detailed overview of contracts and their associated elements, offering insights essential for informed decision-making. This centralized platform facilitates efficient contract management, allowing users to analyze, monitor, and optimize contract performance.\
+The Revenue Workbench provides a detailed overview of contracts and their associated elements, offering insights essential for informed decision-making. This centralized platform facilitates efficient contract management, allowing users to analyze, monitor, and optimize contract performance.  
 ![](https://files.readme.io/25f0ace-image.png)
 
 ## Unlocking the Power of Contract Insights
 
 The Revenue Workbench is designed for optimal contract management. Its intuitive interface and comprehensive features enable users to delve deep into contract details:
 
-1. **Tab-based Contract Analysis:** Navigate through various tabs to access different contract perspectives, such as Performance Obligations (POB), Variable Considerations (VC), Billing, Cost, Waterfall, Journals, Modifications, Allocation Details, Contract Balance, Business Events, Holds, and Audit.\
+1. **Tab-based Contract Analysis:** Navigate through various tabs to access different contract perspectives, such as Performance Obligations (POB), Variable Considerations (VC), Billing, Cost, Waterfall, Journals, Modifications, Allocation Details, Contract Balance, Business Events, Holds, and Audit.  
    ![](https://files.readme.io/f115581-image.png)
-2. Manual Adjustments: Modify contract details directly within the Revenue Workbench. All changes are logged in the Audit tab for transparency.\
+2. Manual Adjustments: Modify contract details directly within the Revenue Workbench. All changes are logged in the Audit tab for transparency.  
    ![](https://files.readme.io/27ffae3-image.png)
    ![](https://files.readme.io/e779592-image.png)
 3. **In-depth Insights:** Utilize the Workbench's detailed contract insights for strategic decision-making. Review specific elements, understand contract balances, and navigate manual adjustments with ease.
@@ -71,7 +71,7 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 
 1. Access the desired contract.
 2. Choose the field to modify.
-3. Right-click the selected field to view adjustment tools.\
+3. Right-click the selected field to view adjustment tools.  
    ![](https://files.readme.io/78875d0-image.png)
 
 ### Linking & de-linking Contracts
@@ -82,18 +82,18 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 
    <br />
 
-   <Image align="center" className="border" border={true} src="https://files.readme.io/29943b9-image.png" />
+   <Image align="center" border={true} src="https://files.readme.io/29943b9-image.png" className="border" />
 
    **Create New Contract:** Select this option to create a new contract for the line(s) that have been deselected from the current contract. You can do this by de-linking the selected line(s). Additionally, you have the option to add a comment for reference purposes. Don't forget to save the changes.
 
    <br />
 
-   <Image align="center" className="border" border={true} src="https://files.readme.io/90427f8-image.png" />
+   <Image align="center" border={true} src="https://files.readme.io/90427f8-image.png" className="border" />
 
    **Add to another Contract:** Choose this option to link the selected line(s) to another existing contract. By de-linking the line(s) from the current contract, you can associate them with a different contract. This allows for flexible management of contract allocations.
 4. When Add to Another Contract is selected under the type tab, the below dialogue box will appear with the following option.
 
-   <Image align="center" className="border" border={true} src="https://files.readme.io/3fb8280-image.png" />
+   <Image align="center" border={true} src="https://files.readme.io/3fb8280-image.png" className="border" />
 
 * **Contract# field:** Enter the contract number to which the selected line(s) should be linked. This provides that the line(s) are associated with the correct contract.
 * **Treatment:** In the drop-down list under the Treatment tab, choose the appropriate treatment for the contract when it is linked to another contract. Select either "Cumulative Catch up" or "Prospective" based on the desired revenue recognition approach.
@@ -101,10 +101,10 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 
 ### Moving the POB
 
-1. Click on the "Move POB" option. A dialogue box will open, presenting you with various link features.\
+1. Click on the "Move POB" option. A dialogue box will open, presenting you with various link features.  
    **New POB:** Select this option if you want to assign a new POB to the selected line(s). This allows you to create a new performance obligation specifically for those lines.
    ![](https://files.readme.io/40ee378-image.png)
-2. **Add to Existing POB:** Choose this option if you want to manually add the selected line(s) to an existing POB within the same contract. This enables consolidation of related lines under a single performance obligation.\
+2. **Add to Existing POB:** Choose this option if you want to manually add the selected line(s) to an existing POB within the same contract. This enables consolidation of related lines under a single performance obligation.  
    ![](https://files.readme.io/0ad7cba-image.png)
 3. **Enter your comments:** Provide any relevant comments or notes in the designated field. This can be used to explain the rationale behind the POB movement or provide additional context.
 4. **Click on the Save icon:** After making your selection and adding comments, click the Save icon to update the POB assignment for the chosen line(s).
@@ -113,7 +113,7 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 
 1. Highlight the line(s) you want to manually recognize or defer, then right-click to access the available options.
 2. Click on the "Recognize" option. A dialogue box will open, presenting you with various link features.
-3. A window with the following items would be displayed.\
+3. A window with the following items would be displayed.  
    ![](https://files.readme.io/2983955-image.png)
 
 * **Type:** Choose the appropriate revenue type from the dropdown options. This helps categorize the revenue for accurate recognition or deferral.
@@ -125,7 +125,7 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 4. **Click on the Save icon:** After selecting and entering the required information, click the Save icon to update the revenue recognition or deferral settings for the selected line(s).
 5. To view the results of the recognition or deferral, navigate to the Waterfall tab under the Revenue Workbench. This tab provides a visual representation of the revenue allocation and the impact of recognition or deferral on the revenue waterfall.
 
-   <Image align="center" className="border" border={true} src="https://files.readme.io/69603b4-image.png" />
+   <Image align="center" border={true} src="https://files.readme.io/69603b4-image.png" className="border" />
 
 ### Releasing Revenue for Events
 
@@ -133,17 +133,25 @@ You can modify a contract in the Revenue Workbench, by simply following these st
 2. Select "event" from the options.
 3. In the Release Pct column, input the desired percentage as a number. For example, if you want to release 20% of the revenue, input 20.
 
-   <Image align="center" className="border" border={true} src="https://files.readme.io/7b4321f-image.png" />
+   <Image align="center" border={true} src="https://files.readme.io/7b4321f-image.png" className="border" />
 4. **Check** the Waterfall tab in the Revenue Workbench to view the revenue release based on the percentage given in the Revenue Workbench.
 
 ### Enabling/Disabling Allocation
 
 1. **Select** the line/lines that you want to manually Enable/Disable SSP.
 2. **Click** on the Allocation option to open a dialogue box with Allocation features.
-3. **Under** the Allocation option, select one of the two options from the drop-down list:\
+3. **Under** the Allocation option, select one of the two options from the drop-down list:  
    a.	**Enable**: Select this option to enable SSP allocation for the selected line/lines.
    b.	**Disable**: Select this option to disable SSP allocation for the selected line/lines.
 
-   <Image align="center" className="border" border={true} src="https://files.readme.io/e8a8f4f-image.png" />
+   <Image align="center" border={true} src="https://files.readme.io/e8a8f4f-image.png" className="border" />
 4. After selecting the appropriate option under the Allocation tab, **explain** the reason in the Comments box.
 5. Once you have filled in the comments, **click** on the Save icon to save your changes.
+
+# FAQ
+
+**Q: What is the Workbench and how is it used to manage revenue recognition contracts?**
+A: The **Workbench** is the central place to review and manage revenue contracts and contract groups. From here, you can search and filter contracts, inspect line details and POB assignments, apply holds, and perform corrective actions (subject to permissions). For step-by-step use cases, see the **Revenue Recognition Workbench** documentation.
+
+**Q: Is it possible to change a POB after a contract has been processed?**
+A: Yes. RevRec lets you **manually change a POB** after it has been assigned. Use the **Change POB** action in the Workbench to reassign the performance obligation; the system will recalculate schedules according to your rules and book settings. Be aware that changes can impact recognition timing and may create reallocation/restatement entries depending on period status and approvals. For detailed instructions, see **Change POB** in the Workbench docs.
