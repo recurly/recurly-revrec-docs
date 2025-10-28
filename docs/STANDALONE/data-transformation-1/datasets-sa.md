@@ -28,18 +28,23 @@ A **Dataset** is a custom collection of fields (attributes) from your sales orde
 
 1. **Navigate** to **Transformation → Dataset**.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/bb61372-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/bb61372-image.png" className="border" />
 
 2. **Enter** a unique **Dataset Name**.
 3. **Select** the **Books** (ledgers) this dataset applies to.
 4. **Choose** the desired **Attributes** and mark your **Primary Attribute(s)**.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/04cf460-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/04cf460-image.png" className="border" />
 
 5. **Click** **Save** to finalize the configuration.
 
 Once saved, any uploaded sales order with matching identifiers will populate your new dataset. You’ll see the data reflected in the Revenue Workbench and across all analytics reports, ensuring consistent, accurate insights.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/9cdca79-image.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/9cdca79-image.png" className="border" />
 
 > **Note:** Datasets cannot be permanently deleted; you can only toggle a dataset to **Inactive** to retire it from future use while retaining historical records.
+
+# FAQ
+
+**Q: How do I manage and use Data Sets for custom data ingestion in the RevRec application?**
+A: Go to **Application setup → Data sets** to define schemas, map fields, and set validations. You can load data via the UI or API, then reference those data sets in **Data transformation** rules and the **Workbench**.
