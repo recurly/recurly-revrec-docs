@@ -377,13 +377,13 @@ After completing these steps, Revenue Recognition will be activated on your site
 A: Credits (goodwill, on-account, prepayments) won’t be included in revenue recognition calculations.
 
 **Q: Can we exit the onboarding wizard and resume later?**
-A: Yes. Progress is saved automatically. Any user with appropriate permissions can continue the setup.
+A: Yes. Progress saves automatically, and any user with the right permissions can continue the setup.
 
 **Q: What does the Global Reporting Currency affect?**
-A: It sets the currency used in Revenue Recognition reports. It’s independent of your main Recurly site currency.
+A: It sets the currency used in Revenue Recognition reports and is separate from your main Recurly site currency.
 
 **Q: What if a product is missing accounting codes?**
-A: Default settings will be applied, but you should assign rules and codes manually to ensure accurate reporting.
+A: Defaults are applied, but you should manually assign rules and codes for accurate reporting.
 
 **Q: How do I know if activation was successful?**
-A: You’ll receive a confirmation email, and the “activation in progress” notice will disappear from your dashboard.
+A: You’ll get a confirmation email, and the “activation in progress” notice will disappear from your dashboard.
