@@ -16,7 +16,7 @@ next:
 >
 > This feature will be fully sunset on <strong>November 1, 2025</strong>. Access will become read-only prior to retirement.
 >
-> Migrate to <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone#/" target="_blank" rel="noopener noreferrer">Recurly Revenue Recognition Standalone</a> to avoid disruption.
+> Explore <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone#/" target="_blank" rel="noopener noreferrer">Recurly Revenue Recognition Standalone</a>.
 
 ### Required plan
 
@@ -28,7 +28,7 @@ This feature is no longer offered.
 
 # Legacy solution: Recurly Revenue Recognition
 
-Please be advised that our **legacy revenue recognition solution is no longer available for new subscriptions**. However, we are committed to ensuring that existing users can continue to access this solution without interruption.
+Please be advised that our **legacy revenue recognition solution is no longer available for new subscriptions**.
 
 Because we no longer sell our legacy solution, we recommend new merchants explore our enhanced Recurly Revenue Recognition Advanced or Standalone editions, which are both designed to meet today's complex financial reporting requirements with ease and precision, and are ASC 606 and IFRS 15 compliant.
 
