@@ -589,41 +589,90 @@ Note: The POB type and cost type are exclusive from each other and cannot be sel
 
 > **Note:** Adjustment waterfall additional journals do not get an option to choose POB type and they do not have an option for auto reverse.
 
-# FAQs
+# FAQ
 
-Can I have more than one release event for a single POB?	Yes, you can add multiple release events to a single POB. This is useful when revenue for one obligation is released in parts as different milestones are met.
-What is the most important rule for multiple release events?	The sum of the percentages for all release events on a single POB must equal 100%.
-Are there any restrictions on the 'Upon Booking' or 'Upon Billing' release events?	Yes. If you select 'Upon Booking' or 'Upon Billing' as a release event, the release percentage must be 100%. You cannot combine these events with any other release events on the same POB.
-Does every POB need a rule?	Yes. A POB requires at least one assigned rule to function correctly and be applied to transactions.
-How do I add a rule to a POB?	You can add a rule by navigating to the "Rules" section from the main menu (Rules → Rules) or by going to the "Rules" tab within a specific POB. Once there, click the "+" icon.
-Can I edit a POB rule from the main POB details page?	No. When you open a POB and scroll to the bottom, you can view the associated rules, but you cannot add or edit them from there. You must use Method 1 or Method 2.
-What is an "attribute" in a POB rule?	An attribute is the criterion used to link a transaction to a POB. For example, you can create a rule that assigns a POB based on a specific "Item" or "Account Code" on a transaction line.
-Can I change the priority of my POB rules?	Yes. You can change the hierarchy of rules by clicking and dragging the drag icon to reorder them. The system evaluates rules from top to bottom.
-How do I delete a POB rule?	Select the rule you wish to remove and click the "Delete" icon. Remember to save your changes to confirm the deletion.
-How can I update an SSP Analyzer with a new product or change the analysis for existing products?	"For data integrity, an SSP Analyzer cannot be modified after it has been approved.
-To incorporate new products or to update your analysis for existing items, you must create a new SSP Analyzer. This new analyzer will use all the data integrated up to that point, allowing you to perform a fresh and accurate analysis. "
+**Q: Why do I need to configure POBs and their rules?**
+A: Configuring Performance Obligations (POBs) and their associated rules is essential for ensuring accurate and compliant revenue recognition. Proper configuration allows RevRec to identify and allocate revenue correctly across each obligation within a contract.
 
-Why do I need to configure POBs and their rules?	Configuring POBs and their associated rules is essential for ensuring accurate and consistent revenue recognition in compliance with accounting standards. It allows the system to correctly identify and allocate revenue to the specific obligations you have with your customers.
-Are there any default POBs I should avoid editing?	Yes. You should avoid editing the default POBs, specifically "Material right" and "manual journal," as they are integral to system functions.
-How do I create a new POB?	Navigate to Rules → POB and click the "+" button to open the configuration screen for a new performance obligation.
-What is a "Waterfall Type" (WF Type)?	The Waterfall Type determines the fundamental recognition timing for the POB. It defines whether revenue is recognized at a single moment (PointInTime) or spread across a period (OverTime, OverTime Slide, etc.).
-What is the difference between the OverTime, OverTime Slide, and OverTime Condense waterfall types?	"OverTime: Revenue is recognized over the contract period.
-OverTime Slide: Revenue is recognized over the contract period, but the recognition is delayed by a specified release date.
-OverTime Condense: Revenue recognition is adjusted based on the timing of a specific event and a release date."
-What do the different "Accounting Methods" mean? The accounting method determines how revenue is calculated and spread over a period. For example:	"Daily: Prorates revenue based on the number of days.
-FixedMonthly: Recognizes a fixed amount each full month.
-PartialMonthly: Prorates revenue for the first and last months and recognizes equal amounts for the months in between."
-What is a "Ratable Method"?	The ratable method determines which dates the system uses to schedule the revenue. You can base the schedule on Sales Order dates, Billing/Invoice dates, or use the Sales Order Ratable method for a prorated amortization.
+**Q: Does every POB need a rule?**
+A: Yes. A POB requires at least one assigned rule to function correctly and be applied to transactions.
 
-Can I group contracts using multiple criteria?	Yes. Revrec allows you to configure contract grouping rules using any combination of factors, giving you full flexibility in how you organize your contracts.
-Can I schedule a grouping rule to apply only for a specific time period?	Yes. When configuring a grouping rule, you can set a Start Date and an optional End Date. This allows you to control exactly when a rule becomes active and when it expires.
-Why is my invoice missing from the Workbench and reports?	If an invoice you integrated doesn't appear in the Workbench or your reports, check the Staging Area. Invoices are often held there due to processing errors. Our documentation provides a guide to common staging errors and how to resolve them.
-Can a single contract have multiple Performance Obligations (POBs)?	Yes. A single contract with multiple line items can have many POBs. You can define these relationships in the POB Rules page within Revrec.
+**Q: Are there any default POBs I should avoid editing?**
+A: Yes. You should avoid editing the default POBs, specifically _Material right_ and _Manual journal_, as they are integral to the system’s core functions.
 
-How are Holds used in Recurly RevRec, and what is the setup process?	Holds are used to pause revenue recognition postings. Their setup is documented under Rules. The documentation for Holds can be found here.
-What are Data Rules and how are they configured for data transformation?	Configuration for Data Rules is a key part of data transformation in RevRec for standardizing data. Consult the dedicated Data Rules documentation for setup.
+**Q: What is an “attribute” in a POB rule?**
+A: An attribute is the criterion used to link a transaction line to a POB. For example, a rule can assign a POB based on a specific _Item_, _Product_, or _Account Code_ in the transaction.
 
-How do I set up Contract Grouping rules in Recurly RevRec?	Contract Grouping rules are configured under the Rules section of the documentation. Here is a link to the Contract Grouping documentation for detailed setup instructions.
-Explain the purpose and configuration of a Performance Obligation within the RevRec module.	Performance Obligation configuration is found within the Rules section of the RevRec documentation. Review the Performance Obligation rules documentation to understand its purpose and setup.
-What are the steps to automate Variable Considerations (VC) in Recurly RevRec?	The steps for automating Variable Considerations are located within the Core Concepts > Rules section. Refer to the Variable Considerations documentation for the full process.
-Can you provide guidance on defining and using Standalone Selling Price (SSP) in the RevRec system?	Guidance on defining and using Standalone Selling Price (SSP) is available under the Rules section. Find the detailed SSP documentation here.
+**Q: How do I add a rule to a POB?**
+A: You can add a rule by navigating to **Rules → Rules** from the main menu or by going to the **Rules** tab within a specific POB. Then click the “+” icon to create a new rule.
+
+**Q: Can I edit a POB rule from the main POB details page?**
+A: No. You can view associated rules from the POB details page, but adding or editing them must be done directly from the **Rules** section.
+
+**Q: Can I change the priority of my POB rules?**
+A: Yes. You can change rule priority by clicking and dragging the rule using the drag handle icon. The system evaluates rules from top to bottom.
+
+**Q: How do I delete a POB rule?**
+A: Select the rule you wish to remove and click the **Delete** icon. Remember to save your changes to confirm deletion.
+
+**Q: Can I have more than one release event for a single POB?**
+A: Yes. You can add multiple release events to a single POB. This is useful when revenue for one obligation is released in parts as different milestones are met.
+
+**Q: What is the most important rule for multiple release events?**
+A: The total percentage for all release events within a POB must equal **100%**.
+
+**Q: Are there any restrictions on the “Upon Booking” or “Upon Billing” release events?**
+A: Yes. If you select “Upon Booking” or “Upon Billing,” the release percentage must be **100%**. You cannot combine these with other release events in the same POB.
+
+**Q: What is a “Waterfall Type” (WF Type)?**
+A: The Waterfall Type determines how revenue is recognized for a POB. It defines whether revenue is recognized at a single point in time or spread across a duration.
+
+**Q: What is the difference between OverTime, OverTime Slide, and OverTime Condense?**
+A:
+
+* **OverTime**: Revenue is recognized evenly over the contract period.
+* **OverTime Slide**: Recognition is spread over the period but delayed by a specified release date.
+* **OverTime Condense**: Recognition is compressed or adjusted based on a key event or release date.
+
+**Q: What do the different “Accounting Methods” mean?**
+A:
+
+* **Daily**: Prorates revenue by the number of days.
+* **FixedMonthly**: Recognizes a fixed amount per full month.
+* **PartialMonthly**: Prorates the first and last months, recognizing equal amounts for the remaining months.
+
+**Q: What is a “Ratable Method”?**
+A: The ratable method defines which dates the system uses to schedule revenue—such as Sales Order dates, Billing dates, or Invoice dates.
+
+**Q: How do I create a new POB?**
+A: Go to **Rules → POB** and click the “+” button to open the configuration screen. From there, define key attributes like Waterfall Type, Accounting Method, and associated rules.
+
+**Q: Can a single contract have multiple POBs?**
+A: Yes. A single contract can contain multiple line items, each linked to distinct POBs, depending on the configuration rules.
+
+**Q: Can I group contracts using multiple criteria?**
+A: Yes. RevRec allows flexible grouping using various factors—such as customer, account, or custom fields—enabling you to organize contracts precisely as needed.
+
+**Q: Can I schedule a grouping rule to apply only for a specific time period?**
+A: Yes. You can define a Start Date and optional End Date for grouping rules, controlling exactly when a rule becomes active or expires.
+
+**Q: How do I set up Contract Grouping rules in Recurly RevRec?**
+A: Contract Grouping rules are configured within the **Rules** section. For step-by-step setup, refer to the _Contract Grouping_ documentation.
+
+**Q: What are Data Rules and how are they configured?**
+A: Data Rules define how data is standardized and transformed before processing. You can configure them under **Rules → Data Rules**. Refer to the _Data Rules_ documentation for setup details.
+
+**Q: How are Holds used in Recurly RevRec?**
+A: Holds are used to pause revenue recognition postings. You can configure them under **Rules → Holds**. Refer to the _Holds_ documentation for setup instructions.
+
+**Q: What are the steps to automate Variable Considerations (VC)?**
+A: You can automate VC setup within **Core Concepts → Rules → Variable Considerations**. Refer to that section for full instructions.
+
+**Q: Can you provide guidance on defining and using Standalone Selling Price (SSP)?**
+A: Yes. SSP setup is covered in the **Rules → Standalone Selling Price (SSP)** section. You’ll find instructions on configuring analyzers, uploading product data, and maintaining SSP integrity.
+
+**Q: How can I update an SSP Analyzer with new products or changes?**
+A: Once approved, an SSP Analyzer cannot be modified. To include new products or update your analysis, create a new SSP Analyzer using all integrated data to generate a fresh analysis.
+
+**Q: Why is my invoice missing from the Workbench or reports?**
+A: If an invoice doesn’t appear in the Workbench or reports, check the **Staging Area**. Invoices held there may contain errors preventing processing. Review the _Staging Area_ documentation for guidance on resolving errors.
