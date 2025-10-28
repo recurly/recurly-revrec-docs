@@ -151,3 +151,19 @@ Users can also view and modify their profile.
 
 1. From within Recurly Revenue Recognition, click the dropdown menu in the upper right and select "View profile". This will take you to the Recurly UI and the profile page.
 2. Here they can modify their name, timezone, and job function.
+
+# FAQ
+
+**Q: How is user management and access configured in Recurly RevRec?**
+A: User management and permissions are configured in the **Administration** area. See the **User Management** documentation for step-by-step setup and access details.
+
+**Q: Can I customize user roles?**
+A: Yes. To customize a role: go to **Access Management → Roles**, adjust the role’s permissions, and **save**.
+_Note:_ It’s strongly recommended **not** to change the default settings for the **Revenue Manager** role.
+
+**Q: How do I add a new user to RevRec?**
+A: Add users through the **Recurly Billing** platform (not directly in RevRec):
+
+1. Sign in to Recurly Billing and open **Admin**.
+2. Add the user by **email**.
+3. Assign a role that includes **Revenue Recognition** access so they can open RevRec.
