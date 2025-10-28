@@ -45,3 +45,8 @@ To access and configure the Defer Revenue Waterfall Report:
 * **Period:** Represents multiple columns that break down the deferred revenue across different periods.
 
 These columns collectively enable you to track how revenue is deferred over time and monitor the remaining deferred balances for each contract period.
+
+# FAQ
+
+**Q: Does Recurly RevRec offer a report to track deferred revenue by contract?**
+A: Yes. Use the **Liability balance (Deferred revenue)** report under **Analytics → Reports**. Filter by **customer/contract** (and Book/period), then drill into contract/POB lines for detail. You can export to **CSV/Excel** for reconciliation.
