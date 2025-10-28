@@ -33,11 +33,11 @@ After the Revenue Recognition feature is enabled for your site, you’ll notice 
 
 1. A notification will appear, informing you that Revenue Recognition can now be enabled. This link will remain visible until you complete the enablement process.
 
-<Image align="center" className="border" border={true} width="40% " src="https://files.readme.io/63e9eea9897d16f26f10538ec99b562bf51b62035d41b5d0ec03df1b96969d86-SS_1.png" />
+<Image align="center" border={true} width="40% " src="https://files.readme.io/63e9eea9897d16f26f10538ec99b562bf51b62035d41b5d0ec03df1b96969d86-SS_1.png" className="border" />
 
 2. A new "Revenue Recognition" section has been added to your main navigation menu. Advanced merchants will have access to advanced console options within this section, while standard merchants will be able to view Revenue Settings and General Ledger Accounts.
 
-<Image align="center" className="border" border={true} width="40% " src="https://files.readme.io/27828464882adf638cfbb5b9fb7fd86edb683a33cd92f320e560949c6a2ce914-SS_2.png" />
+<Image align="center" border={true} width="40% " src="https://files.readme.io/27828464882adf638cfbb5b9fb7fd86edb683a33cd92f320e560949c6a2ce914-SS_2.png" className="border" />
 
 ### **Revenue settings page:**
 
@@ -54,15 +54,15 @@ Recurly's Revenue Recognition feature provides flexible configuration for liabil
 
 1. **Click** on “New Accounting Code”.
 
-<Image align="center" width="40% " src="https://files.readme.io/cc43a12849de83db550a4c3825b5390755de745b9f6f5f4e3b9277a64936b233-SS_3.png" />
+<Image align="center" border={false} width="40% " src="https://files.readme.io/cc43a12849de83db550a4c3825b5390755de745b9f6f5f4e3b9277a64936b233-SS_3.png" />
 
 2. **Fill in** the accounting code and select the account type as Revenue or Liability. Give the description if required. **Click on** Create.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/d42f18624ab9857378323d8a4eaff31788be6a0d9c2c1b12c3de75ebbd233b6f-SS_4.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/d42f18624ab9857378323d8a4eaff31788be6a0d9c2c1b12c3de75ebbd233b6f-SS_4.png" className="border" />
 
 3. Once all the required accounts are created, the screen looks like this:
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/cfc619c64c7d5694433f0b5e202ae26e25e652f38eb31f3063f67920d057e76b-SS_5.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/cfc619c64c7d5694433f0b5e202ae26e25e652f38eb31f3063f67920d057e76b-SS_5.png" className="border" />
 
 # Onboarding wizard
 
@@ -86,7 +86,7 @@ To ensure a smooth onboarding experience, please **complete** the following prep
 
 ### Key concepts
 
-* \*\*Revenue recognition: \*\*The process of recognizing revenue as it is earned, in compliance with accounting standards such as ASC 606 and IFRS 15.
+* **Revenue recognition: **The process of recognizing revenue as it is earned, in compliance with accounting standards such as ASC 606 and IFRS 15.
 * **Performance obligations:** Each distinct good or service (or bundle) you promise to deliver is a performance obligation. Proper identification is critical for compliance and accurate financial reporting.
 * **GL accounts:** Revenue and liability accounts must be set up and mapped correctly to ensure transactions are posted accurately for accounting and reporting purposes.
 
@@ -96,7 +96,7 @@ Once you have gathered the necessary information and documentation, proceed with
 
 **Click** the "Get Started" button to open the onboarding wizard. This will appear as a side dialog, guiding you through the remaining setup tasks. You must complete every item in the task list to activate Revenue Recognition, but you can finish them in any order.
 
-<Image align="center" className="border" border={true} width="40% " src="https://files.readme.io/d0ebcabef1d04724c5f334926efaebaed1283ba396ea0e170e88a888f00be041-SS_6.png" />
+<Image align="center" border={true} width="40% " src="https://files.readme.io/d0ebcabef1d04724c5f334926efaebaed1283ba396ea0e170e88a888f00be041-SS_6.png" className="border" />
 
 > **Note**: You can safely exit the wizard at any time. Your progress will be saved, allowing you to return and continue later. Anyone on your team with the necessary permissions can view and contribute to the process.
 
@@ -131,12 +131,12 @@ One of the required tasks is to assign default accounting codes for your busines
 
 1. Within the wizard's task list, **locate** the step for business entities.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/f49792c34a32a991ea235e176dcc92b4343a4020124d2047577a5a75c7e067b7-SS_7.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/f49792c34a32a991ea235e176dcc92b4343a4020124d2047577a5a75c7e067b7-SS_7.png" className="border" />
 
 2. Instead of editing each business entity directly through configuration, you can enter your preferred accounting codes into the fields presented in the card and click on create.
 3. **Click** "Apply" to save your changes. The system will validate this step.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/cac21fa7148388e923b84ee58de6ba8de74fc5e63cf0fa6ee471494975c8850b-SS_8.png" />
+<Image align="center" border={true} width="80% " src="https://files.readme.io/cac21fa7148388e923b84ee58de6ba8de74fc5e63cf0fa6ee471494975c8850b-SS_8.png" className="border" />
 
 4. Once completed, **click** "Next" to move to the following step.
 
@@ -213,7 +213,7 @@ Out of the box, the system provides several Revenue Performance Obligations (POB
 * If no values are selected, the system assigns default POBs from the missing Rules page  and GL accounts from the business entities.
 * For inactive plans, rules are drawn from the default section.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/76ed193b7c2ac0e2b1bfd1d2887eb10deebdd4e28f7de410604efd6d9e65a773-SS_9.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/76ed193b7c2ac0e2b1bfd1d2887eb10deebdd4e28f7de410604efd6d9e65a773-SS_9.png" className="border" />
 
 **The steps to review plans are as under:**
 
@@ -221,7 +221,7 @@ Out of the box, the system provides several Revenue Performance Obligations (POB
 2. **Assign** the [appropriate revenue recognition rules](recurly-revenue-recognition-standard-edition-setup#step-2-applying-performance-obligations-and-accounting-codes-to-products) and accounting codes for each one.
 3. As you complete the review for each item, **check it** off to confirm.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/2a478b343d35dbe931aa27dc6bdce8b8788a0a0200849caa2dd16d1481c6f170-SS_10.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/2a478b343d35dbe931aa27dc6bdce8b8788a0a0200849caa2dd16d1481c6f170-SS_10.png" className="border" />
 
 4. Once all types have been reviewed and configured, **click** "Apply" to save the changes.
 
@@ -242,7 +242,7 @@ Under this step we assign default revenue rules to each product defined in Recur
 
 Set up default revenue rules for any products that do not have specific settings assigned. Any changes made here will also be reflected on the main Revenue Settings page.  Currently default rules assigned cannot be changed.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/225f3e74c8e66832d2191e8d40d6b829d15711ec8e08d4e5bd02278bd05b6b57-SS_11.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/225f3e74c8e66832d2191e8d40d6b829d15711ec8e08d4e5bd02278bd05b6b57-SS_11.png" className="border" />
 
 Under this step we will assign default rules to the following product types:
 
@@ -273,7 +273,7 @@ This feature ensures that all revenue and journal entries are accurately reflect
 2. The minimum recommended delay is 2 days, allowing the system to start closing the period at the end of the second day.
 3. You have the flexibility to configure auto-closure for any time after the 2-day minimum, based on your operational needs.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/03808af4b77fcac2c22439c8f9a05fb7ef22c0c6cce258ef4d2e41fa24d2dcbf-SS_12.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/03808af4b77fcac2c22439c8f9a05fb7ef22c0c6cce258ef4d2e41fa24d2dcbf-SS_12.png" className="border" />
 
 This setting will delay the period close for the number of days mentioned in the setting.
 
@@ -289,7 +289,7 @@ This setting will delay the period close for the number of days mentioned in the
 
 Decide how credit transactions should be managed.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/71f65e68827411677aab71666816be77b6828d1b18af8aebe96ad075da528c99-SS_13.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/71f65e68827411677aab71666816be77b6828d1b18af8aebe96ad075da528c99-SS_13.png" className="border" />
 
 Please note, only the auto-period close lag days can be changed after activation. No other settings can be changed.
 
@@ -314,11 +314,11 @@ This crucial step determines the starting point for your revenue recognition.
    1. If the Initial Open Period is set to December 2024 and you require data from January 2024, configure the Initial Open Period as December 2024 and set the Earliest Transaction Date to January 1, 2024.
    2. This configuration ensures that all invoices from January 1, 2024, onward are included in the revenue recognition process for the open period beginning December 2024. This ensures the revenue for the financial year 2025 will be reported including all the unrecognized revenue from the longest contract.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/690b0911771e4b8b66916192ccbdc1534161e5963e36f14236c60d8a0c62b672-SS_14.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/690b0911771e4b8b66916192ccbdc1534161e5963e36f14236c60d8a0c62b672-SS_14.png" className="border" />
 
 Once you select Initial Financial open period and earliest transaction date, the system will show that the task is complete. You will not be able to make any changes to these fields.
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/bd4fd35a8904142a528933626316118f1db52bb1340fb67a9b4bcb029c65d41c-SS_15.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/bd4fd35a8904142a528933626316118f1db52bb1340fb67a9b4bcb029c65d41c-SS_15.png" className="border" />
 
 ## Step 8: Activating Revenue Recognition
 
@@ -327,13 +327,13 @@ Once all the tasks in the onboarding wizard are completed and validated, you are
 1. A confirmation prompt will appear, asking you to confirm enabling Revenue Recognition.
 2. **Click** "Activate".
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/a06c37530f164354194c53aa394f1b27f2066714f4a1d6e489672f8b158bf245-SS_16.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/a06c37530f164354194c53aa394f1b27f2066714f4a1d6e489672f8b158bf245-SS_16.png" className="border" />
 
 3. The activation process will begin.
 
 If any of the above steps are incomplete, the following error will appear:
 
-<Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/a1037a67a9b7f38944b69c1b799962251b15b560dc3e3d92170eec0ef6493fd0-SS_17.png" />
+<Image align="center" border={true} width="70% " src="https://files.readme.io/a1037a67a9b7f38944b69c1b799962251b15b560dc3e3d92170eec0ef6493fd0-SS_17.png" className="border" />
 
 ## Post-activation
 
@@ -341,7 +341,7 @@ During and after activation, you will notice the following changes:
 
 1. **Activation in progress:** A notification will appear in the sidebar, indicating that activation is underway and that report data may be temporarily incomplete.
 
-<Image align="center" className="border" border={true} width="30% " src="https://files.readme.io/5092898755ecb65764df7168fecb0123ae50243c097b0a701aaed8af287b1eec-SS_18.png" />
+<Image align="center" border={true} width="30% " src="https://files.readme.io/5092898755ecb65764df7168fecb0123ae50243c097b0a701aaed8af287b1eec-SS_18.png" className="border" />
 
 2. **Activation complete:** The in-progress notification will disappear. You will receive an email confirming that Revenue Recognition is now active.
 3. **New interface elements:**
@@ -370,3 +370,20 @@ During and after activation, you will notice the following changes:
    * For full details, see the **[Period Close Documentation](period-close-checklist)**.
 
 After completing these steps, Revenue Recognition will be activated on your site.
+
+# FAQ
+
+**Q: What happens if we ignore credit transactions?**
+A: Credits (goodwill, on-account, prepayments) won’t be included in revenue recognition calculations.
+
+**Q: Can we exit the onboarding wizard and resume later?**
+A: Yes. Progress is saved automatically. Any user with appropriate permissions can continue the setup.
+
+**Q: What does the Global Reporting Currency affect?**
+A: It sets the currency used in Revenue Recognition reports. It’s independent of your main Recurly site currency.
+
+**Q: What if a product is missing accounting codes?**
+A: Default settings will be applied, but you should assign rules and codes manually to ensure accurate reporting.
+
+**Q: How do I know if activation was successful?**
+A: You’ll receive a confirmation email, and the “activation in progress” notice will disappear from your dashboard.
