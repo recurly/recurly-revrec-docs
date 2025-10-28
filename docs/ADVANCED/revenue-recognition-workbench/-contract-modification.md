@@ -40,7 +40,7 @@ Contract modification in Recurly Revenue Recognition pertains to the approved al
 * **Efficiency**: Streamlined processes reduce manual intervention and errors.
 * **Transparency**: All modifications are traceable and viewable within the Revenue Workbench.
 
-<Image align="center" width="60% " src="https://files.readme.io/1c72453-image.png" />
+<Image align="center" border={false} width="60% " src="https://files.readme.io/1c72453-image.png" />
 
 # Types of modification supported in Recurly Revenue Recognition
 
@@ -55,7 +55,7 @@ Recurly Revenue Recognition supports six primary types of contract modifications
 
 The following screenshot illustrates the diverse contract modifications supported by Recurly Recurly Revenue Recognition:
 
-<Image align="center" className="border" width="75% " border={true} src="https://files.readme.io/1b83a1b-image.png" />
+<Image align="center" border={true} width="75% " src="https://files.readme.io/1b83a1b-image.png" className="border" />
 
 ## Important terminology in contract modification
 
@@ -71,7 +71,7 @@ In Recurly Recurly Revenue Recognition, users can define the Contract Revision L
 
 1. **Navigate** to: Setup → Profiles → Contract Revision Level option.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/a008b06-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/a008b06-image.png" className="border" />
 
 2. In the value column of the Contract Revision Level option, select from the dropdown:
    * **All**: All changes to the contract are treated as modifications.
@@ -85,7 +85,7 @@ To tailor the treatment during contract modification, follow these steps:
 1. **Navigate** to Setup → Contract Modification.
 2. **Choose** the desired contract modification rule from the dropdown list.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/c5aaee1-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/c5aaee1-image.png" className="border" />
 
 ## Viewing modifications in the workbench
 
@@ -94,30 +94,33 @@ To inspect a Contract Modification:
 1. **Access** the Revenue Workbench and select the modified contract.
 2. Under the modifications tab of the contract, all changes and revision levels are displayed.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/56a1b13-image.png" />
+<Image align="center" border={true} src="https://files.readme.io/56a1b13-image.png" className="border" />
 
 # FAQs
 
-**Q:** What is a Contract Modification in Recurly Revenue Recognition Advanced?\
+**Q:** What is a Contract Modification in Recurly Revenue Recognition Advanced?  
 **A:** It's an approved change in the price, term, or both of a contract within Recurly's revenue recognition platform. Both the supplier and customer must agree on this modification.
 
-**Q:** How many types of modifications does Recurly Revenue Recognition Advanced support?\
+**Q:** How many types of modifications does Recurly Revenue Recognition Advanced support?  
 **A:** Recurly RevRec supports six primary types of modifications, each with its own sub-types. These include New Line/POB, Price Change, Quantity Change, Term Change, Cancellations/Returns, and All Others.
 
-**Q:** Can I manually modify a contract in Recurly Revenue Recognition Advanced?\
+**Q:** Can I manually modify a contract in Recurly Revenue Recognition Advanced?  
 **A:** Yes, you can make manual modifications using the Revenue Workbench. However, these changes are treated as a special "All Others" type of Contract Modification.
 
-**Q:** How can I view the changes made to a contract?\
+**Q:** How can I view the changes made to a contract?  
 **A:** Navigate to the Revenue Workbench and select the modified contract. Under the modifications tab, you'll see all changes and revision levels.
 
-**Q:** What's the difference between "Cumulative Catchup" and "Prospective Catchup" treatments?\
+**Q:** What's the difference between "Cumulative Catchup" and "Prospective Catchup" treatments?  
 **A:** "Cumulative Catchup" considers the retrospective approach, recalculating amounts from the beginning of the contract. "Prospective Catchup" only considers changes from the moment they were made, excluding amounts posted in closed periods.
 
-**Q:** How do I set the Contract Revision Level?\
+**Q:** How do I set the Contract Revision Level?  
 **A:** Go to Setup → Profiles → Contract Revision Level option. From there, you can select the desired revision level from the dropdown, such as "All," "Period," or "Quarter."
 
-**Q:** What happens if a new line's sell price falls outside the SSP range?\
+**Q:** What happens if a new line's sell price falls outside the SSP range?  
 **A:** It's termed as "Outside SSP Range." This terminology is used to describe the sell price of a new line in relation to the SSP range.
 
-**Q:** Are all modifications treated the same way in Recurly Recurly Revenue Recognition Advanced?\
+**Q:** Are all modifications treated the same way in Recurly Recurly Revenue Recognition Advanced?  
 **A:** No, modifications can be treated in various ways, including "Cumulative Catchup," "Prospective Catchup," and "No Allocation," depending on the nature of the change and the settings you choose.
+
+**Q:** What are Contract Modification Rules and how do they automate one-off scenarios in Recurly RevRec?
+A: Contract Modification Rules define how RevRec automates one-off contract changes, such as upsells, downsells, or extensions. Configuration steps are detailed in the **Application setup → Contract modification** section. See the **Contract Modification** documentation for complete setup guidance.
