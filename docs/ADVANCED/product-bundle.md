@@ -28,7 +28,7 @@ In Recurly Revenue Recognition Advanced, a **Product Bundle** is defined by a Pa
 
 1. Navigate to the **Transformation** section and select **Product Bundle**.
 
-<Image align="center" className="border" border={true} width="30% " src="https://files.readme.io/bb61372-image.png" />
+<Image align="center" border={true} width="30% " src="https://files.readme.io/bb61372-image.png" className="border" />
 
 2. **Click** the **New** icon to create a Product Bundle.
 3. **Provide** a **unique name** for the bundle.
@@ -40,9 +40,9 @@ In Recurly Revenue Recognition Advanced, a **Product Bundle** is defined by a Pa
 9. To edit, modify fields and click **Save** again.
 10. To delete a bundle configuration, click the **Delete** icon.
 
-*Below: example configuration of a “TV Bundle”.*
+_Below: example configuration of a “TV Bundle”._
 
-![](https://files.readme.io/ea99384-image.png)
+<Image border={false} src="https://files.readme.io/ea99384-image.png" />
 
 ## Defining bundle rules
 
@@ -61,7 +61,7 @@ In Recurly Revenue Recognition Advanced, a **Product Bundle** is defined by a Pa
 
 **Example:** Configuring a TV Bundle with five child lines. Each line uses percentage formulas to split the parent’s total sales, list, and cost values. Quantities can be set independently of the SO file’s quantity.
 
-![](https://files.readme.io/17c008d-image.png)
+<Image border={false} src="https://files.readme.io/17c008d-image.png" />
 
 ## How it works
 
@@ -71,3 +71,11 @@ When you upload an SO file containing the Parent Identifier:
 * It applies your configured formulas to split the parent line into child lines.
 * Each child line inherits calculated Sell Price, List Price, Cost, and Quantity.
 * Revenue recognition, cost allocation, and commission tracking occur automatically at the child-line level.
+
+# FAQ
+
+**Q: How do I set up and process Bundles (Product Bundles) for revenue recognition?**
+A: Set up and processing steps are covered in **Data transformation → Product bundles**. Follow the **Product Bundle** documentation for the complete configuration and processing flow.
+
+**Q: Why isn’t my product bundle splitting correctly in the Revenue Workbench?**
+A: The most common cause is a mismatched **Parent Identifier**. For a bundle to split, the Parent Identifier on each contract line must **exactly match** the identifier defined in the product bundle setup. Double-check for case sensitivity, extra spaces, or typos.
