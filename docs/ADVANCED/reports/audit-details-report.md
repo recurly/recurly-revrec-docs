@@ -40,3 +40,8 @@ To access and configure the Audit Details Report:
 * **Action:** Describes the type of action performed.
 * **Parameters:** Lists the parameters or settings that were changed.
 * **Comments:** Contains any comments or additional details regarding the change.
+
+# FAQ
+
+**Q: I need to reconcile my revenue journal entries. Where can I access the Audit Details report?**
+A: Open **RevRec**, go to **Analytics → Reports → Audit details**. This report provides line-level entries, references, and filters needed for reconciliation and controls. For step-by-step usage and field definitions, see the **Audit Details Report** documentation.
