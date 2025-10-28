@@ -78,3 +78,8 @@ You can add more columns to the report or use them as search fields by selecting
 * **Batch ID**: The unique identifier for a group of transactions processed together. Useful for tracing back the entries to a specific batch.
 * **Period ID**: Indicates the accounting period (e.g., "24 03" for March 2024). Helps in filtering or segmenting the data by specific periods.
 * **Contract ID**: The unique identifier for contracts. Helps you quickly locate transactions related to specific contracts.
+
+# FAQ
+
+**Q: Where do I find the documentation for generating and understanding the Journal Entries report in RevRec?**
+A: Go to **Analytics → Reports → Journal entries** for the in-app report. For step-by-step instructions, field definitions, and examples, see the **Reports: Journal Entries** documentation in the **Reports** section.
