@@ -42,3 +42,10 @@ To access and configure the SSP Exception Report:
 * **Item:** Details the item or service involved in the transaction.
 * **Sell Price:** Shows the selling price of the item.
 * **List Price:** Displays the list price of the item.
+
+# FAQ
+
+**Q: How do I generate a report to identify contracts with SSP exceptions or other data quality issues?**
+A: Use the **Exception report** (commonly used for **SSP Exceptions**) to flag pricing outside SSP bands, missing SSP assignments, and related configuration gaps. Go to **Analytics → Reports → Exception report**, choose your **Book** and **period**, and run the report. From there, drill into affected contracts/lines and remediate in **Rules → SSP (Analyzer)** or via **Workbench** as needed. For step-by-step instructions and field definitions, see the **Exception report** documentation.
+
+<br />
