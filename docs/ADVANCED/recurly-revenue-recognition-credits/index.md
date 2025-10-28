@@ -62,7 +62,7 @@ You have the flexibility to incorporate credits into your revenue recognition in
 1. **Navigate** to Setup → Profiles
 2. Under 'Ignore Credit Event Transactions' **select** 'Yes' or 'No'.
 
-<Image align="center" className="border" border={true} width="50% " src="https://files.readme.io/5e90165b450dba809bb3614de2b2eba06b3b2d562d3ec5f1af57539d9f9909b4-Screenshot_2024-10-15_at_12.05.59_PM.png" />
+<Image align="center" border={true} width="50% " src="https://files.readme.io/5e90165b450dba809bb3614de2b2eba06b3b2d562d3ec5f1af57539d9f9909b4-Screenshot_2024-10-15_at_12.05.59_PM.png" className="border" />
 
 ## Key details
 
@@ -81,3 +81,23 @@ Visit our dedicated guides:
     Customers pay in advance for services or products. Prepayments are tracked and reported in revenue recognition for better forecasting.
   </Card>
 </Cards>
+
+# FAQ 
+
+**Q: What are the credit-event lines that appear in some contracts?**
+A: When a credit transaction flows from Recurly into RevRec, a **credit-event** line is created to track that credit and to balance it once it’s fully used.
+
+**Q: How are credit events shown in RevRec?**
+A: Credits can arise in different ways, and RevRec treats them accordingly:
+
+* **Goodwill credit:** A free, promotional credit (appears as a Credit Invoice in Recurly). It enters RevRec as one line; each redemption posts as a separate line. Identify via **origin = credit-event** and **plan code**.
+* **On-account credit:** Typically issued instead of a cash refund (e.g., post-cancellation). It enters as one line; each redemption is a separate line. Identify via **origin = credit-event**.
+* **Prepayment credit:** Customer-funded advance for future services. In RevRec it appears as **one SO line with two invoices**; any credit adjustment posts as a new line.
+
+**Q: How can I see a customer’s total available credit balance?**
+A: In Recurly, open the customer’s account page. The sum of the **Sell Price** for all **active credit lines** equals the customer’s total credit balance.
+
+**Q: How can I identify credit-related transactions in RevRec?**
+A: Filter by line-item **origin = credit-event**. The specific credit type or action (e.g., redemption, void) can be determined from the **plan code**.
+
+<br />
