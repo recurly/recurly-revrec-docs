@@ -34,7 +34,7 @@ To access and configure the Doc Stage Report:
 
    <br />
 
-   <Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/51a3f800e0db6092eae7f5f93f8b6134d94c1405a640db3f09a79f2acdbdcf27-1.Introduction.png" />
+   <Image align="center" border={true} width="80% " src="https://files.readme.io/51a3f800e0db6092eae7f5f93f8b6134d94c1405a640db3f09a79f2acdbdcf27-1.Introduction.png" className="border" />
 
    <br />
 
@@ -47,7 +47,7 @@ To access and configure the Doc Stage Report:
 
    <br />
 
-   <Image align="center" className="border" border={true} width="70% " src="https://files.readme.io/a43bc945c949d4568003f9af5a8cd3f4f51acbbad7316f9a6df2fe0d8ced1e2d-3._Doc_Stage_Report_Mapper.png" />
+   <Image align="center" border={true} width="70% " src="https://files.readme.io/a43bc945c949d4568003f9af5a8cd3f4f51acbbad7316f9a6df2fe0d8ced1e2d-3._Doc_Stage_Report_Mapper.png" className="border" />
 
    <br />
 
@@ -75,3 +75,29 @@ The following table outlines the possible error messages and their potential cau
 | Invalid INV. SO not present in System                    | When the invoice is loaded for a sales order that does not exist in the system, this error occurs.                                                                                                                    |
 | CM cannot be processed as INV is in error                | This will occur when the original invoice is in error status in the stage area. The solution is to review the reason for the invoice error.                                                                           |
 | Cumulative bill amount is over sell price                | This error occurs when overage is not allowed under profiles and the sum of invoice values for the subscription exceeds the sell price. The solution is to navigate to **profiles → Overage** and enable overage.     |
+
+# FAQ
+
+**Q: What should I do about an “Invalid References on INV” error?**
+A: The reference invoice number or invoice line number is incorrect. Check and correct the reference invoice details, then reprocess.
+
+**Q: Why did I get “Invalid INV. INV belongs to Material Right Contract”?**
+A: An invoice is associated with a **Material Right** contract line, which isn’t allowed. Remove the invoice information from the Material Right line.
+
+**Q: How do I resolve a “Bill Amount is incorrect” error?**
+A: The bill amount is wrong. Validate the amount on the bill and correct it before reprocessing.
+
+**Q: What does “Original Credit Memo does not exist or already Cancelled” mean?**
+A: You attempted to cancel a credit memo using reference details that don’t match an existing, active credit memo. Re-upload the cancellation with the correct reference details.
+
+**Q: How do I fix “Original Invoice does not exist or already Cancelled” or “Original Invoice does not exist”?**
+A: A credit memo references an invoice that doesn’t exist or was already cancelled. Correct the reference invoice details in your upload and reprocess.
+
+**Q: Why am I seeing “Invalid INV. SO not present in System”?**
+A: The invoice references a Sales Order (SO) that isn’t in the system. Reprocess the file using a valid, existing SO number.
+
+**Q: How do I resolve “CM cannot be processed as INV is in error”?**
+A: You’re processing a Credit Memo (CM) against an invoice currently in an **error** state. Fix the invoice error first; once the invoice processes successfully, submit the CM.
+
+**Q: What causes “Cumulative bill amount is over sell price”?**
+A: Total invoiced value for the subscription exceeds the sell price, and **over-billing** isn’t allowed. Go to **Profiles → Overage** and enable the overage setting (if appropriate for your policy).
