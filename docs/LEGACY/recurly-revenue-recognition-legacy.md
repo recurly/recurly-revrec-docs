@@ -12,15 +12,11 @@ next:
 ---
 # Overview
 
-<Callout icon="⚠️" theme="warn">
-  <strong>Legacy Revenue Recognition sunset — November 1, 2025.</strong>   
-
-  <br/>
-
-  This feature will be fully sunset on <strong>November 1, 2025</strong>. Access will become read-only prior to retirement.
-
-  Migrate to <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone#/" target="_blank" rel="noopener noreferrer">Recurly Revenue Recognition Standalone</a> to avoid disruption.
-</Callout>
+> ⚠️ Legacy Revenue Recognition sunset — November 1, 2025.
+>
+> This feature will be fully sunset on <strong>November 1, 2025</strong>. Access will become read-only prior to retirement.
+>
+> Migrate to <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone#/" target="_blank" rel="noopener noreferrer">Recurly Revenue Recognition Standalone</a> to avoid disruption.
 
 ### Required plan
 
