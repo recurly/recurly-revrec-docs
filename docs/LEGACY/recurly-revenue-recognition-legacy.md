@@ -12,9 +12,9 @@ next:
 ---
 # Overview
 
-> ⚠️ Legacy Revenue Recognition sunset — November 1, 2025.
+> ⚠️ Legacy Revenue Recognition sunset — October 31, 2025.
 >
-> This feature will be fully sunset on <strong>November 1, 2025</strong>. Access will become read-only prior to retirement.
+> This feature was fully sunset on <strong>October 31, 2025</strong>. Access is read-only.
 >
 > Explore <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-standalone#/" target="_blank" rel="noopener noreferrer">Recurly Revenue Recognition Standalone</a>.
 
