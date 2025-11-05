@@ -25,6 +25,10 @@ Venture into our concise video overview and unveil the power of Recurly's Revenu
 
 This feature **may not be included** in the Starter or Pro plans. If you are interested, please contact [Recurly Sales](https://recurly.com/demo/contact-sales/) to discuss upgrade options.
 
+> ⚠️ Legacy Revenue Recognition sunset — October 31, 2025.
+>
+> **Legacy Revenue Recognition was sunset on <strong>October 31, 2025</strong>.** Access remains read-only.
+
 ### Additional cost
 
 This feature or setting requires an additional cost. Please reach out to your Recurly account manager or [support@recurly.com](mailto:support@recurly.com) for more pricing details.
