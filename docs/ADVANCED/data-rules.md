@@ -128,4 +128,62 @@ Here, the object is "Integration". The rules section is empty, and the criteria 
 
 <Image align="center" border={true} width="80% " src="https://files.readme.io/7775a126615e2e8571de8a43237d56f4a64fd20051db4e7976fac9f44d8c9057-4._SS.png" className="border" />
 
+## Operator usage
+
+In Recurly Revenue Recognition (RevRec), operators let you define the logic used in Data Rules criteria. Each operator compares a field (like Country, Plan Name, or Discount %) to a value, so RevRec can decide whether a rule should apply.
+
+### Supported operators
+
+RevRec supports eight operators for Data Rules criteria.
+
+| Operator                 | Symbol         | What it does                                                                  | Example                                                              |
+| ------------------------ | -------------- | ----------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| Equal to                 | `=`            | Matches when the field value exactly equals the value you enter               | Country `=` `USA` (matches only `USA`)                               |
+| Not equal to             | `<>`           | Matches when the field value is anything other than the value you enter       | Source `<>` `Manual` (matches `Recurly`, `App Management`, and more) |
+| Less than or equal to    | `<=`           | Matches when a number or date is less than or equal to the value you enter    | Discount % `<=` `15` (matches `15`, `10`, `0`)                       |
+| Greater than or equal to | `>=`           | Matches when a number or date is greater than or equal to the value you enter | Total Amount `>=` `5,000` (matches `5,000`, `5,001`)                 |
+| Less than                | `<`            | Matches when a number or date is strictly less than the value you enter       | Quantity `<` `10` (matches `nine`, `eight`, but not `10`)            |
+| Greater than             | `>`            | Matches when a number or date is strictly greater than the value you enter    | Quantity `>` `10` (matches `11`, `12`, but not `10`)                 |
+| Contains                 | `contains`     | Matches when the field includes the value anywhere inside it (partial match)  | Plan Name `contains` `Gold` (matches `Gold Plan`, `Premium Gold`)    |
+| Not contains             | `not contains` | Matches when the field does not include the value anywhere inside it          | Plan `not contains` `Gold` (filters out values containing `Gold`)    |
+
+## Tips for accurate matches
+
+### Watch for trailing spaces
+
+A value like `Gold ` (with a trailing space) won’t match `Gold`. If a rule looks right but doesn’t trigger, check for extra spaces in your criteria values.
+
+### Use the right operator for your intent
+
+* Use `=` and `<>` when you need exact matches
+* Use `contains` and `not contains` when you need partial matches (substring checks)
+
+# FAQs
+
+**Q: Can I delete a Data Rule after I’ve created it?**
+**A**: No. To maintain an audit trail for revenue compliance, Data Rules can’t be permanently deleted. You can set a rule to **Inactive** to preserve history while preventing it from processing new data.
+
+**Q: Do new Data Rules apply to historical data?**
+**A**: No. A new rule applies only to data imported after the rule is created and set to active.
+
+**Q: How do I create an “AND” condition?**
+**A**: Add multiple lines in the **Criteria** section of a single rule. The rule triggers only if all criteria lines are met.
+
+**Q: What’s the difference between `<>` and `not contains`?**
+**A**: `<>` (not equal to) checks for an exact mismatch. For example, `<> Service` will still match `Service Fee` because `Service Fee` is not exactly `Service`.
+`not contains` checks for substring exclusion. For example, `not contains Service` will exclude `Service`, `Service Fee`, and `Customer Service`.
+
+**Q: Can I use Data Rules to correct integrated data?**
+**A**: Yes. For example, if your upstream system sometimes sends a blank Country value, you can set a default:
+
+* Criteria: Country `=` `[Blank]`
+* Action: Set Country to `Default`
+
+**Q: Why isn’t my rule working?**
+**A**: Check these common issues:
+
+* **Effective dates**: The transaction date might be outside the rule’s start or end date
+* **Status**: The rule might be set to **Inactive**
+* **Trailing spaces**: Your criteria value might include extra spaces (for example, `Gold ` instead of `Gold`)
+
 <br />
