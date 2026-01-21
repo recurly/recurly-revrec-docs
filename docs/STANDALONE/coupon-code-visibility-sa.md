@@ -1,5 +1,5 @@
 ---
-title: Coupon code - Standalone
+title: Coupon code visibility - Standalone
 excerpt: >-
   Track coupon codes in RevRec at the subscription and charge line level for
   discount traceability.
