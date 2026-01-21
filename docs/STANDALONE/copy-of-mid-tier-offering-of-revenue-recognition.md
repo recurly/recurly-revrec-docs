@@ -1,5 +1,5 @@
 ---
-title: Copy of Mid-tier offering of Revenue Recognition
+title: Mid-tier offering of Revenue Recognition - Standalone
 excerpt: >-
   Learn what’s included in RevRec’s mid-tier offering, plus optional modules you
   can enable as you scale.
