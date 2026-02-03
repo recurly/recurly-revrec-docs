@@ -52,12 +52,12 @@ Use this method when you want to control derivation **line by line** in the file
 
 Use this method when you want RevRec to derive exchange rates **for all uploaded order lines by default**.
 
-1. Go to **Transformation** → **Data Rule**.
-2. Create a new data rule:
+1. **Go to** **Transformation** → **Data Rule**.
+2. **Create** a new data rule:
 
    * Enter a **Name**.
    * Select **Order Line** as the **object**.
-3. Set the attribute:
+3. **Set** the attribute:
 
    * Under **Application Attributes**, select `Derive ExRate`.
    * Under **Value**, enter `Yes`.
@@ -94,16 +94,16 @@ Use this method when you want to control derivation **line by line** for costs.
 
 Use this method when you want RevRec to derive exchange rates **for all uploaded cost lines by default**.
 
-1. Go to **Transformation** → **Data Rule**.
-2. Create a new data rule:
+1. **Go to** **Transformation** → **Data Rule**.
+2. **Create** a new data rule:
 
    * Enter a **Name**.
    * Select **Cost** as the **object**.
-3. Set the attribute:
+3. **Set** the attribute:
 
    * Under **Application Attributes**, select `Cost Derive Ex Rates`.
    * Under **Value**, enter `Yes`.
-4. Save the data rule.
+4. **Save** the data rule.
 
 <Image align="center" border={true} src="https://files.readme.io/5e5c7bccd34a812ec7479b150f2160ed53ced99cbfaf410bb165958904152db5-4_Screenshot.png" className="border" />
 
