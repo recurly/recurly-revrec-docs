@@ -37,6 +37,8 @@ This capability is controlled through attribute labels:
 
 **Navigation:** **Setup** → **Attribute labels**
 
+<Image align="center" border={true} src="https://files.readme.io/6ca52efce3c2984bba6ad9e99c5c5b14bdd0b3c414f437bdac04c0d5f8894a07-1_Screenshot_.png" className="border" />
+
 You can enable this feature in either of the following ways:
 
 ### Method 1: Set `Derive ExRate` in your upload file
@@ -59,7 +61,9 @@ Use this method when you want RevRec to derive exchange rates **for all uploaded
 
    * Under **Application Attributes**, select `Derive ExRate`.
    * Under **Value**, enter `Yes`.
-4. Save the data rule.
+4. **Save** the data rule.
+
+<Image align="center" border={true} src="https://files.readme.io/8fa01b20f0ee79565c0d3f695579d9fdbfd41893fde1e66b7a279ce06e35c327-2_Screenshot.png" className="border" />
 
 **Result:** After you save the rule, RevRec automatically populates `Derive ExRate = Yes` for all uploaded order lines.
 
@@ -74,6 +78,8 @@ Use this method when you want RevRec to derive exchange rates **for all uploaded
 ## Derive exchange rates for costs (cost lines)
 
 **Navigation:** **Setup** → **Attribute labels** → **Cost**
+
+<Image align="center" border={true} src="https://files.readme.io/d9b8d6246f11df3d17d506c13ad0d30f081964f0a6a4107409d46f55f60d26e8-3_Screenshot.png" className="border" />
 
 You can enable this feature in either of the following ways:
 
@@ -98,6 +104,8 @@ Use this method when you want RevRec to derive exchange rates **for all uploaded
    * Under **Application Attributes**, select `Cost Derive Ex Rates`.
    * Under **Value**, enter `Yes`.
 4. Save the data rule.
+
+<Image align="center" border={true} src="https://files.readme.io/5e5c7bccd34a812ec7479b150f2160ed53ced99cbfaf410bb165958904152db5-4_Screenshot.png" className="border" />
 
 **Result:** After you save the rule, RevRec automatically populates `Cost Derive Ex Rates = Yes` for all uploaded cost lines.
 
