@@ -49,96 +49,77 @@
                   "properties": {
                     "OrdNumber": {
                       "type": "string",
-                      "description": "Order number is the subscription ID of the line"
+                      "default": "string"
                     },
                     "OrdLine": {
                       "type": "string",
-                      "description": "Order line is the origin or addon line id of the charge line"
+                      "default": "string"
                     },
                     "ConfirmDate": {
-                      "type": "string",
-                      "description": "Confirm Date captures the contract's effective date for system processing and allocation"
+                      "type": "string"
                     },
                     "SellPrice": {
-                      "type": "number",
-                      "description": "Sell Price is the total sale value of the contract line"
+                      "type": "number"
                     },
                     "ListPrice": {
-                      "type": "number",
-                      "description": "The list price is the price of the subscription/item before the discount and coupons"
+                      "type": "number"
                     },
                     "Currency": {
-                      "type": "string",
-                      "description": "The currency in which the subscription is billed"
+                      "type": "string"
                     },
                     "CompanyCurrency": {
-                      "type": "string",
-                      "description": "Company Currency is the base or company currency for the entity, which is required if it differs from the transaction currency"
+                      "type": "string"
                     },
                     "CExRate": {
-                      "type": "number",
-                      "description": "The Company Exchange Rate is the exchange rate between the transaction currency and the entity currency, which is required if they are different currencies"
+                      "type": "number"
                     },
                     "GExRate": {
-                      "type": "number",
-                      "description": "The Global/Reporting Exchange Rate is the exchange rate between the entity currency and the reporting currency which is required if they are different currencies"
+                      "type": "number"
                     },
                     "StartDate": {
-                      "type": "string",
-                      "description": "The Start Date represents the beginning of the service term (if applicable) for the contract line item. This date is used for allocation over time"
+                      "type": "string"
                     },
                     "EndDate": {
-                      "type": "string",
-                      "description": "The End Date represents the end of the service term (if applicable) for the contract line item. This date is used for allocation over time"
+                      "type": "string"
                     },
                     "DeliveryDate": {
-                      "type": "string",
-                      "description": "The Delivery Date represents the delivery date of the item"
+                      "type": "string"
                     },
                     "Quantity": {
-                      "type": "number",
-                      "description": "Quantity of the item sold on the order line"
+                      "type": "number"
                     },
                     "Term": {
                       "type": "number"
                     },
                     "Duration": {
-                      "type": "number",
-                      "description": "Duration of the service/contract in months"
+                      "type": "number"
                     },
                     "SSP": {
-                      "type": "number",
-                      "description": "Standalone Selling Price is the fair value to use for the contract line’s allocation when an SSP from outside the Recurly RevRec system is required"
+                      "type": "number"
                     },
                     "CV": {
                       "type": "number"
                     },
                     "Item": {
-                      "type": "string",
-                      "description": "Item is the name or SKU of the contract line item"
+                      "type": "string"
                     },
                     "Customer": {
-                      "type": "string",
-                      "description": "Customer is the name of the end-customer associated with the subscription"
+                      "type": "string"
                     },
                     "DRAccount": {
-                      "type": "string",
-                      "description": "This field holds the Dr Account, which would be the liability account for a revenue line. If this value is not included, the Recurly RevRec system will default to the Liability account of the associated sales order/contract line"
+                      "type": "string"
                     },
                     "CRAccount": {
-                      "type": "string",
-                      "description": "This field holds the Cr Account.For a revenue line, this would be the revenue account. For a cost line, this would be the COGS account"
+                      "type": "string"
                     },
                     "BaseAmount": {
-                      "type": "number",
-                      "description": "The baseAmount is used for lines where only a portion of the Sell Price should be used for allocation. Any Sell Price amount above the baseAmount for this line will be considered an “overage” by Recurly RevRec and recognized point in time"
+                      "type": "number"
                     },
                     "ExpectedRnwl": {
                       "type": "number"
                     },
                     "FINPct": {
-                      "type": "number",
-                      "description": "SFC interest rate"
+                      "type": "number"
                     },
                     "Company": {
                       "type": "string"
@@ -147,251 +128,190 @@
                       "type": "number"
                     },
                     "Allocation": {
-                      "type": "boolean",
-                      "description": "The Allocation element identifies whether a line is eligible to participate in the allocation of revenue across a revenue arrangement"
+                      "type": "boolean"
                     },
                     "RightToBill": {
                       "type": "boolean"
                     },
                     "F1": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F2": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F3": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F4": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F5": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F6": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F7": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F8": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F9": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F10": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F11": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F12": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F13": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F14": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F15": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F16": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F17": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F18": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F19": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F20": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F21": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F22": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F23": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F24": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F25": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F26": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F27": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F28": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F29": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F30": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F31": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F32": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F33": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F34": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F35": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F36": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F37": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F38": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F39": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F40": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F41": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F42": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F43": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F44": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F45": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F46": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F47": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F48": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F49": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F50": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F51": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F52": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F53": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F54": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F55": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F56": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F57": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F58": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F59": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     },
                     "F60": {
-                      "type": "string",
-                      "description": "Fields F1-F60 are flex fields that can be configured in the Recurly RevRec system for additional contract line attributes"
+                      "type": "string"
                     }
                   }
                 }
@@ -514,84 +434,64 @@
                   "type": "object",
                   "properties": {
                     "ProcessedFlag": {
-                      "type": "string",
-                      "description": "Indicates the current state of doc line"
+                      "type": "string"
                     },
                     "OrdNumber": {
-                      "type": "string",
-                      "description": "The Sales Order Number of the associated sales order/contract line that is critical to reference the bill line to a contract."
+                      "type": "string"
                     },
                     "OrdLine": {
-                      "type": "string",
-                      "description": "The Sales Order Line of the associated sales order/contract line that is critical to reference the bill line to a contract."
+                      "type": "string"
                     },
                     "DocType": {
-                      "type": "string",
-                      "description": "The Doc Type identifies the bill line as a particular invoice or credit line, and it determines the action the Recurly RevRec system will perform on the line."
+                      "type": "string"
                     },
                     "DocNumber": {
-                      "type": "string",
-                      "description": "This is commonly the invoice or credit memo number. The combination of Doc Line + Doc Number must be unique for each bill line in Recurly RevRec"
+                      "type": "string"
                     },
                     "DocLine": {
-                      "type": "string",
-                      "description": "This is commonly the invoice or credit memo line. The combination of Doc Line + Doc Number must be unique for each bill line in Recurly RevRec"
+                      "type": "string"
                     },
                     "DocDate": {
-                      "type": "string",
-                      "description": "Doc Date is the invoice or credit memo date that is used to record the liability balance in the Recurly RevRec system"
+                      "type": "string"
                     },
                     "RefDocNumber": {
-                      "type": "string",
-                      "description": "For credit memo lines, the Reference Doc Number is the invoice number with which the credit memo is associated. This value is critical to link a credit memo to its parent invoice."
+                      "type": "string"
                     },
                     "RefDocLine": {
-                      "type": "string",
-                      "description": "For credit memo lines, the Reference Doc Line is the invoice line with which the credit memo is associated. This value is critical to link a credit memo to its parent invoice"
+                      "type": "string"
                     },
                     "Amount": {
-                      "type": "number",
-                      "description": "The Amount is the key element to be posted and represents the total value of the doc line"
+                      "type": "number"
                     },
                     "Quantity": {
-                      "type": "number",
-                      "description": "Quantity of the item sold on the bill line"
+                      "type": "number"
                     },
                     "Currency": {
-                      "type": "string",
-                      "description": "Currency is the transaction currency for the bill line"
+                      "type": "string"
                     },
                     "CompanyCurrency": {
-                      "type": "string",
-                      "description": "Company Currency is the base or company currency for the entity, which is required if it differs from the transaction currency."
+                      "type": "string"
                     },
                     "CExRate": {
-                      "type": "number",
-                      "description": "The Company Exchange Rate is the exchange rate between the transaction currency and the entity currency, which is required if they are different currencies"
+                      "type": "number"
                     },
                     "GExRate": {
-                      "type": "number",
-                      "description": "The Global/Reporting Exchange Rate is the exchange rate between the entity currency and the reporting currency which is required if they are different currencies"
+                      "type": "number"
                     },
                     "StartDate": {
-                      "type": "string",
-                      "description": "The Start Date represents the beginning of the service term (if applicable) for the bill line item"
+                      "type": "string"
                     },
                     "EndDate": {
-                      "type": "string",
-                      "description": "The End Date represents the end of the service term (if applicable) for the bill line item"
+                      "type": "string"
                     },
                     "DRAccount": {
-                      "type": "string",
-                      "description": "This field holds the Debit Account for the invoice line."
+                      "type": "string"
                     },
                     "CRAccount": {
-                      "type": "string",
-                      "description": "This field holds the Credit Account for the invoice line."
+                      "type": "string"
                     },
                     "CreditRule": {
-                      "type": "string",
-                      "description": "The Credit Rule is only applicable for credit memo lines, and it determines how the system will apply the credit amount to revenue"
+                      "type": "string"
                     },
                     "ObjectType": {
                       "type": "integer"
@@ -603,24 +503,19 @@
                       "type": "boolean"
                     },
                     "F1": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional bill line attributes"
+                      "type": "string"
                     },
                     "F2": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional bill line attributes"
+                      "type": "string"
                     },
                     "F3": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional bill line attributes"
+                      "type": "string"
                     },
                     "F4": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional bill line attributes"
+                      "type": "string"
                     },
                     "F5": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional bill line attributes"
+                      "type": "string"
                     }
                   }
                 }
@@ -683,127 +578,91 @@
                   "type": "object",
                   "properties": {
                     "ProcessedFlag": {
-                      "type": "string",
-                      "description": "Indicates the current state of the cost line"
+                      "type": "string"
                     },
                     "OrdNumber": {
-                      "type": "string",
-                      "description": "The Sales Order Number of the associated sales order/contract line is critical to reference the cost to a contract"
-                    },
-                    "costTypeID": {
-                      "type": "string",
-                      "description": "Cost Type ID associates the cost line with a Cost Type configured in Recurly RevRec"
-                    },
-                    "costID": {
-                      "type": "string",
-                      "description": "Cost ID is unique identifier for the given cost type. It could be mapped to any extended fields like Sales Representative Name. If nothing is provided one cost line per one cost type is allowed"
+                      "type": "string"
                     },
                     "OrdLine": {
-                      "type": "string",
-                      "description": "The Sales Order Line of the associated sales order/contract line is critical to reference the cost to a contract"
+                      "type": "string"
                     },
                     "Amount": {
-                      "type": "number",
-                      "description": "The Cost Amount is the key element to be posted, and represents the total value of the cost line"
+                      "type": "number"
                     },
                     "EstmtdAmt": {
-                      "type": "number",
-                      "description": "The Estimated Cost Amount"
+                      "type": "number"
                     },
                     "Currency": {
-                      "type": "string",
-                      "description": "Cost Currency is the transaction currency for the cost line"
+                      "type": "string"
                     },
                     "CompanyCurrency": {
-                      "type": "string",
-                      "description": "Company Currency is the base or company currency for the entity, which is required if it defers from the transaction currency"
+                      "type": "string"
                     },
                     "CExRate": {
-                      "type": "number",
-                      "description": "The Company exchange Rate is the exchange rate between the transaction currency and the entity currency, which is required if they are different currencies"
+                      "type": "number"
                     },
                     "GExRate": {
-                      "type": "number",
-                      "description": "The Global/Reporting Exchange Rate is the exchange rate between the entity currency and the reporting currency which is required if they are different currencies"
+                      "type": "number"
                     },
                     "StartDate": {
-                      "type": "string",
-                      "description": "The start date represents the start of the service term (if applicable) for the cost line item"
+                      "type": "string"
                     },
                     "EndDate": {
-                      "type": "string",
-                      "description": "The end date represents the end of the service term (if applicable) for the cost line item. This date is used for allocation over time"
+                      "type": "string"
                     },
                     "DRAccount": {
-                      "type": "string",
-                      "description": "This field holds the Dr Account, which would be the DCOGS account for a COGS line"
+                      "type": "string"
                     },
                     "CRAccount": {
-                      "type": "string",
-                      "description": "This field holds the Cr Account, which would be the Recognized Cost account for a Cost line."
+                      "type": "string"
                     },
                     "ObjectType": {
                       "type": "integer"
                     },
                     "F1": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F2": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F3": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F4": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F5": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F6": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F7": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F8": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F9": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F10": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F11": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F12": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F13": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F14": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     },
                     "F15": {
-                      "type": "string",
-                      "description": "Fields F1-F15 are flex fields that can be configured in the Recurly RevRec system for additional cost line attributes."
+                      "type": "string"
                     }
                   }
                 }
@@ -867,20 +726,16 @@
                   "type": "object",
                   "properties": {
                     "OrdNumber": {
-                      "type": "string",
-                      "description": "The Sales Order number of the targeted sales order/contract line for the action of the business event."
+                      "type": "string"
                     },
                     "OrdLine": {
-                      "type": "string",
-                      "description": "The Sales Order Line number of the targeted sales order/contract line for the action business event."
+                      "type": "string"
                     },
                     "EventAction": {
-                      "type": "number",
-                      "description": "Action defines the treatment that the Recurly RevRec system will apply to the targeted item using the business event attributes."
+                      "type": "number"
                     },
                     "AccountMethod": {
-                      "type": "number",
-                      "description": "The revenue method controls how over time revenue is calculated per period. (This is an optional field that is available for advanced use cases; revMethod is usually controlled through performance obligation configuration.) "
+                      "type": "number"
                     },
                     "ValueType": {
                       "type": "integer",
@@ -890,51 +745,40 @@
                       "type": "number"
                     },
                     "StartDate": {
-                      "type": "string",
-                      "description": "The Start Date field can be used in conjunction with End Date and revMethod to recognize a particular amount of the targeted revenue line over time between two dates (e.g. recognize $20 between Start Date and End Date calculated Daily)."
+                      "type": "string"
                     },
                     "EndDate": {
-                      "type": "string",
-                      "description": "The end date represents the end of the event."
+                      "type": "string"
                     },
                     "ReleaseDate": {
-                      "type": "string",
-                      "description": "The release date is the date that the action will be applied to the targeted item. Unlike effective date, the action will be applied immediately to dates in future accounting periods as well (i.e. in waterfall reports)."
+                      "type": "string"
                     },
                     "ExpireDate": {
-                      "type": "string",
-                      "description": "The Expire Date is used for events meant to update the expiry date of a referenced revenue hold. "
+                      "type": "string"
                     },
                     "EffectiveDate": {
-                      "type": "string",
-                      "description": "The effective date is used when the business event should not be applied until a future period. Events with an effect date in a future accounting period will not apply any actions to a targeted line until that period is opened in the system"
+                      "type": "string"
                     },
                     "Account": {
-                      "type": "string",
-                      "description": "This field holds the Cr Account. For a revenue line, this would be the revenue account. For a cost line, this would be the COGS account"
+                      "type": "string"
                     },
                     "Comments": {
                       "type": "string"
                     },
                     "F1": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional event attributes."
+                      "type": "string"
                     },
                     "F2": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional event attributes."
+                      "type": "string"
                     },
                     "F3": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional event attributes."
+                      "type": "string"
                     },
                     "F4": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional event attributes."
+                      "type": "string"
                     },
                     "F5": {
-                      "type": "string",
-                      "description": "Fields F1-F5 are flex fields that can be configured in the Recurly RevRec system for additional event attributes."
+                      "type": "string"
                     }
                   }
                 }
@@ -980,7 +824,6 @@
         "parameters": [
           {
             "name": "bookId",
-            "description": "Book ID is the ID for the book to be included in the requested report. ",
             "in": "query",
             "required": true,
             "schema": {
@@ -1005,7 +848,6 @@
           {
             "name": "name",
             "in": "query",
-            "description": "Name of the upload to show in the UI. Passed as URL parameter",
             "required": true,
             "schema": {
               "type": "string",
@@ -1015,7 +857,6 @@
           {
             "name": "fileName",
             "in": "query",
-            "description": "Name of the upload File. Passed as URL parameter.",
             "required": true,
             "schema": {
               "type": "string",
@@ -1032,8 +873,7 @@
                 "properties": {
                   "file": {
                     "type": "string",
-                    "format": "binary",
-                    "description": "Excel file as a multipart/form-data"
+                    "format": "binary"
                   }
                 },
                 "required": [
@@ -1064,42 +904,34 @@
                 "type": "object",
                 "properties": {
                   "layoutId": {
-                    "type": "integer",
-                    "description": "unique identifier for the layout"
+                    "type": "integer"
                   },
                   "layoutName": {
-                    "type": "string",
-                    "description": "unique identifier for the layout"
+                    "type": "string"
                   },
                   "entityName": {
                     "type": "string"
                   },
                   "reportId": {
-                    "type": "integer",
-                    "description": "Report ID identifies the kind of report being requested."
+                    "type": "integer"
                   },
                   "reportType": {
-                    "type": "integer",
-                    "description": "Report Type identifies the kind of line data to include in the requested report."
+                    "type": "integer"
                   },
                   "bookId": {
-                    "type": "integer",
-                    "description": "Book ID is the ID for the book to be included in the requested report"
+                    "type": "integer"
                   },
                   "netType": {
                     "type": "integer"
                   },
                   "currencyType": {
-                    "type": "integer",
-                    "description": "Currency Type identifies the currency that should be used for the requested reports."
+                    "type": "integer"
                   },
                   "download": {
-                    "type": "boolean",
-                    "description": "True will return all data by compressing the csv file. false will return csv file with first 1000 rows( mainly used for validation)"
+                    "type": "boolean"
                   },
                   "periodId": {
-                    "type": "integer",
-                    "description": "Period ID identifies the accounting period in which to run the requested report. For waterfall reports, this will be the ending period of the requested report."
+                    "type": "integer"
                   },
                   "layoutFields": {
                     "type": "array",
@@ -1121,8 +953,7 @@
                     }
                   },
                   "waterFallType": {
-                    "type": "integer",
-                    "description": "Waterfall Type determines if requested waterfall report should include actuals, forecast, or both."
+                    "type": "integer"
                   },
                   "summarized": {
                     "type": "boolean"
@@ -1169,7 +1000,6 @@
             "name": "periodId",
             "in": "query",
             "required": true,
-            "description": "Period ID identifies the accounting period for which the transfer batches are requested",
             "schema": {
               "type": "integer",
               "example": 2210
@@ -1315,7 +1145,6 @@
           {
             "name": "batchId",
             "in": "query",
-            "description": "Transfer Batch Id",
             "required": true,
             "schema": {
               "type": "integer",
@@ -1323,6 +1152,81 @@
             }
           }
         ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "mapId": {
+                      "type": "integer"
+                    },
+                    "fieldConfigId": {
+                      "type": "integer"
+                    },
+                    "destination": {
+                      "type": "string"
+                    },
+                    "formula": {
+                      "type": "string"
+                    },
+                    "ordSeq": {
+                      "type": "integer"
+                    },
+                    "active": {
+                      "type": "integer"
+                    },
+                    "indicators": {
+                      "type": "integer"
+                    },
+                    "clientId": {
+                      "type": "integer"
+                    },
+                    "createdBy": {
+                      "type": "integer"
+                    },
+                    "updatedBy": {
+                      "type": "integer"
+                    },
+                    "creationDate": {
+                      "type": "string"
+                    },
+                    "updateDate": {
+                      "type": "string"
+                    },
+                    "periodCreated": {
+                      "type": "integer"
+                    },
+                    "state": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              },
+              "example": [
+                {
+                  "mapId": 0,
+                  "fieldConfigId": 7,
+                  "destination": null,
+                  "formula": null,
+                  "ordSeq": 1,
+                  "active": 0,
+                  "indicators": 1,
+                  "clientId": 10,
+                  "createdBy": 1,
+                  "updatedBy": 1,
+                  "creationDate": null,
+                  "updateDate": null,
+                  "periodCreated": 0,
+                  "state": 1
+                }
+              ]
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Transfer batch marked successfully"
@@ -1340,7 +1244,6 @@
           {
             "name": "batchId",
             "in": "query",
-            "description": "Transfer Batch Id",
             "required": true,
             "schema": {
               "type": "integer",
@@ -1348,6 +1251,81 @@
             }
           }
         ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "mapId": {
+                      "type": "integer"
+                    },
+                    "fieldConfigId": {
+                      "type": "integer"
+                    },
+                    "destination": {
+                      "type": "string"
+                    },
+                    "formula": {
+                      "type": "string"
+                    },
+                    "ordSeq": {
+                      "type": "integer"
+                    },
+                    "active": {
+                      "type": "integer"
+                    },
+                    "indicators": {
+                      "type": "integer"
+                    },
+                    "clientId": {
+                      "type": "integer"
+                    },
+                    "createdBy": {
+                      "type": "integer"
+                    },
+                    "updatedBy": {
+                      "type": "integer"
+                    },
+                    "creationDate": {
+                      "type": "string"
+                    },
+                    "updateDate": {
+                      "type": "string"
+                    },
+                    "periodCreated": {
+                      "type": "integer"
+                    },
+                    "state": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              },
+              "example": [
+                {
+                  "mapId": 0,
+                  "fieldConfigId": 7,
+                  "destination": null,
+                  "formula": null,
+                  "ordSeq": 1,
+                  "active": 0,
+                  "indicators": 1,
+                  "clientId": 10,
+                  "createdBy": 1,
+                  "updatedBy": 1,
+                  "creationDate": null,
+                  "updateDate": null,
+                  "periodCreated": 0,
+                  "state": 1
+                }
+              ]
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Transfer batch approved successfully"
