@@ -312,6 +312,9 @@
                     },
                     "F60": {
                       "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
                     }
                   }
                 }
