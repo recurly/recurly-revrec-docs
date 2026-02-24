@@ -49,11 +49,11 @@
                   "properties": {
                     "OrdNumber": {
                       "type": "string",
-                      "default": "string"
+                      "default": "1234"
                     },
                     "OrdLine": {
                       "type": "string",
-                      "default": "string"
+                      "default": "1111"
                     },
                     "ConfirmDate": {
                       "type": "string"
@@ -314,6 +314,9 @@
                       "type": "string"
                     },
                     "name": {
+                      "type": "string"
+                    },
+                    "name1": {
                       "type": "string"
                     }
                   }
