@@ -1,93 +1,183 @@
 ---
 title: Manual journal entry
+excerpt: Upload, review, and approve manual journal entries in Recurly RevRec.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-This guide provides a comprehensive walkthrough of the process for uploading a manual journal entry (JE) into the system. The process involves uploading a prepared file, specifying the posting details, and completing the review and approval workflow.  
-
-Before you begin, please ensure your Manual JE file is ready. This file must be properly formatted and contain all the mandatory columns listed below. The file can have any additional columns based on the requirement.
-
-* Subscription Number
-* Subscription Line
-* Account Type (Select one of the account type from the below list)
-* Asset
-* Liability
-* Revenue
-* COGS
-* Deferred COGS
-* Start Date (Can be blank)
-* End Date (Can be blank)
-* Dr Amount
-* Cr Amount
-* Account (Enter the account number along with segments)
-* Auto Reversal (Can be yes or no, depending on the scenario)
-* Currency
-* Company Currency
-* Ex-Rate
-* Company Ex-rate
-
 <br />
 
-Step 1: Navigate and Initiate the Upload
-Follow these steps to begin the upload process:
-Navigate to Journals: From the main system menu, go to Import / Export > Journals. This will take you to the journal upload screen.
+# Overview
 
-Add a New Journal Entry: Click on the + icon located on the screen. This action opens the interface for uploading a new manual JE.
+Use manual journal entries to upload accounting adjustments directly into Recurly Revenue Recognition (RevRec). This process gives you full control over the journal data, posting period, and approval workflow, which is useful when an entry must be recorded outside the system’s automated revenue recognition logic.
 
-Upload the File: Select and upload your prepared manual JE file from your computer.
-Select Posting Details: After the file is attached, you must specify where and when the entry should be posted:
-Books: From the dropdown menu, select the specific accounting books where this journal entry needs to be loaded.
-Period: Choose the appropriate accounting period (e.g., Sep-25) for the journal entry. This is crucial for accurate financial reporting.
-Save the Upload: Once you have selected the correct books and period, click the Save button.
-Step 2: Review and Approval Workflow
-After saving, the journal entry does not post immediately. It must go through a mandatory approval step.
-Check the Status: After you click Save, the file's status will change to "Approval Pending". You will notice an arrow icon () appear next to the entry, indicating that a further action is required.
+### Prerequisites
 
-Go to the Revenue Workbench: Click on the arrow icon. This is a shortcut that will navigate you directly to the Revenue Workbench.
-Review the Manual JE: In the Revenue Workbench, you can view the uploaded manual JE in a structured format. Carefully review all details:
-Verify the accounts being debited and credited.
-Confirm the amounts are correct.
-Check descriptions and other relevant data for accuracy.
-Approve or Reject the Entry: Based on your review, you have two options:
-Approve: If the journal entry is accurate and ready to be posted, enter the comments and click the Approve button. Once approved, the entries will be permanently posted.
+Before you upload a manual journal entry file, make sure:
 
-Reject: If you find any discrepancies or if the entry should not be posted, enter comments and click the Reject button. This will cancel the transaction and prevent it from affecting the books.
+* Your file is complete and properly formatted.
+* All mandatory columns are included.
+* Posting details such as **Books** and **Period** are known in advance.
+* The data has been reviewed for accuracy, including accounts, amounts, currency, and segment values.
 
-Once an entry is approved, the process is complete, and the transaction will be reflected in your reports for the selected period.
-Here are explanations for the common manual journal entries and their impact on financial reports.
-Example 1: Recognizing Revenue from Liability
-This entry debits liability and credit revenue. Below is the screenshot of one such entry.
-Journal Entry:
-Debit Liability (Deferred Revenue): Decreases the deferred revenue account, showing you've fulfilled your obligation.
-Credit Revenue: Increases the revenue account, reflecting the income you've earned.
+### Limitations
 
-Impact on Reports:
-The increase in revenue will be displayed in the Revenue Waterfall Report.
-The decrease in the liability balance will be shown in the Liability Balances Report.
-Example 2: Recognizing Cost (COGS)
-This entry is used to record the costs associated with the revenue. It is credited to the Deferred COGS account.
-Journal Entry:
-Debit COGS: the cost will be expensed
-Credit Deferred COGS: Decreases the deferred cost account.
+* Manual journal entries operate independently from automated RevRec rules.
+* RevRec does not derive or populate values from data rules, revenue schedules, or existing system logic.
+* You must manually provide all required financial dimensions and segments in the upload file.
+* If **Start Date** and **End Date** are blank, the full amount is recognized in the uploaded period.
+* If **Auto Reversal** is set to **Yes**, the current-period entry is reversed in the next period.
 
-Impact on Reports:
-The recognized cost will appear in the Cost Waterfall Report.
-The updated deferred cost balance will be visible in the Cost Balances Report.
-Example 3: Accruing Revenue with an Asset
+## Definition
 
-This entry is created while recognizing revenue from the asset account. We debit assets and credit revenue.
+A manual journal entry is a journal entry that you upload into RevRec using a prepared file. After upload, the entry moves through a review and approval workflow before it is posted to the selected books and period.
 
-Journal Entry:
-Debit Asset (e.g., Accounts Receivable): Increases your assets, showing that a customer owes you money.
-Credit Revenue: recognizes revenue for the period.
-Impact on Reports:
-The recognized revenue from this entry will be visible in the Revenue Waterfall Report. The asset part of the entry can be seen under the Asset Balances Report.
-Important Considerations for Manual Journal Entries (MJE)
-When preparing and uploading a Manual Journal Entry, it is crucial to understand that this process operates completely independently of the system's automated rules. Please review the following points carefully before posting:
-Entries are Fully Manual: As the name implies, a manual JE requires every piece of information to be provided by you in the upload file. The system will not automatically apply or derive any details from existing system configurations, such as data rules or revenue recognition settings. The data will be posted exactly as you provide it.
-All Segments Must Be Manually Input: The system will not automatically populate any financial dimensions or reporting segments (e.g., Department, Product Line, Region, Cost Centre).
-If the start and end dates are blank in the file, the system will recognize the entire revenue in the period uploaded. If the start and end dates are filled in, you will be able to see the waterfall based on the start and end dates.
-If the auto reversal is yes, the current period entry will be reversed in the next period.
-In short, the MJE feature provides you with precise control, but it also means the responsibility for the accuracy and completeness of the data. Always double-check your file before uploading.
+## Key benefits
+
+* Record accounting adjustments with precise control.
+* Post entries to specific books and accounting periods.
+* Support approval before posting.
+* Reflect manual adjustments in RevRec reporting, including waterfall and balance reports.
+
+## Key details
+
+### Prepare the upload file
+
+Your manual journal entry file must include the mandatory columns listed below. You can also include additional columns if needed for your process.
+
+| Column              | Requirement | Notes                                                                              |
+| :------------------ | :---------- | :--------------------------------------------------------------------------------- |
+| Subscription Number | Required    | Enter the subscription identifier.                                                 |
+| Subscription Line   | Required    | Enter the subscription line.                                                       |
+| Account Type        | Required    | Use one supported value such as Asset, Liability, Revenue, COGS, or Deferred COGS. |
+| Asset               | Conditional | Use when the entry affects an asset account.                                       |
+| Liability           | Conditional | Use when the entry affects a liability account.                                    |
+| Revenue             | Conditional | Use when the entry affects a revenue account.                                      |
+| COGS                | Conditional | Use when the entry affects a cost of goods sold account.                           |
+| Deferred COGS       | Conditional | Use when the entry affects deferred cost.                                          |
+| Start Date          | Optional    | Can be blank.                                                                      |
+| End Date            | Optional    | Can be blank.                                                                      |
+| Dr Amount           | Required    | Enter the debit amount.                                                            |
+| Cr Amount           | Required    | Enter the credit amount.                                                           |
+| Account             | Required    | Enter the account number, including segments.                                      |
+| Auto Reversal       | Required    | Enter **Yes** or **No**, depending on the scenario.                                |
+| Currency            | Required    | Enter the transaction currency.                                                    |
+| Company Currency    | Required    | Enter the company currency.                                                        |
+| Ex-Rate             | Required    | Enter the transaction exchange rate.                                               |
+| Company Ex-rate     | Required    | Enter the company exchange rate.                                                   |
+
+### Upload a manual journal entry
+
+1. **Go to** **Import / Export > Journals**.
+2. **Select** the **+** icon to create a new manual journal entry.
+3. **Upload** your prepared manual journal entry file.
+4. **Select** the posting details:
+   * **Books:** Choose the accounting books where the journal entry should be loaded.
+   * **Period:** Choose the accounting period for the entry, such as **Sep-25**.
+5. **Select** **Save**.
+
+After you save the file, the entry does not post immediately. RevRec changes the status to **Approval Pending** and displays an arrow icon next to the entry.
+
+### Review and approve the journal entry
+
+1. **Select** the arrow icon next to the uploaded file.
+2. **Open** the entry in the **Revenue Workbench**.
+3. **Review** the uploaded journal entry carefully, including:
+   * Debited and credited accounts
+   * Amounts
+   * Descriptions
+   * Any additional relevant values
+4. **Enter** review comments.
+5. Choose one of the following actions:
+   * **Approve** to post the journal entry permanently.
+   * **Reject** to cancel the transaction and prevent it from affecting the books.
+
+Once approved, the process is complete and the transaction is reflected in reports for the selected period.
+
+### How dates affect recognition
+
+The values in **Start Date** and **End Date** determine how RevRec reflects the entry:
+
+| Scenario                              | Result                                                                  |
+| :------------------------------------ | :---------------------------------------------------------------------- |
+| Start Date and End Date are blank     | RevRec recognizes the full amount in the uploaded period.               |
+| Start Date and End Date are populated | RevRec reflects the entry in the waterfall based on the provided dates. |
+
+### How auto reversal works
+
+If **Auto Reversal** is set to **Yes**, RevRec reverses the current-period entry in the next accounting period.
+
+### Reporting examples
+
+The following examples describe common manual journal entry scenarios and where their impact appears in RevRec reports.
+
+#### Recognize revenue from liability
+
+Use this entry when revenue is recognized from a liability balance such as deferred revenue.
+
+| Journal impact                     | Result                                                                         |
+| :--------------------------------- | :----------------------------------------------------------------------------- |
+| Debit Liability (Deferred Revenue) | Decreases deferred revenue, reflecting that the obligation has been fulfilled. |
+| Credit Revenue                     | Increases recognized revenue for the period.                                   |
+
+**Report impact**
+
+* Revenue appears in the **Revenue Waterfall Report**.
+* The reduced liability balance appears in the **Liability Balances Report**.
+
+#### Recognize cost (COGS)
+
+Use this entry to recognize cost associated with revenue.
+
+| Journal impact       | Result                               |
+| :------------------- | :----------------------------------- |
+| Debit COGS           | Recognizes cost as expense.          |
+| Credit Deferred COGS | Decreases the deferred cost balance. |
+
+**Report impact**
+
+* Recognized cost appears in the **Cost Waterfall Report**.
+* The updated deferred cost balance appears in the **Cost Balances Report**.
+
+#### Recognize revenue with an asset
+
+Use this entry when revenue is recognized against an asset account, such as accounts receivable.
+
+| Journal impact | Result                                                      |
+| :------------- | :---------------------------------------------------------- |
+| Debit Asset    | Increases assets, reflecting an amount owed to the company. |
+| Credit Revenue | Recognizes revenue for the period.                          |
+
+**Report impact**
+
+* Revenue appears in the **Revenue Waterfall Report**.
+* The asset balance appears in the **Asset Balances Report**.
+
+### Important considerations
+
+Manual journal entries give you precise control, but they also place full responsibility for the entry on the uploader. Keep these points in mind:
+
+| Consideration           | Details                                                                                                                             |
+| :---------------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
+| Fully manual process    | RevRec posts the data exactly as provided in the file.                                                                              |
+| No automated derivation | The system does not apply revenue rules, data rules, or other configuration logic.                                                  |
+| Segment responsibility  | You must manually enter all applicable segments and reporting dimensions, such as department, product line, region, or cost center. |
+| Accuracy matters        | Always verify accounts, amounts, dates, currencies, and comments before upload and approval.                                        |
+
+## FAQs
+
+**Q: Does RevRec derive values for a manual journal entry from system rules?**  
+**A**: No. Manual journal entries are independent from RevRec’s automated rules and configurations. You must provide all required values in the upload file.
+
+**Q: What happens if I leave the start and end dates blank?**  
+**A**: RevRec recognizes the full amount in the period selected during upload.
+
+**Q: What happens if I populate the start and end dates?**  
+**A**: RevRec reflects the entry in the waterfall based on the dates you provide.
+
+**Q: Can I reverse a manual journal entry automatically?**  
+**A**: Yes. Set **Auto Reversal** to **Yes** in the upload file to reverse the current-period entry in the next period.
+
+**Q: Does the journal entry post immediately after upload?**  
+**A**: No. After upload, the file status changes to **Approval Pending**. The entry must be reviewed and approved in the **Revenue Workbench** before it is posted.
