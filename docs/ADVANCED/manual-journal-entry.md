@@ -2,7 +2,7 @@
 title: Manual journal entry
 excerpt: Upload, review, and approve manual journal entries in Recurly RevRec.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
