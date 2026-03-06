@@ -6,8 +6,6 @@ hidden: true
 metadata:
   robots: index
 ---
-<br />
-
 # Overview
 
 Use manual journal entries to upload accounting adjustments directly into Recurly Revenue Recognition (RevRec). This process gives you full control over the journal data, posting period, and approval workflow, which is useful when an entry must be recorded outside the system’s automated revenue recognition logic.
