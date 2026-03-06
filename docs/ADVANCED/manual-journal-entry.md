@@ -38,9 +38,7 @@ A manual journal entry is a journal entry that you upload into RevRec using a pr
 * Support approval before posting.
 * Reflect manual adjustments in RevRec reporting, including waterfall and balance reports.
 
-## Key details
-
-### Prepare the upload file
+## Prepare the upload file
 
 Your manual journal entry file must include the mandatory columns listed below. You can also include additional columns if needed for your process.
 
@@ -65,7 +63,7 @@ Your manual journal entry file must include the mandatory columns listed below. 
 | Ex-Rate             | Required    | Enter the transaction exchange rate.                                               |
 | Company Ex-rate     | Required    | Enter the company exchange rate.                                                   |
 
-### Upload a manual journal entry
+## Upload a manual journal entry
 
 1. **Go to** **Import / Export > Journals**.
 2. **Select** the **+** icon to create a new manual journal entry.
@@ -77,7 +75,7 @@ Your manual journal entry file must include the mandatory columns listed below. 
 
 After you save the file, the entry does not post immediately. RevRec changes the status to **Approval Pending** and displays an arrow icon next to the entry.
 
-### Review and approve the journal entry
+## Review and approve the journal entry
 
 1. **Select** the arrow icon next to the uploaded file.
 2. **Open** the entry in the **Revenue Workbench**.
@@ -93,7 +91,7 @@ After you save the file, the entry does not post immediately. RevRec changes the
 
 Once approved, the process is complete and the transaction is reflected in reports for the selected period.
 
-### How dates affect recognition
+## How dates affect recognition
 
 The values in **Start Date** and **End Date** determine how RevRec reflects the entry:
 
@@ -102,15 +100,15 @@ The values in **Start Date** and **End Date** determine how RevRec reflects the 
 | Start Date and End Date are blank     | RevRec recognizes the full amount in the uploaded period.               |
 | Start Date and End Date are populated | RevRec reflects the entry in the waterfall based on the provided dates. |
 
-### How auto reversal works
+## How auto reversal works
 
 If **Auto Reversal** is set to **Yes**, RevRec reverses the current-period entry in the next accounting period.
 
-### Reporting examples
+## Reporting examples
 
 The following examples describe common manual journal entry scenarios and where their impact appears in RevRec reports.
 
-#### Recognize revenue from liability
+### Recognize revenue from liability
 
 Use this entry when revenue is recognized from a liability balance such as deferred revenue.
 
@@ -124,7 +122,7 @@ Use this entry when revenue is recognized from a liability balance such as defer
 * Revenue appears in the **Revenue Waterfall Report**.
 * The reduced liability balance appears in the **Liability Balances Report**.
 
-#### Recognize cost (COGS)
+### Recognize cost (COGS)
 
 Use this entry to recognize cost associated with revenue.
 
@@ -138,7 +136,7 @@ Use this entry to recognize cost associated with revenue.
 * Recognized cost appears in the **Cost Waterfall Report**.
 * The updated deferred cost balance appears in the **Cost Balances Report**.
 
-#### Recognize revenue with an asset
+### Recognize revenue with an asset
 
 Use this entry when revenue is recognized against an asset account, such as accounts receivable.
 
@@ -152,7 +150,7 @@ Use this entry when revenue is recognized against an asset account, such as acco
 * Revenue appears in the **Revenue Waterfall Report**.
 * The asset balance appears in the **Asset Balances Report**.
 
-### Important considerations
+## Important considerations
 
 Manual journal entries give you precise control, but they also place full responsibility for the entry on the uploader. Keep these points in mind:
 
