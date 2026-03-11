@@ -1,5 +1,5 @@
 ---
-title: Compass Assistant - RevRec
+title: Compass Assistant — RevRec
 excerpt: >-
   Use Compass Assistant to search RevRec help, ask questions, and complete tasks
   in Recurly—faster.
