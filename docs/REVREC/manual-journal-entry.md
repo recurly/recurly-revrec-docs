@@ -66,7 +66,13 @@ Your manual journal entry file must include the mandatory columns listed below. 
 ## Upload a manual journal entry
 
 1. **Go to** **Import / Export > Journals**.
+
+<Image align="center" border={true} src="https://files.readme.io/21fca57289c04939c098a4534744c11c748f7517e55289d45d9351376c7168fb-Image_1.png" className="border" />
+
 2. **Select** the **+** icon to create a new manual journal entry.
+
+<Image align="center" border={true} src="https://files.readme.io/af44223b98a4b5ce3dd67c07407a4d4a4ca48068413ba89f065c5ee41494cf8d-Image_2.png" className="border" />
+
 3. **Upload** your prepared manual journal entry file.
 4. **Select** the posting details:
    * **Books:** Choose the accounting books where the journal entry should be loaded.
@@ -77,7 +83,10 @@ After you save the file, the entry does not post immediately. RevRec changes the
 
 ## Review and approve the journal entry
 
-1. **Select** the arrow icon next to the uploaded file.
+1. **Select** the **arrow icon** next to the uploaded file.
+
+<Image align="center" border={true} src="https://files.readme.io/df3988a3d5aaf619bead3b756a0945843d6baa4262a7898a3bc703b2f6ad40b7-image.png" className="border" />
+
 2. **Open** the entry in the **Revenue Workbench**.
 3. **Review** the uploaded journal entry carefully, including:
    * Debited and credited accounts
@@ -86,8 +95,14 @@ After you save the file, the entry does not post immediately. RevRec changes the
    * Any additional relevant values
 4. **Enter** review comments.
 5. Choose one of the following actions:
-   * **Approve** to post the journal entry permanently.
-   * **Reject** to cancel the transaction and prevent it from affecting the books.
+
+**Approve** to post the journal entry permanently.
+
+![](https://files.readme.io/dc468975e9f16752b4ef13e72b7bc7ac315c6104415c558297a6bcf07d2b5dd5-image.png)
+
+**Reject** to cancel the transaction and prevent it from affecting the books.
+
+<Image align="center" border={true} src="https://files.readme.io/8d357b7e8f1331c5d31e277e7d5b7e6454e005b84bad26100ab7b02e8f61dab3-Image_5.png" className="border" />
 
 Once approved, the process is complete and the transaction is reflected in reports for the selected period.
 
@@ -117,6 +132,8 @@ Use this entry when revenue is recognized from a liability balance such as defer
 | Debit Liability (Deferred Revenue) | Decreases deferred revenue, reflecting that the obligation has been fulfilled. |
 | Credit Revenue                     | Increases recognized revenue for the period.                                   |
 
+<Image align="center" border={true} src="https://files.readme.io/1cadfe15362ce063db69ed8e362893266942beb98287899901984a5b876c4970-Image_6.png" className="border" />
+
 **Report impact**
 
 * Revenue appears in the **Revenue Waterfall Report**.
@@ -131,6 +148,8 @@ Use this entry to recognize cost associated with revenue.
 | Debit COGS           | Recognizes cost as expense.          |
 | Credit Deferred COGS | Decreases the deferred cost balance. |
 
+<Image align="center" border={true} src="https://files.readme.io/20df8138df17b216afa49ad0780111c1d0b562ce1d8097d413a3e1553eda8c4b-Image_7.png" className="border" />
+
 **Report impact**
 
 * Recognized cost appears in the **Cost Waterfall Report**.
@@ -144,6 +163,8 @@ Use this entry when revenue is recognized against an asset account, such as acco
 | :------------- | :---------------------------------------------------------- |
 | Debit Asset    | Increases assets, reflecting an amount owed to the company. |
 | Credit Revenue | Recognizes revenue for the period.                          |
+
+<Image align="center" border={true} src="https://files.readme.io/8dfe10dde3f805909f3b779062daf19c454c25af0e978e2e86bfbafd7e3f869b-Image_8.png" className="border" />
 
 **Report impact**
 
