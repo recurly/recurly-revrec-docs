@@ -1,8 +1,8 @@
 ---
-title: Recurly Revenue Recognition Standard Wizard
+title: Recurly RevRec Essentials Wizard
 excerpt: >-
   An interactive, step-by-step onboarding flow that guides you through
-  configuring and activating Revenue Recognition Standard in Recurly with
+  configuring and activating RevRec Essentials in Recurly with
   best-practice defaults and clear explanations at every stage.
 deprecated: false
 hidden: false
@@ -13,13 +13,13 @@ metadata:
 
 ### Prerequisites & limitations
 
-* Revenue Recognition Standard must already be enabled for your site.
+* RevRec Essentials must already be enabled for your site.
 * You must have the necessary admin permissions to configure settings and accounts.
 * After activation, only the **Auto Period Close Delay** setting remains editable; all other fields are locked.
 
 # Definition
 
-The Revenue Recognition Standard Wizard is a self-service onboarding tool inside Recurly that walks merchants through each configuration step—explaining controls, recommending best practices, and validating completion—so you can activate Revenue Recognition in one streamlined flow.
+The RevRec Essentials Wizard is a self-service onboarding tool inside Recurly that walks merchants through each configuration step—explaining controls, recommending best practices, and validating completion—so you can activate Revenue Recognition in one streamlined flow.
 
 # Key benefits
 
@@ -72,7 +72,7 @@ This onboarding wizard is designed to guide you through the process of self-enab
 
 * Each step provides a clear explanation of the control or setting involved.
 * You will receive recommendations and best practices for selecting the appropriate values.
-* The flow is structured to ensure compliance with revenue recognition standards and to help you avoid common pitfalls.
+* The flow is structured to ensure compliance with RevRec Essentialss and to help you avoid common pitfalls.
 
 ### Preparation
 
@@ -197,7 +197,7 @@ Out of the box, the system provides several Revenue Performance Obligations (POB
   * **Number of days:** 181
   * **Per day rate:** $129.00 / 181 = $0.713
 
-### Manual recognition (only for Revenue Recognition Advanced)
+### Manual recognition (only for RevRec)
 
 * **Definition:** No revenue is released automatically; amounts remain in the deferred bucket. The Advanced Revenue recognition merchants will be able to release revenue manually using the Revenue Workbench.
 * **Setup:** Select "Manual Recognition" in the Advanced Revenue Recognition rules.
@@ -281,7 +281,7 @@ This setting will delay the period close for the number of days mentioned in the
 
 ## Step 6: Handling credit transactions
 
-* This feature is available exclusively to merchants using Revenue Recognition Advanced.
+* This feature is available exclusively to merchants using RevRec.
 * Merchants can configure how credit transactions—such as Goodwill, On Account, and Prepaid Credits—are processed.
 * By selecting the ‘ignore credit transactions’ option, these types of credits will be excluded from revenue recognition calculations.
 * This setting allows merchants to tailor revenue recognition to their specific business requirements and credit policies.

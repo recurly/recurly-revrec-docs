@@ -1,5 +1,5 @@
 ---
-title: 'Overview: RevRec Advanced'
+title: 'Overview: RevRec'
 excerpt: >-
   Unlock precise and compliant revenue recognition with Recurly's Advanced
   solution. Streamline financial operations, ensure ASC 606, IFRS 15/16, and
@@ -25,7 +25,7 @@ This feature or setting requires an additional cost. Please reach out to your Re
 
 # Definition
 
-Recurly Revenue Recognition Advanced is an innovative solution tailored for businesses seeking precision and compliance in revenue recognition. It is equipped with features that adhere to standards like ASC 606, IFRS 15/16, ASC 842, and ASC 340-40. This solution not only automates intricate contract modifications but also facilitates SSO authentication, automated revenue recognition, and expense allocations. It stands out with its multi-currency and multi-book capabilities, offering businesses real-time insights into their revenue streams.
+Recurly RevRec is an innovative solution tailored for businesses seeking precision and compliance in revenue recognition. It is equipped with features that adhere to standards like ASC 606, IFRS 15/16, ASC 842, and ASC 340-40. This solution not only automates intricate contract modifications but also facilitates SSO authentication, automated revenue recognition, and expense allocations. It stands out with its multi-currency and multi-book capabilities, offering businesses real-time insights into their revenue streams.
 
 # Key benefits
 

@@ -1,5 +1,5 @@
 ---
-title: App Management - RevRec Advanced
+title: App Management - RevRec
 excerpt: >-
   Efficiently manage and integrate app data from Apple Store and Google Play
   Store into Recurly Revenue Recognition with tailored grouping, performance
@@ -13,24 +13,24 @@ metadata:
 
 ### Required plan
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 # Definition
 
-Recurly Revenue Recognition Advanced has the capability to handle data from both the App Store and the Google Play Store data, whether it’s from Apple or Android. To manage App Management data, a few straightforward configurations must be done in Recurly Revenue Recognition Advanced.
+Recurly RevRec has the capability to handle data from both the App Store and the Google Play Store data, whether it’s from Apple or Android. To manage App Management data, a few straightforward configurations must be done in Recurly RevRec.
 
 # Key benefits
 
 * **Streamlined data management:** Easily group App Management data based on subscription source, ensuring accurate and efficient data handling.
 * **Flexible revenue recognition:** Define exclusive POBs for App Management data, allowing for revenue recognition on an overtime basis.
 * **Enhanced data rules:** Copy Google fees to the "App Fees" attribute and assign distinct account numbers for both Apple and Google Store data.
-* **Seamless integration:** With the App Management Integration, effortlessly flow App Management data into Recurly Revenue Recognition Advanced.
+* **Seamless integration:** With the App Management Integration, effortlessly flow App Management data into Recurly RevRec.
 
 # Grouping configuration
 
 Configure your system to group order lines based on the subscription's source (Apple Store or Google Play Store).
 
-The App Management data is organized by subscription. Therefore, you need to create two separate grouping rules using the contract grouping feature in Recurly Revenue Recognition Advanced:
+The App Management data is organized by subscription. Therefore, you need to create two separate grouping rules using the contract grouping feature in Recurly RevRec:
 
 * **Apple Store Grouping Rule**: Set the grouping attribute to "Source = Apple Store."
 * **Play Store Grouping Rule**: Set the grouping attribute to "Source = Play Store."
@@ -43,7 +43,7 @@ This setup ensures that order lines are accurately grouped by the subscription s
 
 We define an exclusive Performance Obligation (POB) for App Management data, where revenue is recognized over time.
 
-This POB, known as **App Subscription**, is automatically assigned to any order line in a contract that meets the Recurly Revenue Recognition Advanced Rules for either "Play Store" or "Apple Store" data.
+This POB, known as **App Subscription**, is automatically assigned to any order line in a contract that meets the Recurly RevRec Rules for either "Play Store" or "Apple Store" data.
 
 <Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/e4b80b6217c0f05b40f6172ec21e405d0b1185473a5dcc1c5b23eee5e1f86555-2_POB.png" />
 
@@ -135,7 +135,7 @@ Applies the appropriate account number for all order lines with a source of "App
 
 # App management integration
 
-Once you've configured these data rules, it's critical to run the App Management Integration job. This integration pushes all processed App Management data into Recurly Revenue Recognition Advanced.
+Once you've configured these data rules, it's critical to run the App Management Integration job. This integration pushes all processed App Management data into Recurly RevRec.
 
 ## How to enable the App Management integration?
 

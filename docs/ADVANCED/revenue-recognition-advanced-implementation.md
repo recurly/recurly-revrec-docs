@@ -14,11 +14,11 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 # Definition
 
-The Recurly Revenue Recognition Advanced implementation process is a phase-wise approach designed for the integration of Recurly's advanced revenue recognition solution into business operations. It covers the entire spectrum from initial requirement discussions to the final Go Live phase.
+The Recurly RevRec implementation process is a phase-wise approach designed for the integration of Recurly's advanced revenue recognition solution into business operations. It covers the entire spectrum from initial requirement discussions to the final Go Live phase.
 
 # Key benefits
 
@@ -30,11 +30,11 @@ The Recurly Revenue Recognition Advanced implementation process is a phase-wise 
 
 # Implementation process
 
-Recurly Professional Services recommends a multi-phase approach to onboarding merchants to our Revenue Recognition Advanced Edition (RevRec) platform. This approach provides a stable path to success and allows modification for unique requirements as well. The implementation covers the entire spectrum from initial requirement discussions to moving the solution into production with assistance and monitoring by a dedicated Enablement Manager.
+Recurly Professional Services recommends a multi-phase approach to onboarding merchants to our RevRec Edition (RevRec) platform. This approach provides a stable path to success and allows modification for unique requirements as well. The implementation covers the entire spectrum from initial requirement discussions to moving the solution into production with assistance and monitoring by a dedicated Enablement Manager.
 
 ## Phase 1 - BRD/CRP Creation and review
 
-The first phase of the Recurly Revenue Recognition Advanced implementation process focuses on the creation and review of both the Business Requirements Document (BRD) and the Configuration Requirement Plan (CRP). The purpose of these documents are for Recurly and the merchant to work together to lay out how the RevRec site should be configured. 
+The first phase of the Recurly RevRec implementation process focuses on the creation and review of both the Business Requirements Document (BRD) and the Configuration Requirement Plan (CRP). The purpose of these documents are for Recurly and the merchant to work together to lay out how the RevRec site should be configured. 
 
 ## Phase 2 - Core design & configuration
 
@@ -50,7 +50,7 @@ The fourth phase involves User Acceptance Testing (UAT). The customer provisions
 
 ## Phase 5 - Go live
 
-The fifth phase is the culmination of the implementation process—Go Live. Recurly prepares a cutover plan, provisions the production environment, and deploys the necessary services. A cutover is conducted to transition from the testing phase to the live environment. The customer prepares final conversion data, performs a sanity check in the production environment, and, with Recurly's support, goes live with the Revenue Recognition Advanced solution.
+The fifth phase is the culmination of the implementation process—Go Live. Recurly prepares a cutover plan, provisions the production environment, and deploys the necessary services. A cutover is conducted to transition from the testing phase to the live environment. The customer prepares final conversion data, performs a sanity check in the production environment, and, with Recurly's support, goes live with the RevRec solution.
 
 # FAQ
 

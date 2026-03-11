@@ -18,7 +18,7 @@ next:
 
 ### Additional cost
 
-To access this feature or setting, you must have an active subscription to either the Recurly Revenue Recognition Advanced or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
+To access this feature or setting, you must have an active subscription to either the Recurly RevRec or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
 
 ### Prerequisites
 

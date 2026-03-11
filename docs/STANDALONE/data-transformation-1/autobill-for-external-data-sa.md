@@ -10,7 +10,7 @@ metadata:
 ---
 # Overview
 
-Recurly Revenue Recognition Advanced can auto–populate billing records by generating invoice lines directly from your uploaded sales orders. This streamlines end-to-end revenue recognition and ensures your billing and recognition stay perfectly in sync.
+Recurly RevRec can auto–populate billing records by generating invoice lines directly from your uploaded sales orders. This streamlines end-to-end revenue recognition and ensures your billing and recognition stay perfectly in sync.
 
 ### Prerequisites & limitations
 

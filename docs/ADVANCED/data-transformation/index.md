@@ -1,7 +1,7 @@
 ---
 title: Data transformation
 excerpt: >-
-  Recurly Revenue Recognition Advanced: Transforming data for accurate financial
+  Recurly RevRec: Transforming data for accurate financial
   reporting.
 deprecated: false
 hidden: false
@@ -14,7 +14,7 @@ next:
 ---
 # Overview
 
-These Data Transformation features are part of **Recurly Revenue Recognition Advanced**. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+These Data Transformation features are part of **Recurly RevRec**. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 <Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/6cb0c82-image.png" />
 
@@ -22,7 +22,7 @@ These Data Transformation features are part of **Recurly Revenue Recognition Adv
 
 ### Prerequisites
 
-* Familiarity with your organization’s revenue recognition standards.
+* Familiarity with your organization’s RevRec Essentialss.
 * Understanding of product bundling and data rule logic.
 * Knowledge of which attributes you need in your analysis datasets.
 
@@ -33,7 +33,7 @@ These Data Transformation features are part of **Recurly Revenue Recognition Adv
 
 # Definition
 
-Data Transformation in Recurly Revenue Recognition Advanced lets you:
+Data Transformation in Recurly RevRec lets you:
 
 * **Bundle products** into single units with inherited pricing and cost rules.
 * **Apply Data Rules** to transactions via formulas, criteria, or attributes.

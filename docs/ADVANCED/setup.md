@@ -1,7 +1,7 @@
 ---
-title: Setup for Revenue Recognition Advanced
+title: Setup for RevRec
 excerpt: >-
-  Recurly Revenue Recognition Advanced: Streamlining Revenue Recognition and
+  Recurly RevRec: Streamlining Revenue Recognition and
   Financial Reporting.
 deprecated: false
 hidden: false
@@ -14,12 +14,12 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites
 
-* Familiarity with the organization's revenue recognition standards (e.g., IFRS-15 or ASC-606).
-* At least one primary book must be configured in Recurly Revenue Recognition Advanced to process revenue transactions.
+* Familiarity with the organization's RevRec Essentialss (e.g., IFRS-15 or ASC-606).
+* At least one primary book must be configured in Recurly RevRec to process revenue transactions.
 * Attributes must be defined in the Attribute Labels section for data collection.
 
 ### Limitations
@@ -30,7 +30,7 @@ This feature is part of our product, Recurly Revenue Recognition Advanced. [<a h
 
 # Definition
 
-Recurly Revenue Recognition Advanced is a comprehensive tool designed to guide and automate the revenue treatment of transactions. It offers a structured approach to setting up books, profiles, attribute labels, segments, and business events, ensuring accurate and efficient financial reporting.
+Recurly RevRec is a comprehensive tool designed to guide and automate the revenue treatment of transactions. It offers a structured approach to setting up books, profiles, attribute labels, segments, and business events, ensuring accurate and efficient financial reporting.
 
 # Key benefits
 
@@ -44,7 +44,7 @@ Recurly Revenue Recognition Advanced is a comprehensive tool designed to guide a
 
 ## Books
 
-In Recurly Revenue Recognition Advanced, books are instrumental in determining the revenue treatment for transactions. Users can establish multiple books, allowing for diverse revenue recognition treatments based on each book's rules. Organizations can choose their Primary Book (either IFRS-15 or ASC-606) based on their country of origin or the currency of their accounts. To process revenue transactions in Recurly Revenue Recognition Advanced, at least one primary book must be configured.
+In Recurly RevRec, books are instrumental in determining the revenue treatment for transactions. Users can establish multiple books, allowing for diverse revenue recognition treatments based on each book's rules. Organizations can choose their Primary Book (either IFRS-15 or ASC-606) based on their country of origin or the currency of their accounts. To process revenue transactions in Recurly RevRec, at least one primary book must be configured.
 
 **Creating Books:**
 
@@ -69,7 +69,7 @@ In Recurly Revenue Recognition Advanced, books are instrumental in determining t
 
 ## Profiles
 
-Profiles in Recurly Revenue Recognition Advanced are designed to set application-level controls.
+Profiles in Recurly RevRec are designed to set application-level controls.
 
 **Configuring Profiles:**
 
@@ -84,13 +84,13 @@ Profiles in Recurly Revenue Recognition Advanced are designed to set application
    * **Overage allowed:** Enable if invoicing above the transaction amount is allowed.
    * **Contract revision level:** Determine when a contract alteration is considered a Contract Modification.
    * **Revenue Duration:** Differentiate between short-term (within a year) and long-term (beyond a year) revenue for GAAP and IFRS disclosure.
-   * **SSP DATE:** Recurly Revenue Recognition Advanced sets the SSP date for all transaction lines to the earliest sales order book date when configured in PROFILE.
+   * **SSP DATE:** Recurly RevRec sets the SSP date for all transaction lines to the earliest sales order book date when configured in PROFILE.
 
 3. After finalizing the profile settings, **click the Save icon**.
 
 ## Attribute labels
 
-Attribute labels bridge the gap between Recurly attribute names and their counterparts in Recurly Revenue Recognition Advanced. They also dictate display preferences in various areas.
+Attribute labels bridge the gap between Recurly attribute names and their counterparts in Recurly RevRec. They also dictate display preferences in various areas.
 
 **Main Tabs under Attribute Labels:**
 
@@ -114,7 +114,7 @@ Attribute labels bridge the gap between Recurly attribute names and their counte
 3. **Click **the Save icon after configuration.
 
 **Notes:**  
-Attributes must be defined here for Recurly Revenue Recognition Advanced to gather data.
+Attributes must be defined here for Recurly RevRec to gather data.
 
 ## Segments
 
@@ -134,11 +134,11 @@ This tool allows users to input values for defined segments, either linking them
 
 ## Business events
 
-In Recurly Revenue Recognition Advanced, business events are either custom or standard triggers that initiate various actions for revenue and cost. After setting up an event, users can upload an event file, and RevRec Advanced will process the uploaded events.
+In Recurly RevRec, business events are either custom or standard triggers that initiate various actions for revenue and cost. After setting up an event, users can upload an event file, and RevRec will process the uploaded events.
 
 ### Standard events / default events
 
-Standard events are built-in business triggers in Recurly Revenue Recognition Advanced that aid in releasing POB. Examples include:
+Standard events are built-in business triggers in Recurly RevRec that aid in releasing POB. Examples include:
 
 1. **Upon Billing: **Events occur upon billing for sales orders.
 2. **Upon Booking: **Events occur upon sales order loading.
@@ -146,7 +146,7 @@ Standard events are built-in business triggers in Recurly Revenue Recognition Ad
 
 ### Custom Event
 
-Users can create custom events in Recurly Revenue Recognition Advanced, such as:
+Users can create custom events in Recurly RevRec, such as:
 
 1. **Revenue:** Associated with a POB template to release revenue.
 2. **Holds:** Linked to holds or approvals to release revenue or transfer revenue placed on a Contract, POB, or line Hold.
@@ -162,13 +162,13 @@ Users can create custom events in Recurly Revenue Recognition Advanced, such as:
 
 **Associating an Event with POB:**
 
-Before uploading an event file to Recurly Revenue Recognition Advanced, it's essential to link the business event with a POB.
+Before uploading an event file to Recurly RevRec, it's essential to link the business event with a POB.
 
 1. **Navigate** to the desired POB. Within the revenue release tab, click on the "+" icon. From the dropdown, choose the event and specify the percentage of revenue release based on the chosen event (set to 100 if it's the only one).
 
 <Image align="center" border="true" caption="POB Association" src="https://files.readme.io/a76fa5f-image.png" />
 
-2. Multiple events can be linked in Recurly Revenue Recognition Advanced. Additionally, you have the flexibility to edit or delete revenue release events.
+2. Multiple events can be linked in Recurly RevRec. Additionally, you have the flexibility to edit or delete revenue release events.
 
 3. Once done, **click on the Save icon**.
 
@@ -203,13 +203,13 @@ Your event file template should resemble the table below:
 
 ## Currencies
 
-Recurly Revenue Recognition Advanced predefines all currencies as ISO Codes, each with its corresponding precision, listed on the Currencies page.
+Recurly RevRec predefines all currencies as ISO Codes, each with its corresponding precision, listed on the Currencies page.
 
 **Editing Currencies Configuration:**
 
 1. **Navigate** to Setup → Currencies  
    ![](https://files.readme.io/4ae93a3-image.png)
-2. All currencies are predefined in Recurly Revenue Recognition Advanced. To edit:
+2. All currencies are predefined in Recurly RevRec. To edit:
    * **Double-click** on the desired currency or precision field.
    * **Make** the necessary changes.
    * **Click** the Save icon.

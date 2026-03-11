@@ -13,7 +13,7 @@ metadata:
 
 ### Required plan
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 # Definition
 
@@ -85,7 +85,7 @@ If needed, reorder tasks by clicking the "**⋮**" icon on the bottom right.
 * All invoices from Recurly are transferred into RevRec.
 * Data in contract stage, doc stage, and cost stage are fully processed.
 * Transfer JEs are summarized.
-* Accounted reports are reconciled with Revenue Recognition standards.
+* Accounted reports are reconciled with RevRec Essentialss.
 * Refer to the “Period Task” section for details on each automated check.
 
 5. **Complete User-Defined Tasks**

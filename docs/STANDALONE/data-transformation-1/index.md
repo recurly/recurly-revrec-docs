@@ -25,7 +25,7 @@ Please reach out to [support@recurly.com](mailto:support@recurly.com) for more p
 
 ### Prerequisites
 
-* Familiarity with the organization's revenue recognition standards.
+* Familiarity with the organization's RevRec Essentialss.
 * Understanding of product bundling and data rule configurations.
 * Knowledge of the desired attributes for data transformation.
 

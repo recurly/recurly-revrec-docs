@@ -15,12 +15,12 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites
 
 * Familiarity with Recurly's basic functionalities.
-* Access to Recurly Revenue Recognition Advanced module.
+* Access to Recurly RevRec module.
 * Necessary permissions to configure rules and holds.
 
 > **Please note:**
@@ -94,7 +94,7 @@ To inactivate a grouping rule, follow these steps:
 
 ## Performance obligation
 
-In Recurly Revenue Recognition Advanced, the second step of ASC 606 / IFRS 15 compliance involves identifying and defining performance obligations. This process includes setting up recognition methods for each obligation and establishing rules for the items or transactions associated with them, ensuring accurate and consistent revenue recognition.
+In Recurly RevRec, the second step of ASC 606 / IFRS 15 compliance involves identifying and defining performance obligations. This process includes setting up recognition methods for each obligation and establishing rules for the items or transactions associated with them, ensuring accurate and consistent revenue recognition.
 
 ### Adding POBs
 
@@ -256,7 +256,7 @@ Setting up the Stand-Alone Selling Price (SSP) involves a streamlined process co
     ![](https://files.readme.io/e3e1791-image.png)
 11. Save the SSP configuration. The newly created SSP card will appear on the left side under active SSPs.  
     ![](https://files.readme.io/bc6db73-image.png)
-12. To delete any SSP configured in Recurly Revenue Recognition Advanced, click on the delete icon located on the black menu bar.  
+12. To delete any SSP configured in Recurly RevRec, click on the delete icon located on the black menu bar.  
     ![](https://files.readme.io/26004bd-image.png)
 
 ### Configuring the SSP Analyzer for data upload
@@ -306,7 +306,7 @@ Setting up the Stand-Alone Selling Price (SSP) involves a streamlined process co
 
 * If the SSP data needs to be deleted, it can only be done before approving it. Click on the Delete icon to remove the data. Once approved, the data cannot be deleted.
 * If the approved SSP data will not be used, specify an end date so that the data will not be utilized beyond that date.
-* Recurly Revenue Recognition Advanced allows you to provide validity for the uploaded SSP data by specifying the start and end dates for the approved data.
+* Recurly RevRec allows you to provide validity for the uploaded SSP data by specifying the start and end dates for the approved data.
 
 ### SSP Analysis by the system
 
@@ -327,7 +327,7 @@ Note: All the other fields like range, type, stats, value and base would be seen
 
 ## Variable considerations
 
-In Recurly Revenue Recognition Advanced, the setup for automatically applying variable consideration (VC) estimates to transaction lines is done on the Variable Considerations page. Variable considerations refer to charges associated with discounts, rebates, refunds, credits, price concessions, incentives, performance bonuses, penalties, and other similar items that are determined by factors unrelated to the cost of producing goods or services. These amounts can be estimated using historical data and other calculations.
+In Recurly RevRec, the setup for automatically applying variable consideration (VC) estimates to transaction lines is done on the Variable Considerations page. Variable considerations refer to charges associated with discounts, rebates, refunds, credits, price concessions, incentives, performance bonuses, penalties, and other similar items that are determined by factors unrelated to the cost of producing goods or services. These amounts can be estimated using historical data and other calculations.
 
 ### How to configure Variable Considerations
 
@@ -365,18 +365,18 @@ In Recurly Revenue Recognition Advanced, the setup for automatically applying va
 
 ### Uploading files to VC
 
-When working with Variable Considerations (VC) in Recurly Revenue Recognition Advanced, there are two options for importing data:
+When working with Variable Considerations (VC) in Recurly RevRec, there are two options for importing data:
 
-1. **Integrating Invoices from Recurly:** If VC is applicable, you can integrate invoices from the Recurly platform into Recurly Revenue Recognition Advanced.
+1. **Integrating Invoices from Recurly:** If VC is applicable, you can integrate invoices from the Recurly platform into Recurly RevRec.
 2. **Loading a Sales Order File:** Alternatively, you can load a sales order file into the system for which VC is applicable.
 
-Once the data is collected and available in the system, Recurly Revenue Recognition Advanced automatically calculates VC based on the configured rules. The calculated VC amounts will be visible in the system, as shown in the provided screenshot.
+Once the data is collected and available in the system, Recurly RevRec automatically calculates VC based on the configured rules. The calculated VC amounts will be visible in the system, as shown in the provided screenshot.
 
-With Recurly Revenue Recognition Advanced, VC estimates are automatically applied to transactions based on the VC rules defined during the setup process, streamlining the calculation and application of VC amounts.
+With Recurly RevRec, VC estimates are automatically applied to transactions based on the VC rules defined during the setup process, streamlining the calculation and application of VC amounts.
 
 <Image border={false} src="https://files.readme.io/8f2de29-image.png" />
 
-In the revenue workbench of Recurly Revenue Recognition Advanced, you have the flexibility to manually modify the application of variable consideration. To do this, simply right-click on the specific item you wish to change while in the VC tab. The options available for adjustment can be seen in the provided image.
+In the revenue workbench of Recurly RevRec, you have the flexibility to manually modify the application of variable consideration. To do this, simply right-click on the specific item you wish to change while in the VC tab. The options available for adjustment can be seen in the provided image.
 
 Any changes made to the variable consideration will be accurately reflected in the Revenue Workbench. If there are any adjustments or updates needed for the variable consideration, they can be performed through VC true-up or by initiating clearance to release the updated information.
 
@@ -391,7 +391,7 @@ Any changes made to the variable consideration will be accurately reflected in t
 
 ## Cost
 
-Recurly Revenue Recognition Advanced includes functionality to account for costs. There are two options for managing costs within the system: manual loading of costs or automated calculation based on predefined formulas. The Rules page, specifically the Cost section, is used to define the Cost Type and Cost Rules.
+Recurly RevRec includes functionality to account for costs. There are two options for managing costs within the system: manual loading of costs or automated calculation based on predefined formulas. The Rules page, specifically the Cost section, is used to define the Cost Type and Cost Rules.
 
 ### How to configure a cost type
 
@@ -404,7 +404,7 @@ Recurly Revenue Recognition Advanced includes functionality to account for costs
    1. **Point in time:** Recognize the cost in the month it is incurred.
    2. **Follow Revenue:** Recognize the cost according to the revenue recognition pattern over the contract period.
 4. Set the cost keys by clicking on the field and selecting the appropriate options from the pop-up menu. Note that selecting cost keys is optional.
-5. If you need the Recurly Revenue Recognition Advanced tool to calculate the cost amount, use the "Formula on" feature. Type "Line.SellPrice" (case sensitive) to apply cost rules based on a percentage of the sell price.
+5. If you need the Recurly RevRec tool to calculate the cost amount, use the "Formula on" feature. Type "Line.SellPrice" (case sensitive) to apply cost rules based on a percentage of the sell price.
 6. Specify a unique account number for the debit account ('Dr account number') and the credit account ('Cr account number'). These account numbers will be compared with the Sales Order number.
 7. If your incremental cost needs to be amortized and capitalized, activate the "Cost Capitalize" option.  
    ![](https://files.readme.io/b6ce8f1-image.png)
@@ -425,7 +425,7 @@ To add rules to the cost configuration in order to apply the cost formula to spe
 
 1. Prepare a Cost file that includes the necessary columns reflecting the cost attributes defined in the system. Ensure that the cost type specified in the file matches the cost type already defined in the system.
 
-2. Navigate to the Transactions page in Recurly Revenue Recognition Advanced.
+2. Navigate to the Transactions page in Recurly RevRec.
 
 3. Click on the "Upload" icon to upload the Cost file.
 
@@ -440,7 +440,7 @@ By utilizing the Cost file upload functionality, you can streamline the process 
 
 ## Holds
 
-In Recurly Revenue Recognition Advanced, the Holds feature allows for holding revenue recognition based on specific conditions set by management.
+In Recurly RevRec, the Holds feature allows for holding revenue recognition based on specific conditions set by management.
 
 There are two types of holds available: Contract Level hold and Element Level hold.
 
@@ -459,7 +459,7 @@ There are two types of holds available: Contract Level hold and Element Level ho
 * The hold condition could be based on the fulfillment of certain criteria or the occurrence of specific events.
 * Once the hold condition for an element is satisfied, revenue recognition for that particular element can proceed.
 
-The **Holds** feature in Recurly Revenue Recognition Advanced provides flexibility in managing revenue recognition by allowing for temporary holds based on defined conditions. It ensures that revenue recognition aligns with the requirements and policies set by management, providing accurate and compliant financial reporting.
+The **Holds** feature in Recurly RevRec provides flexibility in managing revenue recognition by allowing for temporary holds based on defined conditions. It ensures that revenue recognition aligns with the requirements and policies set by management, providing accurate and compliant financial reporting.
 
 ### How to apply holds
 

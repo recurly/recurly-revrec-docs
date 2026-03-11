@@ -2,7 +2,7 @@
 title: Product bundle
 excerpt: >-
   Create and manage complex product bundles with precise pricing and cost
-  allocation using Recurly Revenue Recognition Advanced.
+  allocation using Recurly RevRec.
 deprecated: false
 hidden: false
 metadata:
@@ -14,7 +14,7 @@ Product Bundle allows grouping multiple individual products into a single unit f
 
 # Definition
 
-In Recurly Revenue Recognition Advanced, a **Product Bundle** is defined by a Parent Identifier. When you upload a sales order (SO) file containing that parent identifier, the system automatically splits it into configured child lines. Each child line inherits its Sell Price, List Price, and Cost Price according to formulas you specify in the Product Bundle configuration.
+In Recurly RevRec, a **Product Bundle** is defined by a Parent Identifier. When you upload a sales order (SO) file containing that parent identifier, the system automatically splits it into configured child lines. Each child line inherits its Sell Price, List Price, and Cost Price according to formulas you specify in the Product Bundle configuration.
 
 # Key benefits
 
@@ -67,7 +67,7 @@ _Below: example configuration of a “TV Bundle”._
 
 When you upload an SO file containing the Parent Identifier:
 
-* Recurly Revenue Recognition Advanced detects the bundle.
+* Recurly RevRec detects the bundle.
 * It applies your configured formulas to split the parent line into child lines.
 * Each child line inherits calculated Sell Price, List Price, Cost, and Quantity.
 * Revenue recognition, cost allocation, and commission tracking occur automatically at the child-line level.

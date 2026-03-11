@@ -1,7 +1,7 @@
 ---
-title: RevRec Advanced Reports
+title: RevRec Reports
 excerpt: >-
-  Recurly Revenue Recognition Advanced reports: Comprehensive insights for
+  Recurly RevRec reports: Comprehensive insights for
   informed financial decisions.
 deprecated: false
 hidden: false
@@ -14,11 +14,11 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites:
 
-* Familiarity with the organization's revenue recognition standards.
+* Familiarity with the organization's RevRec Essentialss.
 * Understanding of product bundling and data rule configurations.
 * Knowledge of the desired attributes for dataset creation.
 
@@ -27,7 +27,7 @@ This feature is part of our product, Recurly Revenue Recognition Advanced. \[<a 
 * Any changes that are made will be applied for future transactions only.
 * If changes are made to the revenue data, it can take up to an hour for those changes to be reflected in the reporting.
 * Once a dataset is created, it cannot be deleted, only inactivated.
-* Data Rules in Recurly Revenue Recognition Advanced cannot be deleted but can be set to an inactive status.
+* Data Rules in Recurly RevRec cannot be deleted but can be set to an inactive status.
 
 # Key benefits
 

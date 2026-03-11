@@ -14,7 +14,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites
 
@@ -63,7 +63,7 @@ The following screenshot illustrates the diverse contract modifications supporte
 * **SSP related Terminologies**: Terms such as "Within SSP Range" and "Outside SSP Range" are used to describe the sell price of a new line in relation to the SSP range.
 * **Treatment related Terminologies**: Contract modifications can be treated in various ways, including "Cumulative Catchup," "Prospective Catchup," and "No Allocation."
 
-## Setting revision levels in Recurly Revenue Recognition Advanced
+## Setting revision levels in Recurly RevRec
 
 In Recurly Recurly Revenue Recognition, users can define the Contract Revision Level to specify the duration for system recognition of the modification.
 
@@ -98,13 +98,13 @@ To inspect a Contract Modification:
 
 # FAQs
 
-**Q:** What is a Contract Modification in Recurly Revenue Recognition Advanced?  
+**Q:** What is a Contract Modification in Recurly RevRec?  
 **A:** It's an approved change in the price, term, or both of a contract within Recurly's revenue recognition platform. Both the supplier and customer must agree on this modification.
 
-**Q:** How many types of modifications does Recurly Revenue Recognition Advanced support?  
+**Q:** How many types of modifications does Recurly RevRec support?  
 **A:** Recurly RevRec supports six primary types of modifications, each with its own sub-types. These include New Line/POB, Price Change, Quantity Change, Term Change, Cancellations/Returns, and All Others.
 
-**Q:** Can I manually modify a contract in Recurly Revenue Recognition Advanced?  
+**Q:** Can I manually modify a contract in Recurly RevRec?  
 **A:** Yes, you can make manual modifications using the Revenue Workbench. However, these changes are treated as a special "All Others" type of Contract Modification.
 
 **Q:** How can I view the changes made to a contract?  
@@ -119,7 +119,7 @@ To inspect a Contract Modification:
 **Q:** What happens if a new line's sell price falls outside the SSP range?  
 **A:** It's termed as "Outside SSP Range." This terminology is used to describe the sell price of a new line in relation to the SSP range.
 
-**Q:** Are all modifications treated the same way in Recurly Recurly Revenue Recognition Advanced?  
+**Q:** Are all modifications treated the same way in Recurly Recurly RevRec?  
 **A:** No, modifications can be treated in various ways, including "Cumulative Catchup," "Prospective Catchup," and "No Allocation," depending on the nature of the change and the settings you choose.
 
 **Q:** What are Contract Modification Rules and how do they automate one-off scenarios in Recurly RevRec?

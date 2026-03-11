@@ -10,7 +10,7 @@ metadata:
 ---
 # Overview
 
-Recurly Revenue Recognition Advanced can derive the correct exchange rate for any contract or invoice created outside Recurly, based on its creation date. This removes the burden of supplying manual rates when importing or reconciling multi-currency subscription data.
+Recurly RevRec can derive the correct exchange rate for any contract or invoice created outside Recurly, based on its creation date. This removes the burden of supplying manual rates when importing or reconciling multi-currency subscription data.
 
 # Definition
 

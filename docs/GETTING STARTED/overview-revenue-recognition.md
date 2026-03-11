@@ -46,7 +46,7 @@ Revenue Recognition is a fundamental accounting principle that determines when a
 
 In simple terms, revenue recognition is about properly recognizing and reporting the income a business generates from its products and/or services. It ensures that revenue is recorded in the right period and matches the corresponding costs and expenses.
 
-Compliance with revenue recognition standards, such as GAAP (Generally Accepted Accounting Principles) in the US and IFRS (International Financial Reporting Standards) globally, is essential for businesses to maintain transparency, accuracy, and consistency in their financial reporting.
+Compliance with RevRec Essentialss, such as GAAP (Generally Accepted Accounting Principles) in the US and IFRS (International Financial Reporting Standards) globally, is essential for businesses to maintain transparency, accuracy, and consistency in their financial reporting.
 
 Under ASC 606/IFRS 15 five steps have been identified to determine revenue recognition:
 
@@ -80,13 +80,13 @@ Before we dive into the specifics, let's highlight the benefits of using Recurly
 
 Recurly has designed a suite of Revenue Recognition products to cater to diverse business needs. Here's a closer look at each offering:
 
-1. **Recurly Revenue Recognition Advanced**:
+1. **Recurly RevRec**:
 
 * **Overview**: A premium offering designed for businesses with more complex revenue recognition needs.
 * **Availability**: Exclusively tailored for our Professional and Elite plans, ensuring advanced functionalities for larger or more intricate operations.
 * **Features**: Includes advanced tools for detailed revenue tracking, in-depth analytics, and more granular financial control.
 
-2. **Recurly Revenue Recognition Standard**:
+2. **Recurly RevRec Essentials**:
 
 * **Overview**: This is a foundational solution suitable for businesses of all sizes.
 * **Integration**: It can be seamlessly integrated with any Recurly subscription management plan.

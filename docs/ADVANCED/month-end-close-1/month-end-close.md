@@ -1,7 +1,7 @@
 ---
 title: Manual month end close
 excerpt: >-
-  Use Recurly’s Revenue Recognition Advanced to finalize each billing period
+  Use Recurly’s RevRec to finalize each billing period
   with accuracy. By following a structured close process, you can ensure all
   transactions are accounted for and properly reflected in your General Ledger.
 deprecated: false
@@ -13,7 +13,7 @@ metadata:
 
 ### Required plan
 
-This feature is included in Recurly Revenue Recognition Advanced. [Learn more here](recurly-revenue-recognition-advanced).
+This feature is included in Recurly RevRec. [Learn more here](recurly-revenue-recognition-advanced).
 
 ### Additional cost
 

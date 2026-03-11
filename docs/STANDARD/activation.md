@@ -1,7 +1,7 @@
 ---
-title: Validation and activation for Revenue Recognition Standard
+title: Validation and activation for RevRec Essentials
 excerpt: >-
-  Learn how to enable and validate Recurly Revenue Recognition Standard Edition
+  Learn how to enable and validate Recurly RevRec Essentials Edition
   for accurate and error-free revenue recognition.
 deprecated: false
 hidden: true
@@ -14,7 +14,7 @@ next:
 ---
 # Definition
 
-Recurly Revenue Recognition Standard Edition validation and activation protocol must be followed to ensure accurate rule application and reduce errors. This involves selecting the Performance Obligation (POB) and General Ledger (GL) Accounts at the Product level within the Recurly UI.
+Recurly RevRec Essentials Edition validation and activation protocol must be followed to ensure accurate rule application and reduce errors. This involves selecting the Performance Obligation (POB) and General Ledger (GL) Accounts at the Product level within the Recurly UI.
 
 * **Increased flexibility:** Simplifies the configuration of Recurly Revenue Recognition rules, providing a consistent method for choosing rules.
 * **Simplified maintenance:** Allows for the maintenance of all rules through a single method.
@@ -22,13 +22,13 @@ Recurly Revenue Recognition Standard Edition validation and activation protocol 
 
 # Key details
 
-## Enabling Recurly Revenue Recognition Standard Edition
+## Enabling Recurly RevRec Essentials Edition
 
-**Recurly Revenue Recognition Standard validation process:** Users must select the POB and GL Accounts when creating new plans, setup fees, add-ons, items, shipping, and gift cards. Additionally, users can define default POB and GL Accounts at the Business Entity level, which will auto-default to all plans and charges.
+**Recurly RevRec Essentials validation process:** Users must select the POB and GL Accounts when creating new plans, setup fees, add-ons, items, shipping, and gift cards. Additionally, users can define default POB and GL Accounts at the Business Entity level, which will auto-default to all plans and charges.
 
-**Recurly Revenue Recognition Standard activation process:** Once validation is complete, the Enablement Manager can activate the integration on the chosen date.
+**Recurly RevRec Essentials activation process:** Once validation is complete, the Enablement Manager can activate the integration on the chosen date.
 
-> **Note:** Recurly Billing acts as the source of truth for Recurly Revenue Recognition Rules. The integration will not be active until the Recurly Revenue Recognition Standard is validated and activated. 
+> **Note:** Recurly Billing acts as the source of truth for Recurly Revenue Recognition Rules. The integration will not be active until the Recurly RevRec Essentials is validated and activated. 
 
 ## Prevalidation
 

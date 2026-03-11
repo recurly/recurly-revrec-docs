@@ -1,8 +1,8 @@
 ---
-title: Reporting for Revenue Recognition Standard
+title: Reporting for RevRec Essentials
 excerpt: >-
   Effortlessly manage and report your subscription revenue with Recurly's
-  revenue recognition standard. Seamlessly integrate ASC 606 and IFRS 15
+  RevRec Essentials. Seamlessly integrate ASC 606 and IFRS 15
   compliance into your subscription management process and gain invaluable
   insights with comprehensive reports.
 deprecated: false
@@ -11,7 +11,7 @@ metadata:
   title: ''
   description: >-
     Effortlessly manage and report your subscription revenue with Recurly's
-    Revenue Recognition Standard. Seamlessly integrate ASC 606 and IFRS 15
+    RevRec Essentials. Seamlessly integrate ASC 606 and IFRS 15
     compliance into your subscription management process and gain invaluable
     insights with comprehensive reports.
   robots: index
@@ -20,13 +20,13 @@ next:
 ---
 # Definition
 
-Recurly's revenue recognition standard is an integrated solution designed to automate revenue recognition in compliance with major reporting standards, including ASC 606 and IFRS 15. As a part of Recurly's subscription management application, this feature simplifies the way businesses track, manage, and report revenue.
+Recurly's RevRec Essentials is an integrated solution designed to automate revenue recognition in compliance with major reporting standards, including ASC 606 and IFRS 15. As a part of Recurly's subscription management application, this feature simplifies the way businesses track, manage, and report revenue.
 
 With a single, intuitive interface, users can set up recognition rules and automate accounting processes. It offers in-depth, built-in reports such as the Revenue Waterfall Report, Liability Balances Report, and Transfer Accounting Report. These reports equip businesses with vital insights into contracted revenue, enabling enhanced compliance, reduced audit and revenue reporting errors, and improved revenue insights and accuracy.
 
 # Accessing reports
 
-To retrieve the analytics reports in Recurly's revenue recognition standard, follow this simple process:
+To retrieve the analytics reports in Recurly's RevRec Essentials, follow this simple process:
 
 * Log in to your Recurly account.
 * In the sidebar menu on the left-hand side of the screen, locate and select the "Analytics" option.
@@ -53,7 +53,7 @@ By consulting these reports, you can ease compliance, lower audit costs, diminis
 
 ### Revenue waterfall report
 
-The Revenue Waterfall Report in Recurly's revenue recognition standard offers insightful analysis into revenue distribution across various periods. To maximize this report, consider:
+The Revenue Waterfall Report in Recurly's RevRec Essentials offers insightful analysis into revenue distribution across various periods. To maximize this report, consider:
 
 * Examining the waterfall chart, which illustrates how contracted revenue is distributed across accounting periods.
 * Viewing detailed revenue and transaction data, allowing analysis by customer account, plan, transaction, and company currency.
@@ -62,7 +62,7 @@ The Revenue Waterfall Report in Recurly's revenue recognition standard offers in
 
 ### Liability balance report
 
-The Liability Balances Report in Recurly's revenue recognition standard provides valuable information about your deferred revenue balances, helping you track and manage them effectively. To capitalize on this report, consider:
+The Liability Balances Report in Recurly's RevRec Essentials provides valuable information about your deferred revenue balances, helping you track and manage them effectively. To capitalize on this report, consider:
 
 * Reviewing deferred revenue balances across different accounting periods.
 * Applying filters to dissect deferred revenue by product, customer segment, or other relevant criteria.
@@ -72,7 +72,7 @@ The Liability Balances Report in Recurly's revenue recognition standard provides
 
 ## Transfer accounting report
 
-The Transfer Accounting Report in Recurly's revenue recognition standard provides extensive information on revenue transfers between different accounts or entities. To adeptly employ this report, consider:
+The Transfer Accounting Report in Recurly's RevRec Essentials provides extensive information on revenue transfers between different accounts or entities. To adeptly employ this report, consider:
 
 * Reviewing comprehensive details about revenue transfers, such as source and destination accounts and transferred amounts.
 * Using filters to evaluate revenue transfers based on specific parameters like time period or account type.
@@ -81,7 +81,7 @@ The Transfer Accounting Report in Recurly's revenue recognition standard provide
 
 # Reporting tips
 
-Customizing your reports is paramount for effective data analysis and presentation in Recurly's revenue recognition standard. Here are useful tips:
+Customizing your reports is paramount for effective data analysis and presentation in Recurly's RevRec Essentials. Here are useful tips:
 
 * **Creating Custom Dimensions**: Add context and insights into your data with custom dimensions, crafted from existing data fields or derived calculations.
 * **Changing Column Names**: Personalize your reports by renaming columns to resonate with your business terminology, enhancing clarity and understanding.
@@ -90,7 +90,7 @@ Customizing your reports is paramount for effective data analysis and presentati
 * **Applying Filters and Slicers**: Use filters and slicers for a focused view of specific data subsets, enabling dynamic exploration of data.
 * **Leveraging Aggregation Functions**: Use functions, like "sum", to calculate summary statistics, adding depth to your analysis.
 
-For a deep understanding of the setup process for Recurly's revenue recognition standard, please visit our dedicated page [here](recurly-revenue-recognition-standard-edition-setup).
+For a deep understanding of the setup process for Recurly's RevRec Essentials, please visit our dedicated page [here](recurly-revenue-recognition-standard-edition-setup).
 
 # FAQ
 

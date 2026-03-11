@@ -10,7 +10,7 @@ metadata:
 ---
 # Overview
 
-Datasets in Recurly Revenue Recognition Advanced are dynamic, user-defined tables of attributes—such as item, account, region, or customer—that drive every report and analysis. Once created, datasets refresh nightly to keep your insights up to date.
+Datasets in Recurly RevRec are dynamic, user-defined tables of attributes—such as item, account, region, or customer—that drive every report and analysis. Once created, datasets refresh nightly to keep your insights up to date.
 
 # Definition
 

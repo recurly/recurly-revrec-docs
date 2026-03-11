@@ -1,5 +1,5 @@
 ---
-title: Setting up Revenue Recognition Standard
+title: Setting up RevRec Essentials
 excerpt: >-
   Simplify and automate revenue recognition with Recurly. Align with ASC 606 and
   IFRS 15 standards, effortlessly set up rules, and enhance reporting accuracy

@@ -26,7 +26,7 @@ Please reach out to [support@recurly.com](mailto:support@recurly.com) for more p
 
 ### Prerequisites
 
-* Familiarity with the organization's revenue recognition standards (e.g., IFRS 15 or ASC 606).
+* Familiarity with the organization's RevRec Essentialss (e.g., IFRS 15 or ASC 606).
 * At least one primary book must be configured in Recurly Revenue Recognition Standalone to process revenue transactions.
 * Attributes must be defined in the Attribute Labels section for data collection.
 

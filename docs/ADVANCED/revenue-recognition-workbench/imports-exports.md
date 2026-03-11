@@ -12,7 +12,7 @@ next:
 ---
 # Overview
 
-This feature is part of our product, Recurly Revenue Recognition Advanced. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
 ### Prerequisites
 
@@ -41,9 +41,9 @@ The Import/Export feature in Recurly Revenue ecognition is designed to optimize 
 
 ## Transactions
 
-**Note:** For a successful upload, it's imperative that the column headings in your file are consistent with the upload names specified in the attribute mapper of Recurly Revenue Recognition Advanced.
+**Note:** For a successful upload, it's imperative that the column headings in your file are consistent with the upload names specified in the attribute mapper of Recurly RevRec.
 
-In Recurly Revenue Recognition Advanced, users are equipped with the capability to upload pivotal sales orders, billings, and cost files. These files serve as the backbone for revenue recognition and are integral components in the financial reporting mechanism.
+In Recurly RevRec, users are equipped with the capability to upload pivotal sales orders, billings, and cost files. These files serve as the backbone for revenue recognition and are integral components in the financial reporting mechanism.
 
 ### How to import transactions
 
@@ -57,12 +57,12 @@ In Recurly Revenue Recognition Advanced, users are equipped with the capability 
 
 > **Notes:**
 >
-> * When uploading billing files in Recurly Revenue Recognition Advanced, the supported document types are INV (invoice), IVC (invoice cancellation), CM (credit memo), and CMC (credit memo cancellation). Partial credit memos are allowed, but partial invoice cancellations are not permitted.
+> * When uploading billing files in Recurly RevRec, the supported document types are INV (invoice), IVC (invoice cancellation), CM (credit memo), and CMC (credit memo cancellation). Partial credit memos are allowed, but partial invoice cancellations are not permitted.
 > * The system collects transactions that belong to the current open period and previous periods. Transactions associated with future periods are placed in the stage area and are processed once the corresponding period is opened. This ensures accurate and timely processing of transactions in alignment with the period schedule.
 
 ## Events
 
-Before initiating an event file upload in Recurly Revenue Recognition Advanced, it's essential to ensure that the file has been meticulously linked with a POB (Performance Obligation) template. This linkage is paramount for the proper mapping of events, ensuring that revenue recognition is both accurate and aligned with contractual obligations.
+Before initiating an event file upload in Recurly RevRec, it's essential to ensure that the file has been meticulously linked with a POB (Performance Obligation) template. This linkage is paramount for the proper mapping of events, ensuring that revenue recognition is both accurate and aligned with contractual obligations.
 
 ### How to upload event files
 
@@ -74,7 +74,7 @@ Before initiating an event file upload in Recurly Revenue Recognition Advanced, 
 
 ## Stage area
 
-The Stage Area in Recurly Revenue Recognition Advanced contains four tabs: Contracts, Documents, Cost, and Events. Unprocessed files related to each tab will be displayed under their respective tabs. There are several reasons why files may remain unprocessed in the Stage Area:
+The Stage Area in Recurly RevRec contains four tabs: Contracts, Documents, Cost, and Events. Unprocessed files related to each tab will be displayed under their respective tabs. There are several reasons why files may remain unprocessed in the Stage Area:
 
 * **Error in the file:** If there are any errors encountered during the upload of Contracts, Documents, Cost, or Event files, those files will be placed in the Stage Area. The system usually displays error messages corresponding to each transaction, indicating the issue that needs to be addressed.
 * **Future transactions:** If any transactions have a future date or period assigned to them and they are uploaded into the system during the current period, these transactions will be held in the Stage Area until the applicable period for those transactions is opened in the system. This ensures that transactions are processed accurately based on their respective periods.
