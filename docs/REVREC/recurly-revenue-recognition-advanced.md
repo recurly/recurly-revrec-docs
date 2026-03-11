@@ -1,9 +1,9 @@
 ---
 title: 'Overview: RevRec'
 excerpt: >-
-  Unlock precise and compliant revenue recognition with Recurly's Advanced
-  solution. Streamline financial operations, ensure ASC 606, IFRS 15/16, and
-  more compliance, and gain real-time revenue insights.
+  Unlock precise and compliant revenue recognition with Recurly's solution.
+  Streamline financial operations, ensure ASC 606, IFRS 15/16, and more
+  compliance, and gain real-time revenue insights.
 deprecated: false
 hidden: false
 metadata:
