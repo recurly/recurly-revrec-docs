@@ -26,8 +26,6 @@ The Revenue Recognition Dashboard gives finance teams a centralized, real-time v
 
 <Image align="center" border={true} src="https://files.readme.io/392a120d1642141a30b0537dd9eba05a8cc52050d112d63391a44b363f01e1d5-Img_1.png" className="border" />
 
-## Why this dashboard matters
-
 The Revenue Recognition Dashboard turns complex transactional data into a clear, audit-ready reporting interface. It helps your team:
 
 | Strategic value              | Description                                                                                                                  |
@@ -49,6 +47,8 @@ The dashboard includes two main sections:
 
 The Revenue Metrics section provides a centralized view of revenue-related activity. Use the filters at the top of the dashboard to customize what you see.
 
+<Image align="center" border={true} src="https://files.readme.io/b6dfefbfb1a626cbf74f58420adbdc589bc1fecedbef79e7f6cf0f2879d2e925-Img_2.png" className="border" />
+
 ### Revenue metrics filters
 
 | Filter             | Description                                                                                                                                                                           |
@@ -63,6 +63,8 @@ The Revenue Metrics section provides a centralized view of revenue-related activ
 ### Drill down into a metric
 
 Each metric tile supports drill-down reporting. **Select** the drill-down icon on a tile to open the detailed transaction lines behind that total, including supporting transaction data such as customer names and invoice IDs.
+
+<Image align="center" border={true} src="https://files.readme.io/512204060f2406acf8f9c948d8a0b6fc65b034a7e8f2bf17495d94975b63d97f-Img_3.png" className="border" />
 
 ### Revenue metric tiles
 
@@ -79,6 +81,8 @@ Each metric tile supports drill-down reporting. **Select** the drill-down icon o
 ## Liability balance rollforward
 
 The Liability Balance Rollforward is the audit engine of the dashboard. It shows how deferred revenue moves from the beginning to the end of a selected period, quarter, or year. This view helps confirm that every billed amount is either recognized as revenue or remains recorded as a liability.
+
+<Image align="center" border={true} src="https://files.readme.io/5ce4c64f258bbd7dd90ad656f6b8a666e52539c4eb3ccbc98125c1ece04faf54-Img_4.png" className="border" />
 
 ### Rollforward filters
 
