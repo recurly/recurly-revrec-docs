@@ -24,6 +24,8 @@ The Revenue Recognition Dashboard gives finance teams a centralized, real-time v
 
 **Select** the dashboard icon in the Revenue Recognition menu bar.
 
+<Image align="center" border={true} src="https://files.readme.io/392a120d1642141a30b0537dd9eba05a8cc52050d112d63391a44b363f01e1d5-Img_1.png" className="border" />
+
 ## Why this dashboard matters
 
 The Revenue Recognition Dashboard turns complex transactional data into a clear, audit-ready reporting interface. It helps your team:
