@@ -1,5 +1,5 @@
 ---
-title: Custom fields
+title: Custom fields for RevRec
 excerpt: Map Recurly custom fields to RevRec for richer revenue reporting and analysis.
 deprecated: false
 hidden: false
