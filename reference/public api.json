@@ -319,9 +319,6 @@
                     },
                     "name1": {
                       "type": "string"
-                    },
-                    "name2": {
-                      "type": "string"
                     }
                   }
                 }
