@@ -4,3 +4,9 @@
 - post_api-stage-saveevents
 - put_api-books-cleanpipelinedata
 - post_api-upload-uploadtranfile
+- post_api-stage-saveorderlines-1
+- post_api-stage-savedoclines-1
+- post_api-stage-savecostlines-1
+- post_api-stage-saveevents-1
+- put_api-books-cleanpipelinedata-1
+- post_api-upload-uploadtranfile-1
