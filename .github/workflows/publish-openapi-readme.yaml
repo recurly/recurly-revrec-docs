@@ -1,0 +1,25 @@
+name: Publish OpenAPI to ReadMe
+
+on:
+  push:
+    branches: [v1.0]
+    paths:
+      - 'reference/*.json'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Upload OpenAPI spec to ReadMe
+        uses: readmeio/rdme@v10
+        with:
+          rdme: >-
+            openapi upload "reference/public api with desc.json"
+            --key=${{ secrets.REVREC_RDME_API_TOKEN }}
+            --branch=v1.0
+            --slug="public api with desc.json"
+            --confirm-overwrite
