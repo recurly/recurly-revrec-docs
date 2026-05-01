@@ -17,4 +17,9 @@ jobs:
       - name: Upload OpenAPI spec to ReadMe
         uses: readmeio/rdme@v10
         with:
-          rdme: 'openapi upload "reference/public api with desc.json" --key=${{ secrets.REVREC_RDME_API_TOKEN }} --branch=v1.0 --slug="public api with desc.json" --confirm-overwrite'
+          rdme: >-
+            openapi upload reference/public-api-with-desc.json
+            --key=${{ secrets.REVREC_RDME_API_TOKEN }}
+            --branch=v1.0
+            --slug=public-api-with-desc.json
+            --confirm-overwrite
