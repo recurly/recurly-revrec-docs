@@ -12,6 +12,27 @@ metadata:
 
 Compass Assistant is an in-app network of AI agents and tools you can access through a single chat experience in Recurly. Use it as your on-demand co-pilot to navigate Revenue Recognition (RevRec) tasks, search helpful resources, and take action using natural language.
 
+### Video
+
+<HTMLBlock>{`
+<div style="position: relative; padding-top: 51.25%;">
+  <iframe
+    src="https://fast.wistia.net/embed/iframe/4quj7r8ze0?videoFoam=true"
+    title="Wistia video"
+    allow="autoplay; fullscreen"
+    allowtransparency="true"
+    frameborder="0"
+    scrolling="no"
+    class="wistia_embed"
+    name="wistia_embed"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;">
+  </iframe>
+</div>
+`}</HTMLBlock>
+
+<br />
+
 ### Required plan
 
 This feature or setting is available to all customers on any Recurly subscription plan.
@@ -59,8 +80,6 @@ Use conversation threads to keep different workstreams separate, so you can swit
 
 # FAQs
 
-**Q: Does Compass Assistant remember what I said earlier?**
-**A**: It remembers the context within the conversation thread you’re in. If you start a new chat, the assistant won’t use the previous thread’s context.
+**Q: Does Compass Assistant remember what I said earlier?** **A**: It remembers the context within the conversation thread you’re in. If you start a new chat, the assistant won’t use the previous thread’s context.
 
-**Q: How can I help improve results?**
-**A:** Use the thumbs up or thumbs down icons after a response. Your feedback helps refine accuracy and relevance.
+**Q: How can I help improve results?** **A:** Use the thumbs up or thumbs down icons after a response. Your feedback helps refine accuracy and relevance.
