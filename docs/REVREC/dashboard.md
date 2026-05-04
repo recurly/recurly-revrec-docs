@@ -15,7 +15,9 @@ The Revenue Recognition Dashboard gives finance teams a centralized, real-time v
 ### Video
 
 <HTMLBlock>{`
-<script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/113oukv0ec.js" async type="module"></script><style>wistia-player[media-id='113oukv0ec']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/113oukv0ec/swatch'); display: block; filter: blur(5px); padding-top:50.7%; }</style> <wistia-player media-id="113oukv0ec" aspect="1.9724896836313617"></wistia-player>
+<div style="position: relative; padding-top: 50.7%;">
+  <iframe src="https://fast.wistia.net/embed/iframe/113oukv0ec?videoFoam=true" title="Revenue Recognition Dashboard video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+</div>
 `}</HTMLBlock>
 
 # Key benefits
