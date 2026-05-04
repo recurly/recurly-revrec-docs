@@ -12,6 +12,25 @@ metadata:
 
 Recurly RevRec can derive the correct exchange rate for any contract or invoice created outside Recurly, based on its creation date. This removes the burden of supplying manual rates when importing or reconciling multi-currency subscription data.
 
+### Video
+
+<HTMLBlock>{`
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://fast.wistia.net/embed/iframe/fxw815ezfm?videoFoam=true"
+    title="Wistia video"
+    allow="autoplay; fullscreen"
+    allowtransparency="true"
+    frameborder="0"
+    scrolling="no"
+    class="wistia_embed"
+    name="wistia_embed"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;">
+  </iframe>
+</div>
+`}</HTMLBlock>
+
 # Definition
 
 The **Derive ExRate** feature automatically retrieves the appropriate currency exchange rate—by contract date for subscriptions and invoice date for invoices, so merchants don’t need to upload rates manually for external data feeds.
