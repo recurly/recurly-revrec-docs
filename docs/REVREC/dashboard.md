@@ -12,6 +12,12 @@ metadata:
 
 The Revenue Recognition Dashboard gives finance teams a centralized, real-time view of revenue performance, deferred balances, and compliance-related metrics. It helps CFOs, Controllers, Analysts, and other finance stakeholders review revenue health, validate data integrity, and make informed decisions from a single interface.
 
+### Video
+
+<HTMLBlock>{`
+<script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/113oukv0ec.js" async type="module"></script><style>wistia-player[media-id='113oukv0ec']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/113oukv0ec/swatch'); display: block; filter: blur(5px); padding-top:50.7%; }</style> <wistia-player media-id="113oukv0ec" aspect="1.9724896836313617"></wistia-player>
+`}</HTMLBlock>
+
 # Key benefits
 
 * **Real-time visibility**: Dashboard tiles update continuously to reflect the latest financial data.
