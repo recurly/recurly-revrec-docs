@@ -12,6 +12,25 @@ metadata:
 
 RevRec now pulls coupon code data directly from Recurly Billing and surfaces it in your RevRec views. Instead of cross-referencing billing records and revenue schedules manually, you can now see coupon codes at both the subscription and charge line level, including on credit events. This helps your finance team trace discounts for ASC 606 and IFRS 15 reporting.
 
+### Video
+
+<HTMLBlock>{`
+<div style="position: relative; padding-top: 50.21%;">
+  <iframe
+    src="https://fast.wistia.net/embed/iframe/mduu4gjqnz?videoFoam=true"
+    title="Wistia video"
+    allow="autoplay; fullscreen"
+    allowtransparency="true"
+    frameborder="0"
+    scrolling="no"
+    class="wistia_embed"
+    name="wistia_embed"
+    allowfullscreen
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;">
+  </iframe>
+</div>
+`}</HTMLBlock>
+
 ## Where coupon codes appear
 
 | Level                                    | What you’ll see                                                                | Format                                                    | Why it matters                                                                                                          |
@@ -31,8 +50,6 @@ Use the following attributes in the Workbench and in exports to report on coupon
 
 ## Frequently asked questions
 
-**Q: I see multiple codes in one field. How do I separate them?**
-**A**: Coupon codes are stored as a concatenated string (for example, `CODE1, CODE2`). If you export to CSV or Excel, you can split the field using Excel’s **Text to Columns** feature and a comma delimiter.
+**Q: I see multiple codes in one field. How do I separate them?** **A**: Coupon codes are stored as a concatenated string (for example, `CODE1, CODE2`). If you export to CSV or Excel, you can split the field using Excel’s **Text to Columns** feature and a comma delimiter.
 
-**Q: Why do I see a coupon code on a refund line?**
-**A**: That’s expected. For refunds, voids, and write-offs, RevRec looks back to the original invoiced charge line and displays the coupon code(s) that applied there. This keeps the credit event tied to the original discount conditions for audit and reconciliation.
+**Q: Why do I see a coupon code on a refund line?** **A**: That’s expected. For refunds, voids, and write-offs, RevRec looks back to the original invoiced charge line and displays the coupon code(s) that applied there. This keeps the credit event tied to the original discount conditions for audit and reconciliation.
