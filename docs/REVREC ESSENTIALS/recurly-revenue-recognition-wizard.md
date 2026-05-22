@@ -2,10 +2,10 @@
 title: Recurly RevRec Essentials Wizard
 excerpt: >-
   An interactive, step-by-step onboarding flow that guides you through
-  configuring and activating RevRec Essentials in Recurly with
-  best-practice defaults and clear explanations at every stage.
+  configuring and activating RevRec Essentials in Recurly with best-practice
+  defaults and clear explanations at every stage.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
