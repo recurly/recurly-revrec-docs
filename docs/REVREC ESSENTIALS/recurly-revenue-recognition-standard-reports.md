@@ -1,19 +1,19 @@
 ---
 title: Reporting for RevRec Essentials
 excerpt: >-
-  Effortlessly manage and report your subscription revenue with Recurly's
-  RevRec Essentials. Seamlessly integrate ASC 606 and IFRS 15
-  compliance into your subscription management process and gain invaluable
-  insights with comprehensive reports.
+  Effortlessly manage and report your subscription revenue with Recurly's RevRec
+  Essentials. Seamlessly integrate ASC 606 and IFRS 15 compliance into your
+  subscription management process and gain invaluable insights with
+  comprehensive reports.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: >-
     Effortlessly manage and report your subscription revenue with Recurly's
-    RevRec Essentials. Seamlessly integrate ASC 606 and IFRS 15
-    compliance into your subscription management process and gain invaluable
-    insights with comprehensive reports.
+    RevRec Essentials. Seamlessly integrate ASC 606 and IFRS 15 compliance into
+    your subscription management process and gain invaluable insights with
+    comprehensive reports.
   robots: index
 next:
   description: ''
