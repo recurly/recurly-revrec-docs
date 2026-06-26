@@ -131,7 +131,7 @@ metadata:
       <button
         type="button"
         class="rss-copy"
-        data-url="https://docs.recurly.com/recurly-revrec/changelog.rss"
+        data-url="https://docs.recurly.com/recurly-subscriptions/changelog.rss"
       >RSS feed URL</button>
       and paste it into your favorite RSS reader to get every update the moment it ships.
     </span>
