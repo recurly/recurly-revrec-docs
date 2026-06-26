@@ -12,7 +12,13 @@ metadata:
     background: #fff !important;
     display: none;
 }
-
+.rm-Guides #content-head {
+    display: none;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin: 0 auto;
+    width: 120%;
+}
   #recurly-changelog-header {
     background: #080807;
     border-radius: 22px;
