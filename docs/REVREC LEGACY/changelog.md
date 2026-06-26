@@ -7,6 +7,12 @@ metadata:
 ---
 <HTMLBlock>{`
 <style>
+  #hub-sidebar, #reference-sidebar, .rm-Sidebar {
+    font-family: var(--recurly-font) !important;
+    background: #fff !important;
+    display: none;
+}
+
   #recurly-changelog-header {
     background: #080807;
     border-radius: 22px;
