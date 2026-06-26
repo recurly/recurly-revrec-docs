@@ -21,6 +21,10 @@ metadata:
 <style>
 .content-toc {
     display: none;
+  }
+:where(.ThemeContext_spacing_legacy) .rm-Guides .content-body {
+    max-width: 100%;
+    width: 100%;
 }
 </style>
 `}</HTMLBlock>
