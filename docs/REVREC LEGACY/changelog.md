@@ -17,4 +17,14 @@ metadata:
   showItemsPerPageDropdown={true}
 />
 
+<HTMLBlock>{`
+<style>
+.content-toc {
+    font-family: var(--recurly-font) !important;
+    font-size: 13px !important;
+    display: none;
+}
+</style>
+`}</HTMLBlock>
+
 <br />
