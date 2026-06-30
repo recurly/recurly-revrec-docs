@@ -1,8 +1,9 @@
 ---
 title: Setup for RevRec
 excerpt: >-
-  Recurly RevRec: Streamlining Revenue Recognition and
-  Financial Reporting.
+  Get an overview of Recurly RevRec setup — Books, Profiles, Attribute labels,
+  Segments, Business events, and Currencies — and jump to each configuration
+  page.
 deprecated: false
 hidden: false
 metadata:
@@ -12,215 +13,106 @@ metadata:
 next:
   description: ''
 ---
-# Overview
-
-This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+<div class="rp-page">
+  <div class="rp-overview">Recurly RevRec guides and automates the revenue treatment of your transactions. Setting it up means working through a handful of core building blocks — books, profiles, attribute labels, segments, business events, and currencies — each covered on its own page below. This feature is part of Recurly RevRec. <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more</a>.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Available as part of Recurly RevRec</div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#definition"><span class="rp-toc-num">1</span>Definition</a>
+    <a class="rp-toc-pill" href="#key-benefits"><span class="rp-toc-num">2</span>Key benefits</a>
+    <a class="rp-toc-pill" href="#key-details"><span class="rp-toc-num">3</span>Key details</a>
+    <a class="rp-toc-pill" href="#faq"><span class="rp-toc-num">4</span>FAQ</a>
+  </div>
+</div>
 
 ### Prerequisites
 
-* Familiarity with the organization's RevRec Essentialss (e.g., IFRS-15 or ASC-606).
-* At least one primary book must be configured in Recurly RevRec to process revenue transactions.
-* Attributes must be defined in the Attribute Labels section for data collection.
+<ul class="rp-list">
+  <li>Familiarity with your organization's revenue recognition standard (IFRS 15 or ASC 606).</li>
+  <li>At least one primary book configured in Recurly RevRec to process revenue transactions.</li>
+  <li>Attributes defined in the Attribute Labels section for data collection.</li>
+</ul>
 
 ### Limitations
 
-* Only one Primary book is allowed in the system.
-* Once a book is deactivated, it cannot be reactivated.
-* Pipeline features are exclusive to Secondary books.
+<ul class="rp-list">
+  <li>Only one Primary book is allowed in the system.</li>
+  <li>Once a book is deactivated, it can't be reactivated.</li>
+  <li>Pipeline features are exclusive to Secondary books.</li>
+</ul>
 
 # Definition
 
-Recurly RevRec is a comprehensive tool designed to guide and automate the revenue treatment of transactions. It offers a structured approach to setting up books, profiles, attribute labels, segments, and business events, ensuring accurate and efficient financial reporting.
+<div class="rp-definition">Recurly RevRec is a comprehensive tool that guides and automates the revenue treatment of your transactions. It offers a structured approach to setting up books, profiles, attribute labels, segments, and business events, so your financial reporting stays accurate and efficient.</div>
 
 # Key benefits
 
-* **Versatility:** Allows for the establishment of multiple books, catering to varied revenue recognition treatments.
-* **Precision:** Offers detailed attribute labels, ensuring accurate data representation and transfer.
-* **Flexibility:** Supports both standard and custom business events, catering to diverse business requirements.
-* **Efficiency:** Automated processes reduce manual errors and streamline financial reporting.
-* **Integration:** Seamless integration with ERP systems, ensuring consistent and accurate data transfer.
+<div class="rp-benefits">
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-layer-group" aria-hidden="true"></i></div>
+    <strong>Versatility</strong>
+    <span>Establish multiple books to support varied revenue recognition treatments.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-bullseye" aria-hidden="true"></i></div>
+    <strong>Precision</strong>
+    <span>Use detailed attribute labels to keep your data accurate as it moves through the system.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-sliders" aria-hidden="true"></i></div>
+    <strong>Flexibility</strong>
+    <span>Support both standard and custom business events to fit diverse business requirements.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
+    <strong>Efficiency</strong>
+    <span>Automate processes to reduce manual errors and streamline financial reporting.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-plug" aria-hidden="true"></i></div>
+    <strong>Integration</strong>
+    <span>Connect seamlessly with your ERP systems for consistent, accurate data transfer.</span>
+  </div>
+</div>
 
 # Key details
 
-## Books
-
-In Recurly RevRec, books are instrumental in determining the revenue treatment for transactions. Users can establish multiple books, allowing for diverse revenue recognition treatments based on each book's rules. Organizations can choose their Primary Book (either IFRS-15 or ASC-606) based on their country of origin or the currency of their accounts. To process revenue transactions in Recurly RevRec, at least one primary book must be configured.
-
-**Creating Books:**
-
-1. **Navigate to:** Set Up → Books
-
-<Image align="center" border="true" src="https://files.readme.io/69476ad-image.png" className="border" />
-
-2. **Click **on the “+” to initiate book creation. Ensure the following fields are completed:
-   * **Name:** Must be unique (e.g., Revenue subledger book).
-   * **Compliance:** Choose the relevant accounting standard (e.g., ASC 606 or IFRS 15).
-   * **Type of Transactions:** Opt for either booking or pipeline transactions.
-   * **Primary:** Mark if this is the main book. Only one Primary book is allowed. Unmarked books will be secondary, and multiple secondary books are permissible.
-   * **Status:** Mark as Active if the book is in use. Once deactivated, a book cannot be reactivated.
-   * **System controls:** Choose among Allocation, forecasting, cost, posting. Note: Primary books must always have posting active.
-
-<Image align="center" border="true" src="https://files.readme.io/3a64df9-image.png" className="border" />
-
-3. After setting up the book(s),** click the Save icon**.
-4. Once books are established, the Revenue workbench offers options to view contracts under each book individually or collectively. Reports are tailored based on the created books.
-
-> **Note:** Secondary books exclusively use the pipeline features for forecasting, resembling orders booked via opportunities rather than sales orders.
-
-## Profiles
-
-Profiles in Recurly RevRec are designed to set application-level controls.
-
-**Configuring Profiles:**
-
-1. **Navigate** to: Set Up → Profiles
-
-<Image align="center" border="true" src="https://files.readme.io/8ea6717-image.png" className="border" />
-
-2. **Profile Options:**
-   * **Account separator:** Specifies the value for account separation.
-   * **Commission only:** Indicates if only commission data is present.
-   * **Global currency:** Designate the primary currency for financial reporting.
-   * **Overage allowed:** Enable if invoicing above the transaction amount is allowed.
-   * **Contract revision level:** Determine when a contract alteration is considered a Contract Modification.
-   * **Revenue Duration:** Differentiate between short-term (within a year) and long-term (beyond a year) revenue for GAAP and IFRS disclosure.
-   * **SSP DATE:** Recurly RevRec sets the SSP date for all transaction lines to the earliest sales order book date when configured in PROFILE.
-
-3. After finalizing the profile settings, **click the Save icon**.
-
-## Attribute labels
-
-Attribute labels bridge the gap between Recurly attribute names and their counterparts in Recurly RevRec. They also dictate display preferences in various areas.
-
-**Main Tabs under Attribute Labels:**
-
-1. **Contracts:** Pertains to contracts/sales orders.
-2. **Documents:** Relates to documents/invoices.
-3. **Cost:** Concerns cost/expenses/commissions.
-4. **Outbound Attributes:** Defines how data is relayed to the ERP system.
-
-**Configuring Labels for Contracts, Documents, and Cost:**
-
-1. For each tab, **set labels** to determine display preferences and order.
-2. **Drag** items to rearrange their display order.
-
-**Setting up Attribute Labels:**
-
-1. **Navigate to** Setup → Attribute Labels.
-
-<Image align="center" border="true" src="https://files.readme.io/735ad0b-image.png" className="border" />
-
-2. **Adjust** and add attribute labels as required.
-3. **Click **the Save icon after configuration.
-
-**Notes:**  
-Attributes must be defined here for Recurly RevRec to gather data.
-
-## Segments
-
-Segments help define a company's accounting structure, typically based on reporting needs or business processes.
-
-**Defining Segments:**
-
-1. **Navigate** to setup.
-2. **Select** “Segment”.
-3. **Click **“+” to add new segments and mark the natural segment containing the account.
-
-<Image align="center" border="true" src="https://files.readme.io/3c26ee3-image.png" className="border" />
-
-### Segment mapper
-
-This tool allows users to input values for defined segments, either linking them to contract attributes or assigning a static value. For instance, segments like Company and Revenue Code might use contract attribute values, while others like cost center have a fixed code. The segment account pulls the “account number” from its respective contracts.
-
-## Business events
-
-In Recurly RevRec, business events are either custom or standard triggers that initiate various actions for revenue and cost. After setting up an event, users can upload an event file, and RevRec will process the uploaded events.
-
-### Standard events / default events
-
-Standard events are built-in business triggers in Recurly RevRec that aid in releasing POB. Examples include:
-
-1. **Upon Billing: **Events occur upon billing for sales orders.
-2. **Upon Booking: **Events occur upon sales order loading.
-3. **Expiration:** An event triggers upon expiration.
-
-### Custom Event
-
-Users can create custom events in Recurly RevRec, such as:
-
-1. **Revenue:** Associated with a POB template to release revenue.
-2. **Holds:** Linked to holds or approvals to release revenue or transfer revenue placed on a Contract, POB, or line Hold.
-
-**Configuring Events:**
-
-1. **Navigate** to Set up → Events
-
-<Image align="center" border="true" src="https://files.readme.io/9648676-image.png" className="border" />
-
-2. **Fill in **the necessary fields and select options as needed.
-3. After setting up the event, **click the Save icon**.
-
-**Associating an Event with POB:**
-
-Before uploading an event file to Recurly RevRec, it's essential to link the business event with a POB.
-
-1. **Navigate** to the desired POB. Within the revenue release tab, click on the "+" icon. From the dropdown, choose the event and specify the percentage of revenue release based on the chosen event (set to 100 if it's the only one).
-
-<Image align="center" border="true" caption="POB Association" src="https://files.readme.io/a76fa5f-image.png" />
-
-2. Multiple events can be linked in Recurly RevRec. Additionally, you have the flexibility to edit or delete revenue release events.
-
-3. Once done, **click on the Save icon**.
-
-**Event File Template**  
-Your event file template should resemble the table below:
-
-| Attribute 1 (from event mapper) | Attribute 2 (from event mapper) | Event Action | Start Date | End Date | Release Date | Effective Date | Expiry Date |
-| :------------------------------ | :------------------------------ | :----------- | :--------- | :------- | :----------- | :------------- | :---------- |
-|                                 |                                 |              |            |          |              |                |             |
-
-**Template Components**
-
-* **Event Code**: Every uploaded event file must include an event code. Recurly revenue recognition supports various event codes, as outlined in the table below:
-
-  | Event Type                  | Event Action |
-  | :-------------------------- | :----------- |
-  | EventActionRemoveHold       | 1            |
-  | EventActionRecognize        | 2            |
-  | EventActionDefer            | 3            |
-  | EventActionExpiryDate       | 4            |
-  | EventActionDeferFuture      | 5            |
-  | EventActionAccelerate       | 6            |
-  | EventActionDeferReRecognize | 7            |
-
-* **Start & End Date**: These dates, while optional, determine the revenue recognition period. They will override any dates specified in the contract.
-
-* **Release Date**: This date allows you to input data for the current period as if the event is scheduled for a future date. For instance, you can input an event file on May-23 for July-23, aiding in waterfall catchup.
-
-* **Effective Date**: Governs future events. For example, if events dated Jul-23 are loaded in May-23, the system won't process them until Jul-23 is active. Thus, the effective date manages future events.
-
-* **Expiry Date**: Applicable for events with a set expiration. It can be utilized to update an event's expiration date.
-
-## Currencies
-
-Recurly RevRec predefines all currencies as ISO Codes, each with its corresponding precision, listed on the Currencies page.
-
-**Editing Currencies Configuration:**
-
-1. **Navigate** to Setup → Currencies  
-   ![](https://files.readme.io/4ae93a3-image.png)
-2. All currencies are predefined in Recurly RevRec. To edit:
-   * **Double-click** on the desired currency or precision field.
-   * **Make** the necessary changes.
-   * **Click** the Save icon.
+<div class="rp-nav-grid">
+
+<Cards>
+  <Card title="Books (ASC 606 vs IFRS 15)" href="https://docs.recurly.com/recurly-revrec/docs/books-asc606-vs-ifrs15" target="_blank">
+    Set up your Primary and Secondary books and choose the accounting standard each one follows.
+  </Card>
+  <Card title="Profiles" href="https://docs.recurly.com/recurly-revrec/docs/profiles" target="_blank">
+    Configure application-level controls like global currency, overage rules, and revenue duration.
+  </Card>
+  <Card title="Attribute labels" href="https://docs.recurly.com/recurly-revrec/docs/attribute-labels" target="_blank">
+    Map Recurly attribute names to their RevRec counterparts and control how they display.
+  </Card>
+  <Card title="Segments" href="https://docs.recurly.com/recurly-revrec/docs/segments" target="_blank">
+    Define your accounting structure based on your reporting needs or business processes.
+  </Card>
+  <Card title="Business events" href="https://docs.recurly.com/recurly-revrec/docs/business-events" target="_blank">
+    Set up standard and custom triggers that drive revenue and cost actions, and link them to POBs.
+  </Card>
+  <Card title="Currencies" href="https://docs.recurly.com/recurly-revrec/docs/currencies" target="_blank">
+    Review and edit the precision of predefined ISO currency codes.
+  </Card>
+</Cards>
+
+</div>
 
 # FAQ
 
-**Q: How do I create and manage Books in Recurly RevRec?**
-A: Manage Books in **Application setup → Books**. For step-by-step guidance, see the **Setup: Books** documentation.
+<Accordion title="How do I create and manage Books in Recurly RevRec?">
+  Manage Books in Application setup → Books. For step-by-step guidance, see the <a href="https://docs.recurly.com/recurly-revrec/docs/books-asc606-vs-ifrs15" target="_blank">Books</a> documentation.
+</Accordion>
 
-**Q: What are Business Events and how do I configure them?**
-A: Business Events define how transactions are processed in RevRec. Configure them in **Application setup → Business events**. Refer to **Setup: Business Events** for details.
+<Accordion title="What are Business Events and how do I configure them?">
+  Business Events define how transactions are processed in RevRec. Configure them in Application setup → Business events. Refer to the <a href="https://docs.recurly.com/recurly-revrec/docs/business-events" target="_blank">Business events</a> documentation for details.
+</Accordion>
 
-**Q: Where can I find information on setting up Segments?**
-A: Segments are configured in **Application setup → Segments**. See the **Setup: Segments** section for configuration steps.
+<Accordion title="Where can I find information on setting up Segments?">
+  Segments are configured in Application setup → Segments. See the <a href="https://docs.recurly.com/recurly-revrec/docs/segments" target="_blank">Segments</a> documentation for configuration steps.
+</Accordion>
+
+<br />
