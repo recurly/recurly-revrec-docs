@@ -1,10 +1,9 @@
 ---
 title: Prepayment credit
 excerpt: >-
-  Prepayment credit in Recurly allows customers to pay in advance for purchases,
-  streamlining the subscription process and enhancing financial flexibility.
-  This feature allows businesses to pull balance credits information, enhancing
-  their revenue recognition experience.
+  Learn how prepayment credits work in Recurly RevRec — how advance payments are
+  tracked as a single SO line with two invoices, and how to identify prepayment
+  credit activity by plan code.
 deprecated: false
 hidden: false
 metadata:
@@ -14,73 +13,112 @@ metadata:
 next:
   description: ''
 ---
-# Overview
+<div class="rp-page">
+  <div class="rp-overview">Prepayment credit is an advance payment made by a customer for future purchases or subscriptions. The credit is stored in the customer's account and automatically applied to invoices as they're generated — simplifying payment and flowing accurately into RevRec for revenue tracking and forecasting.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Available as part of Recurly RevRec</div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#definition"><span class="rp-toc-num">1</span>Definition</a>
+    <a class="rp-toc-pill" href="#key-benefits"><span class="rp-toc-num">2</span>Key benefits</a>
+    <a class="rp-toc-pill" href="#key-details"><span class="rp-toc-num">3</span>Key details</a>
+    <a class="rp-toc-pill" href="#faq"><span class="rp-toc-num">4</span>FAQ</a>
+  </div>
+</div>
 
-### Additional cost
-
-To access this feature or setting, you must have an active subscription to either the Recurly RevRec or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Additional cost</strong>To access this feature, you must have an active subscription to either Recurly RevRec or the Standard edition. Contact your Recurly account manager or <a href="mailto:support@recurly.com">support@recurly.com</a> for pricing details.</div>
+</div>
 
 ### Prerequisites
 
-* Cancellation and refund policy that supports prepayment crediting.
+<ul class="rp-list">
+  <li>A cancellation and refund policy that supports prepayment crediting.</li>
+</ul>
 
 ### Limitations
 
-* Prepayment credits can only be used for purchases and cannot be refunded.
-* Specific configurations may restrict the use of prepayment credits for certain plans or products.
+<ul class="rp-list">
+  <li>Prepayment credits can only be used for purchases and can't be refunded.</li>
+  <li>Specific configurations may restrict the use of prepayment credits for certain plans or products.</li>
+</ul>
 
 # Definition
 
-Prepayment credit refers to an advance payment made by a customer for purchases or subscriptions with a business. This credit is stored in the customer's account and automatically applied to invoices as they are generated, simplifying the payment process.
+<div class="rp-definition">Prepayment credit refers to an advance payment made by a customer for purchases or subscriptions. This credit is stored in the customer's account and automatically applied to invoices as they're generated, simplifying the payment process.</div>
 
 # Key benefits
 
-* **Streamlined revenue recognition**: Incorporating prepayment credits into revenue reports enhances financial accuracy by reflecting real-time customer balances and potential sales.
-* **Enhanced financial reporting**: Prepayment credits contribute to a more comprehensive view of financial health, allowing for precise revenue tracking and forecasting in revenue recognition reports.
-* **Increased operational efficiency**: The management of prepayment credits through automated systems simplifies the reconciliation process, ensuring that credits are accurately reported in financial statements, improving overall financial transparency and compliance.
+<div class="rp-benefits">
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+    <strong>Streamlined revenue recognition</strong>
+    <span>Incorporating prepayment credits into revenue reports enhances financial accuracy by reflecting real-time customer balances and potential sales.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-file-invoice-dollar" aria-hidden="true"></i></div>
+    <strong>Enhanced financial reporting</strong>
+    <span>Prepayment credits contribute to a more comprehensive view of financial health, enabling precise revenue tracking and forecasting.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
+    <strong>Increased operational efficiency</strong>
+    <span>Automated management of prepayment credits simplifies reconciliation and ensures credits are accurately reflected in financial statements.</span>
+  </div>
+</div>
 
 # Key details
 
-Customers are encouraged to make advance payments, known as prepayment credits, which are then applied to purchases. This process involves the issuance of two invoices in Recurly: one acknowledging the payment and the other representing the credit.
+When a customer makes a prepayment, Recurly issues two invoices: one acknowledging the payment and one representing the credit balance.
 
 **Payment invoice**
 
-<Image align="center" border={true} width="80% " src="https://files.readme.io/41591a7-image.png" className="border" />
 
-**Credit Invoice**
+<Image src="https://files.readme.io/41591a7-image.png" align="center" width="80%" border={true} />
 
-<Image align="center" border={true} width="80% " src="https://files.readme.io/9ed19d1-image.png" className="border" />
 
-Prepayment credits are integrated into the Revenue Recognition (RevRec) system as a single Sales Order (SO) line, accompanied by two invoices. Adjustments to the credit are recorded as new lines, identifiable by their origin and plan code.
+**Credit invoice**
 
-| Origin       | Activity                   | Plan Code                  |
-| ------------ | -------------------------- | -------------------------- |
-| credit-event | prepayment credit issued   | credit-prepayment          |
-| credit-event | prepayment credit redeemed | credit-prepayment redeemed |
-| credit-event | Prepayment credit voided   | credit-prepayment-voided   |
 
-<Image align="center" border={true} src="https://files.readme.io/00ce3ca-image.png" className="border" />
+<Image src="https://files.readme.io/9ed19d1-image.png" align="center" width="80%" border={true} />
 
-Customers can view their total credit balance in Recurly, which is equal to the total sell price of the credit lines. This balance is visible in the customer information section.
 
-<Image align="center" border={true} width="45% " src="https://files.readme.io/0a9446b-image.png" className="border" />
+Prepayment credits appear in RevRec as a single Sales Order (SO) line with two invoices. Adjustments to the credit are recorded as new lines, identifiable by their origin and plan code.
 
-Through prepayment credits, Recurly provides a flexible and efficient way for businesses and customers to recognize and manage advance payments, offering benefits such as improved cash flow, convenience, and simplified billing processes.
+<table class="rp-params">
+  <tr class="rp-thead-row"><td>Origin</td><td>Activity</td><td>Plan code</td></tr>
+  <tr><td>credit-event</td><td>Prepayment credit issued</td><td><code>credit-prepayment</code></td></tr>
+  <tr><td>credit-event</td><td>Prepayment credit redeemed</td><td><code>credit-prepayment-redeemed</code></td></tr>
+  <tr><td>credit-event</td><td>Prepayment credit voided</td><td><code>credit-prepayment-voided</code></td></tr>
+</table>
+
+
+<Image src="https://files.readme.io/00ce3ca-image.png" align="center" width="75%" border={true} />
+
+
+Customers can view their total credit balance in Recurly — equal to the total sell price of the credit lines — in the customer information section.
+
+
+<Image src="https://files.readme.io/0a9446b-image.png" align="center" width="45%" border={true} />
+
 
 # FAQ
 
-**Q: What makes a Prepayment credit different from the other two credit types?**
-A: A **prepayment credit** is **funded by the customer**. They pay in advance, and that amount is held as a credit balance to use on future subscriptions or purchases.
+<Accordion title="What makes a prepayment credit different from the other two credit types?">
+  A prepayment credit is funded by the customer. They pay in advance, and that amount is held as a credit balance to use on future subscriptions or purchases.
+</Accordion>
 
-**Q: Why do I see two credit-event invoices in Recurly when a prepayment credit is issued?**
-A: Two invoices are created to make the accounting clear:
+<Accordion title="Why do I see two credit-event invoices in Recurly when a prepayment credit is issued?">
+  Two invoices are created to make the accounting clear:
 
-* **Payment invoice:** Acknowledges receipt of the customer’s advance payment.
-* **Credit invoice:** Converts that payment into a usable **credit balance** on the customer’s account.
+  - **Payment invoice:** Acknowledges receipt of the customer's advance payment.
+  - **Credit invoice:** Converts that payment into a usable credit balance on the customer's account.
+</Accordion>
 
-**Q: How are prepayment credits and their adjustments tracked in RevRec?**
-A: Filter for **origin = credit-event** and use these **plan codes**:
+<Accordion title="How are prepayment credits and their adjustments tracked in RevRec?">
+  Filter for origin = credit-event and use these plan codes:
 
-* **Credit issued:** `credit-prepayment`
-* **Credit used/redeemed:** `credit-prepayment-redeemed`
-* **Credit canceled/voided:** `credit-prepayment-voided`
+  - **Credit issued:** `credit-prepayment`
+  - **Credit used/redeemed:** `credit-prepayment-redeemed`
+  - **Credit canceled/voided:** `credit-prepayment-voided`
+</Accordion>
+
+<br />
