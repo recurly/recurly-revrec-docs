@@ -1,5 +1,5 @@
 ---
-title: App Management - RevRec
+title: App Management — RevRec
 excerpt: >-
   Efficiently manage and integrate app data from Apple Store and Google Play
   Store into Recurly Revenue Recognition with tailored grouping, performance
