@@ -1,9 +1,9 @@
 ---
 title: 'Overview: RevRec'
 excerpt: >-
-  Unlock precise and compliant revenue recognition with Recurly's solution.
-  Streamline financial operations, ensure ASC 606, IFRS 15/16, and more
-  compliance, and gain real-time revenue insights.
+  Recurly RevRec automates revenue recognition for ASC 606, IFRS 15/16, ASC 842,
+  and ASC 340-40 compliance, with multi-currency support, real-time insights,
+  and automated contract modifications.
 deprecated: false
 hidden: false
 metadata:
@@ -13,53 +13,97 @@ metadata:
 next:
   description: ''
 ---
-# Overview
+<div class="rp-page">
+  <div class="rp-overview">Recurly RevRec is an advanced revenue recognition solution built for businesses that need precision and compliance. It automates complex contract modifications, supports multi-currency and multi-book accounting, and delivers real-time insights into your revenue streams — all while keeping you compliant with ASC 606, IFRS 15/16, ASC 842, and ASC 340-40.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Available on Starter (with an active monthly or yearly plan), Professional, and Elite plans</div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#definition"><span class="rp-toc-num">1</span>Definition</a>
+    <a class="rp-toc-pill" href="#key-benefits"><span class="rp-toc-num">2</span>Key benefits</a>
+    <a class="rp-toc-pill" href="#key-details"><span class="rp-toc-num">3</span>Key details</a>
+  </div>
+</div>
 
-### Required plan
-
-This feature is accessible to customers on the Starter (with an active monthly/yearly plan), Professional, and Elite subscription plans. If you're interested in upgrading or need more information about these plans, please contact your Recurly account manager or [support@recurly.com](mailto:support@recurly.com).
-
-### Additional cost
-
-This feature or setting requires an additional cost. Please reach out to your Recurly account manager or [support@recurly.com](mailto:support@recurly.com) for more pricing details.
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Additional cost</strong>Recurly RevRec requires an additional cost. Contact your Recurly account manager or <a href="mailto:support@recurly.com">support@recurly.com</a> for pricing details.</div>
+</div>
 
 # Definition
 
-Recurly RevRec is an innovative solution tailored for businesses seeking precision and compliance in revenue recognition. It is equipped with features that adhere to standards like ASC 606, IFRS 15/16, ASC 842, and ASC 340-40. This solution not only automates intricate contract modifications but also facilitates SSO authentication, automated revenue recognition, and expense allocations. It stands out with its multi-currency and multi-book capabilities, offering businesses real-time insights into their revenue streams.
+<div class="rp-definition">Recurly RevRec is an innovative solution built for businesses that need precision and compliance in revenue recognition. It adheres to ASC 606, IFRS 15/16, ASC 842, and ASC 340-40, and automates complex contract modifications, SSO authentication, revenue recognition, and expense allocations — with multi-currency and multi-book capabilities that give you real-time visibility into your revenue streams.</div>
 
 # Key benefits
 
-* **Automated compliance:** Seamlessly adhere to ASC 606, IFRS 15/16, ASC 842, and ASC 340-40 standards, ensuring your revenue recognition is always compliant.
-* **Real-time revenue insights:** Gain immediate visibility into your revenue performance, aiding in informed decision-making and accurate forecasting.
-* **Streamlined financial operations:** Simplify complex processes with automated contract modifications, SSO authentication, and multi-revenue model support.
-* **Multi-currency & multi-book capabilities:** Expand your global reach with support for various currencies and accounting books.
-* **Dedicated support:** Benefit from continuous feature enhancements, subscription strategy guidance, and dedicated account management.
+<div class="rp-benefits">
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-scale-balanced" aria-hidden="true"></i></div>
+    <strong>Automated compliance</strong>
+    <span>Stay compliant with ASC 606, IFRS 15/16, ASC 842, and ASC 340-40 without manual effort.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+    <strong>Real-time revenue insights</strong>
+    <span>Get immediate visibility into revenue performance to support informed decisions and accurate forecasting.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
+    <strong>Streamlined financial operations</strong>
+    <span>Automate contract modifications, SSO authentication, and multi-revenue model support to simplify complex processes.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-globe" aria-hidden="true"></i></div>
+    <strong>Multi-currency and multi-book</strong>
+    <span>Support global operations with multiple currencies and accounting books.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-headset" aria-hidden="true"></i></div>
+    <strong>Dedicated support</strong>
+    <span>Benefit from continuous feature enhancements, subscription strategy guidance, and dedicated account management.</span>
+  </div>
+</div>
 
 # Key details
 
-Recurly's advanced revenue recognition solution is a game-changer for businesses aiming for precision and compliance in their financial operations. With its robust compliance features, it ensures adherence to standards like ASC 606, IFRS 15/16, ASC 842, and ASC 340-40. The platform's capabilities extend beyond just compliance:
+Recurly RevRec goes beyond compliance to support your entire revenue management workflow:
 
-* **Automated contract modifications:** Say goodbye to manual adjustments. Automate complex contract changes with ease.
-* **Single-sign-on (SSO) authentication:** Enhance security and user experience with SSO capabilities.
-* **Automated revenue recognition & expense allocations:** Streamline your financial processes, ensuring accuracy and efficiency.
-* **Real-time revenue insights & forecasting:** Stay ahead with immediate insights into your revenue performance and accurate forecasting tools.
-* **Multi-currency & multi-book support:** Cater to a global audience with support for various currencies and accounting books, ensuring you never miss out on any revenue opportunity.
-
-By integrating Recurly's advanced solution, businesses can optimize their revenue management processes, simplify operations, and drive growth with real-time revenue performance insights.
+<ul class="rp-list">
+  <li><strong>Automated contract modifications:</strong> Automate complex contract changes without manual adjustments.</li>
+  <li><strong>Single sign-on (SSO) authentication:</strong> Enhance security and user experience with SSO capabilities.</li>
+  <li><strong>Automated revenue recognition and expense allocations:</strong> Streamline financial processes for accuracy and efficiency.</li>
+  <li><strong>Real-time revenue insights and forecasting:</strong> Stay ahead with immediate visibility into revenue performance and accurate forecasting tools.</li>
+  <li><strong>Multi-currency and multi-book support:</strong> Support a global audience with various currencies and accounting books.</li>
+</ul>
 
 ## Getting started
 
-Embarking on your journey with Recurly's advanced revenue recognition is a structured process. Here's how you can get started:
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Evaluate</h4><p>Understand your technical and business requirements.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Solution architecture</h4><p>Determine the architecture that best aligns with your business needs.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">3</div>
+    <div><h4>Demos</h4><p>Engage in revenue recognition demos to understand the platform's capabilities.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">4</div>
+    <div><h4>Stakeholder alignment</h4><p>Ensure all key stakeholders are aligned with the implementation strategy.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">5</div>
+    <div><h4>Onboarding</h4><p>Move into the implementation phase — including site audits, data and system migrations, integrations, and customizations tailored to your business.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">6</div>
+    <div><h4>Ongoing support</h4><p>Get dedicated account management, strategic subscription guidance, and regular feature updates to maximize ongoing value.</p></div>
+  </div>
+</div>
 
-1. **Evaluate:** Understand both your technical and business requirements.
-2. **Solution architecture:** Determine the best architecture that aligns with your business needs.
-3. **Demos:** Engage in comprehensive revenue recognition demos to grasp the platform's capabilities.
-4. **Stakeholder alignment:** Ensure all key stakeholders are on board and aligned with the implementation strategy.
-5. **Onboarding:** Dive into the implementation phase, which includes site audits, data/system migrations, integrations, and customizations tailored to your business.
-6. **Ongoing support:** Benefit from dedicated account management, strategic subscription guidance, and regular feature updates to maximize value creation.
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Ready to get started?</strong>Contact your Recurly account manager or reach out to <a href="mailto:support@recurly.com">support@recurly.com</a> for pricing details. Our team will evaluate your use case and build a solution tailored to your needs.</div>
+</div>
 
-With Recurly's robust solution, businesses are empowered to achieve accurate, compliant, and streamlined revenue recognition, tailored to their unique needs.
-
-**Unlock the advanced benefits of Recurly Revenue Recognition:**
-
-Ready to transform your revenue recognition processes? Connect with your Recurly account manager or reach out to [support@recurly.com](mailto:support@recurly.com) for detailed pricing. Our team of experts will evaluate your specific use cases and craft a solution tailored to your needs. Harness the power of our advanced features, streamline your financial operations, and ensure you're always compliant with industry standards.
+<br />
