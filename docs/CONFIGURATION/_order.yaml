@@ -1,5 +1,6 @@
 - setup
 - rules
+- custom-attribute-mapping
 - compass-assistant-revrec
 - dashboard
 - recurly-revenue-recognition-credits
@@ -9,7 +10,6 @@
 - data-transformation
 - reports
 - month-end-close-overview
-- custom-attribute-mapping
 - recurly-revenue-recognition-app-management
 - coupon-code-visibility
 - mid-tier-offering-of-revenue-recognition
