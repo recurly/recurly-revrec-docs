@@ -1,8 +1,9 @@
 ---
 title: Data transformation
 excerpt: >-
-  Recurly RevRec: Transforming data for accurate financial
-  reporting.
+  Recurly RevRec data transformation features let you bundle products, apply
+  data rules, auto-generate billing, derive exchange rates, and build analytics
+  datasets.
 deprecated: false
 hidden: false
 metadata:
@@ -12,45 +13,81 @@ metadata:
 next:
   description: ''
 ---
-# Overview
+<div class="rp-page">
+  <div class="rp-overview">Data transformation is the set of Recurly RevRec tools that shape your raw transaction data into exactly what revenue recognition needs. Bundle products into single units, apply rule-based logic to transactions, auto-generate billing for external data, derive exchange rates automatically, and build datasets for analytics — all without manual splits, uploads, or lookups. Use the cards below to jump to any feature.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Part of Recurly RevRec — <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">learn more</a></div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#definition"><span class="rp-toc-num">1</span>Definition</a>
+    <a class="rp-toc-pill" href="#key-benefits"><span class="rp-toc-num">2</span>Key benefits</a>
+    <a class="rp-toc-pill" href="#features"><span class="rp-toc-num">3</span>Features</a>
+  </div>
+</div>
 
-These Data Transformation features are part of **Recurly RevRec**. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
 
-<Image align="center" className="border" border={true} width="75% " src="https://files.readme.io/6cb0c82-image.png" />
+<Image src="https://files.readme.io/6cb0c82-image.png" align="center" width="75%" border={true} />
 
-<br />
 
 ### Prerequisites
 
-* Familiarity with your organization’s RevRec Essentialss.
-* Understanding of product bundling and data rule logic.
-* Knowledge of which attributes you need in your analysis datasets.
+<ul class="rp-list">
+  <li>Familiarity with your organization's RevRec Essentials.</li>
+  <li>Understanding of product bundling and data rule logic.</li>
+  <li>Knowledge of which attributes you need in your analysis datasets.</li>
+</ul>
 
 ### Limitations
 
-* **Datasets** cannot be deleted once created—only inactivated.
-* **Data Rules** cannot be deleted—only toggled inactive.
+<ul class="rp-list">
+  <li>Datasets can't be deleted once created — only inactivated.</li>
+  <li>Data rules can't be deleted — only toggled inactive.</li>
+</ul>
 
 # Definition
 
-Data Transformation in Recurly RevRec lets you:
-
-* **Bundle products** into single units with inherited pricing and cost rules.
-* **Apply Data Rules** to transactions via formulas, criteria, or attributes.
-* **Auto-generate billing** for external subscription data without separate invoice imports.
-* **Derive exchange rates** automatically based on contract or invoice dates.
-* **Build Datasets** for analytics—updated daily and locked once created.
+<div class="rp-definition">Data transformation in Recurly RevRec lets you bundle products into single units with inherited pricing and cost rules, apply data rules to transactions via formulas and criteria, auto-generate billing for external subscription data, derive exchange rates from contract or invoice dates, and build datasets for analytics that update daily and lock once created.</div>
 
 # Key benefits
 
-* **Streamlined workflow**: Eliminate manual splits, invoice uploads, and rate lookups.
-* **Accurate recognition**: Enforce consistent rules and formulas for revenue, cost, and commission.
-* **Robust analytics**: Leverage custom datasets to power your executive reports and dashboards.
+<div class="rp-benefits">
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i></div>
+    <strong>Streamlined workflow</strong>
+    <span>Eliminate manual splits, invoice uploads, and rate lookups.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-circle-check" aria-hidden="true"></i></div>
+    <strong>Accurate recognition</strong>
+    <span>Enforce consistent rules and formulas for revenue, cost, and commission.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-chart-column" aria-hidden="true"></i></div>
+    <strong>Robust analytics</strong>
+    <span>Use custom datasets to power your executive reports and dashboards.</span>
+  </div>
+</div>
 
-# Key details
+# Features
 
-* **Product bundle**: Group multiple SKUs into a single “Parent” unit; define child lines with pricing, cost, and commission formulas. [Learn more](product-bundle)
-* **Data rules**: Create transaction-level logic—apply formulas, sub-criteria, and attributes to orders or contract lines. [Learn more](data-rules)
-* **Auto Bill for external data**: Automatically generate invoices from imported sales orders when billing terms match subscription terms. [Learn more](autobill-for-external-data)
-* **Derive Exchange Rate for external data**: Automatically fetch and apply correct exchange rates for off-platform contracts and invoices. [Learn more](derive-exrate-for-external-data)
-* **Datasets**: Define analysis tables with primary attributes; updated daily and inactivated when no longer needed. [Learn more](data-sets)
+<div class="rp-nav-grid">
+
+<Cards>
+  <Card title="Product bundle" href="https://docs.recurly.com/recurly-revrec/docs/product-bundle" target="_blank">
+    Group multiple SKUs into a single parent unit and define child lines with pricing, cost, and commission formulas.
+  </Card>
+  <Card title="Data rules" href="https://docs.recurly.com/recurly-revrec/docs/data-rules" target="_blank">
+    Create transaction-level logic that applies formulas, sub-criteria, and attributes to orders or contract lines.
+  </Card>
+  <Card title="Autobill for external data" href="https://docs.recurly.com/recurly-revrec/docs/autobill-for-external-data" target="_blank">
+    Automatically generate invoices from imported sales orders when billing terms match subscription terms.
+  </Card>
+  <Card title="Derive exchange rate for external data" href="https://docs.recurly.com/recurly-revrec/docs/derive-exrate-for-external-data" target="_blank">
+    Automatically fetch and apply the correct exchange rates for off-platform contracts and invoices.
+  </Card>
+  <Card title="Datasets" href="https://docs.recurly.com/recurly-revrec/docs/data-sets" target="_blank">
+    Define analysis tables with primary attributes that update daily and can be inactivated when no longer needed.
+  </Card>
+</Cards>
+
+</div>
+
+<br />
