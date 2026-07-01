@@ -1,9 +1,9 @@
 ---
 title: Credits
 excerpt: >-
-  Maximize customer satisfaction and financial flexibility with Recurly Revenue
-  Recognition credits, including goodwill, on-account, and prepayment credits.
-  Keep track of credits as they impact your revenue recognition.
+  Overview of Recurly RevRec credit types — Goodwill, On-account, and Prepayment
+  credits — including how to configure credit event inclusion in revenue
+  recognition and how credits appear in RevRec.
 deprecated: false
 hidden: false
 metadata:
@@ -13,91 +13,97 @@ metadata:
 next:
   description: ''
 ---
-# Overview
+<div class="rp-page">
+  <div class="rp-overview">Recurly RevRec supports three types of credits — Goodwill, On-account, and Prepayment — each serving a distinct purpose in your revenue recognition workflows. Use this page to understand the credit types, configure whether credit event transactions flow into RevRec, and navigate to each dedicated guide.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Available as part of Recurly RevRec</div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#definition"><span class="rp-toc-num">1</span>Definition</a>
+    <a class="rp-toc-pill" href="#key-details"><span class="rp-toc-num">2</span>Key details</a>
+    <a class="rp-toc-pill" href="#faq"><span class="rp-toc-num">3</span>FAQ</a>
+  </div>
+</div>
 
-### Additional cost
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Additional cost</strong>To access these features, you must have an active subscription to either Recurly RevRec or the Standard edition. Contact your Recurly account manager or <a href="mailto:support@recurly.com">support@recurly.com</a> for pricing details.</div>
+</div>
 
-To access these features or settings, you must have an active subscription to either the Recurly RevRec or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
+### Prerequisites
 
-export const PrerequisitesLimitations = ({ header }) => {
-  return (
-    <div className="flex justify-start">
-      <div className="rounded-md p-6 m-4 max-w-lg shadow-md border border-gray-300 dark:bg-gray-800 dark:border-gray-600">
-        <p className="text-lg font-bold">{header}</p>
+<ul class="rp-list">
+  <li>A cancellation and refund policy that supports account crediting.</li>
+</ul>
 
-        {/* Prerequisite */}
-        <p>
-          <i className="fa-solid fa-check mr-2" />
-          Cancellation and refund policy that supports account crediting.
-        </p>
+### Limitations
 
-        {/* Limitations */}
-        <p>
-          <i className="fa-solid fa-exclamation-triangle mr-4" />
-          Prepayment credits can only be used for purchases and cannot be refunded.
-        </p>
-        <p>
-          <i className="fa-solid fa-exclamation-triangle mr-4" />
-          Goodwill credits are non-transferable and must be used within the issuing account.
-        </p>
-        <p>
-          <i className="fa-solid fa-exclamation-triangle mr-4" />
-          Credits may have expiration dates or usage conditions, depending on the business policy.
-        </p>
-      </div>
-    </div>
-  );
-};
-
-<PrerequisitesLimitations header="Prerequisites & limitations" />
+<ul class="rp-list">
+  <li>Prepayment credits can only be used for purchases and can't be refunded.</li>
+  <li>Goodwill credits are non-transferable and must be used within the issuing account.</li>
+  <li>Credits may have expiration dates or usage conditions, depending on your business policy.</li>
+</ul>
 
 # Definition
 
-Recurly's Revenue Recognition Credits encompass three distinct types of credits that businesses can offer to their customers: Goodwill Credit, On-account Credit, and Prepayment Credit. Each serves a unique purpose, from enhancing revenue recognition to conducting new strategies based on your analysis.
+<div class="rp-definition">Recurly RevRec supports three distinct credit types: Goodwill Credit, On-account Credit, and Prepayment Credit. Each serves a unique purpose — from enhancing revenue recognition to enabling customer retention strategies. You can choose whether to include credit event transactions in your revenue recognition instance.</div>
 
-## Incorporating credits in Recurly's Revenue Recognition
+# Key details
 
-You have the flexibility to incorporate credits into your revenue recognition instance or not include them.
+## Incorporating credits in revenue recognition
 
-1. **Navigate** to Setup → Profiles
-2. Under 'Ignore Credit Event Transactions' **select** 'Yes' or 'No'.
+You can choose whether to include credits in your RevRec instance.
 
-<Image align="center" border={true} width="50% " src="https://files.readme.io/5e90165b450dba809bb3614de2b2eba06b3b2d562d3ec5f1af57539d9f9909b4-Screenshot_2024-10-15_at_12.05.59_PM.png" className="border" />
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Navigate to Profiles</h4><p>Go to Setup → Profiles.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Set the Ignore Credit Event Transactions option</h4><p>Under "Ignore Credit Event Transactions," select Yes to exclude credit events from RevRec, or No to include them.</p></div>
+  </div>
+</div>
 
-## Key details
 
-Visit our dedicated guides:
+<Image src="https://files.readme.io/5e90165b450dba809bb3614de2b2eba06b3b2d562d3ec5f1af57539d9f9909b4-Screenshot_2024-10-15_at_12.05.59_PM.png" align="center" width="50%" border={true} />
 
-<Cards columns={3}>
-  <Card title="Goodwill credit" href="goodwill-credit" icon="fa-handshake">
-    Balance added to a customer’s account to acknowledge loyalty, resolve issues, or offer compensation. Integrated into revenue recognition reports.
+
+## Credit types
+
+<div class="rp-nav-grid">
+
+<Cards>
+  <Card title="Goodwill credit" href="https://docs.recurly.com/recurly-revrec/docs/goodwill-credit" target="_blank">
+    Balance added to a customer's account to acknowledge loyalty, resolve issues, or offer compensation. Integrated into revenue recognition reports.
   </Card>
-
-  <Card title="On-account credit" href="on-account-credit" icon="fa-undo">
+  <Card title="On-account credit" href="https://docs.recurly.com/recurly-revrec/docs/on-account-credit" target="_blank">
     Issued instead of refunds when subscriptions are canceled, helping retain customers and improve financial reporting accuracy.
   </Card>
-
-  <Card title="Prepayment credit" href="prepayment-credit" icon="fa-credit-card">
+  <Card title="Prepayment credit" href="https://docs.recurly.com/recurly-revrec/docs/prepayment-credit" target="_blank">
     Customers pay in advance for services or products. Prepayments are tracked and reported in revenue recognition for better forecasting.
   </Card>
 </Cards>
 
-# FAQ 
+</div>
 
-**Q: What are the credit-event lines that appear in some contracts?**
-A: When a credit transaction flows from Recurly into RevRec, a **credit-event** line is created to track that credit and to balance it once it’s fully used.
+# FAQ
 
-**Q: How are credit events shown in RevRec?**
-A: Credits can arise in different ways, and RevRec treats them accordingly:
+<Accordion title="What are the credit-event lines that appear in some contracts?">
+  When a credit transaction flows from Recurly into RevRec, a credit-event line is created to track that credit and to balance it once it's fully used.
+</Accordion>
 
-* **Goodwill credit:** A free, promotional credit (appears as a Credit Invoice in Recurly). It enters RevRec as one line; each redemption posts as a separate line. Identify via **origin = credit-event** and **plan code**.
-* **On-account credit:** Typically issued instead of a cash refund (e.g., post-cancellation). It enters as one line; each redemption is a separate line. Identify via **origin = credit-event**.
-* **Prepayment credit:** Customer-funded advance for future services. In RevRec it appears as **one SO line with two invoices**; any credit adjustment posts as a new line.
+<Accordion title="How are credit events shown in RevRec?">
+  Credits can arise in different ways, and RevRec treats them accordingly:
 
-**Q: How can I see a customer’s total available credit balance?**
-A: In Recurly, open the customer’s account page. The sum of the **Sell Price** for all **active credit lines** equals the customer’s total credit balance.
+  - **Goodwill credit:** A free, promotional credit that appears as a Credit Invoice in Recurly. It enters RevRec as one line; each redemption posts as a separate line. Identify via origin = credit-event and plan code.
+  - **On-account credit:** Typically issued instead of a cash refund — for example, post-cancellation. It enters as one line; each redemption is a separate line. Identify via origin = credit-event.
+  - **Prepayment credit:** Customer-funded advance for future services. In RevRec it appears as one SO line with two invoices; any credit adjustment posts as a new line.
+</Accordion>
 
-**Q: How can I identify credit-related transactions in RevRec?**
-A: Filter by line-item **origin = credit-event**. The specific credit type or action (e.g., redemption, void) can be determined from the **plan code**.
+<Accordion title="How can I see a customer's total available credit balance?">
+  In Recurly, open the customer's account page. The sum of the Sell Price for all active credit lines equals the customer's total credit balance.
+</Accordion>
+
+<Accordion title="How can I identify credit-related transactions in RevRec?">
+  Filter by line-item origin = credit-event. The specific credit type or action — such as redemption or void — can be determined from the plan code.
+</Accordion>
 
 <br />
