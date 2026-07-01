@@ -25,8 +25,8 @@ next:
   </div>
 </div>
 
-<iframe src="https://fast.wistia.net/embed/iframe/mrm0btmqsv?web_component=true&seo=false&videoFoam=false" title="Revenue workbench overview" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640px" height="360px" />
-<script src="https://fast.wistia.net/player.js" async />
+<iframe src="https://fast.wistia.net/embed/iframe/mrm0btmqsv?web_component=true&seo=false&videoFoam=false" title="Revenue workbench overview" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" width="640px" height="360px"></iframe>
+<script src="https://fast.wistia.net/player.js" async></script>
 
 ### Prerequisites
 
@@ -83,7 +83,9 @@ next:
 
 The Revenue Workbench is your centralized platform for contract management — analyze, monitor, and optimize contract performance from one place.
 
-<Image align="center" border={true} width="75%" src="https://files.readme.io/901a85a-image.png" />
+
+<Image src="https://files.readme.io/901a85a-image.png" align="center" width="75%" border={true} />
+
 
 ## Contract insights
 
@@ -93,13 +95,17 @@ Select a contract from the list to explore its details:
   <li><strong>Tab-based contract analysis:</strong> Navigate through tabs to access different contract perspectives — Performance Obligations (POB), Variable Considerations (VC), Billing, Cost, Waterfall, Journals, Modifications, Allocation Details, Contract Balance, Business Events, Holds, and Audit.</li>
 </ul>
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/a88cbb1-2.png" />
+
+<Image src="https://files.readme.io/a88cbb1-2.png" align="center" width="75%" />
+
 
 <ul class="rp-list">
   <li><strong>Manual adjustments:</strong> Modify contract details directly within the Revenue Workbench. All changes are logged in the Audit tab for transparency.</li>
 </ul>
 
-<Image align="center" border={true} width="75%" src="https://files.readme.io/7eb9def-image.png" />
+
+<Image src="https://files.readme.io/7eb9def-image.png" align="center" width="75%" border={true} />
+
 
 <ul class="rp-list">
   <li><strong>In-depth insights:</strong> Use the workbench's detailed contract data for strategic decision-making — review specific elements, understand contract balances, and navigate modifications with ease.</li>
@@ -110,7 +116,9 @@ Select a contract from the list to explore its details:
 
 To access manual action tools, right-click a field within the desired contract. The options available depend on the field selected.
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/fedc373-4.png" />
+
+<Image src="https://files.readme.io/fedc373-4.png" align="center" width="75%" />
+
 
 ## Linking and de-linking contracts
 
@@ -125,15 +133,21 @@ To access manual action tools, right-click a field within the desired contract. 
   </div>
 </div>
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/1a77845-image.png" />
+
+<Image src="https://files.readme.io/1a77845-image.png" align="center" width="75%" />
+
 
 **Create New Contract:** Select this option to create a new contract for the lines de-linked from the current contract. Add a comment for reference, then save.
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/7bcce0b-image.png" />
+
+<Image src="https://files.readme.io/7bcce0b-image.png" align="center" width="75%" />
+
 
 **Add to Another Contract:** Select this option to link the de-linked lines to a different existing contract.
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/3fb8280-image.png" />
+
+<Image src="https://files.readme.io/3fb8280-image.png" align="center" width="75%" />
+
 
 <ul class="rp-list">
   <li><strong>Contract# field:</strong> Enter the contract number to which the selected lines should be linked.</li>
@@ -152,11 +166,15 @@ To access manual action tools, right-click a field within the desired contract. 
 
 **New POB:** Select this option to assign a new POB to the selected lines, creating a new performance obligation specifically for them.
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/9cebc4d-image.png" />
+
+<Image src="https://files.readme.io/9cebc4d-image.png" align="center" width="75%" />
+
 
 **Add to Existing POB:** Select this option to manually add the selected lines to an existing POB within the same contract, consolidating related lines under a single performance obligation.
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/5c30add-image.png" />
+
+<Image src="https://files.readme.io/5c30add-image.png" align="center" width="75%" />
+
 
 <div class="rp-steps">
   <div class="rp-step">
@@ -182,7 +200,9 @@ To access manual action tools, right-click a field within the desired contract. 
   </div>
 </div>
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/2983955-image.png" />
+
+<Image src="https://files.readme.io/2983955-image.png" align="center" width="75%" />
+
 
 <ul class="rp-list">
   <li><strong>Type:</strong> Choose the appropriate revenue type from the dropdown to categorize the revenue for recognition or deferral.</li>
@@ -203,7 +223,9 @@ To access manual action tools, right-click a field within the desired contract. 
   </div>
 </div>
 
-<Image align="center" border={false} width="75%" src="https://files.readme.io/23aa12d-image.png" />
+
+<Image src="https://files.readme.io/23aa12d-image.png" align="center" width="75%" />
+
 
 ## Releasing revenue for events
 
@@ -222,7 +244,9 @@ To access manual action tools, right-click a field within the desired contract. 
   </div>
 </div>
 
+
 <Image src="https://files.readme.io/585dcbf-image.png" align="center" width="75%" border={true} />
+
 
 <div class="rp-steps">
   <div class="rp-step">
@@ -248,7 +272,9 @@ To access manual action tools, right-click a field within the desired contract. 
   </div>
 </div>
 
-<Image border={false} width="75%" src="https://files.readme.io/14e3c4e-image.png" />
+
+<Image src="https://files.readme.io/14e3c4e-image.png" align="center" width="75%" />
+
 
 <div class="rp-steps">
   <div class="rp-step">
@@ -270,3 +296,5 @@ To access manual action tools, right-click a field within the desired contract. 
 <Accordion title="Is it possible to change a POB after a contract has been processed?">
   Yes. RevRec lets you manually change a POB after it has been assigned. Use the Change POB action in the Workbench to reassign the performance obligation — the system recalculates schedules according to your rules and book settings. Be aware that changes can affect recognition timing and may create reallocation or restatement entries depending on period status and approvals. For detailed instructions, see Change POB in the Workbench docs.
 </Accordion>
+
+<br />
