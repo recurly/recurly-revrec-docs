@@ -1,146 +1,207 @@
 ---
 title: App Management — RevRec
 excerpt: >-
-  Efficiently manage and integrate app data from Apple Store and Google Play
-  Store into Recurly Revenue Recognition with tailored grouping, performance
-  obligations, and data rules.
+  Configure Recurly RevRec to handle App Store and Google Play Store
+  subscription data through contract grouping, an exclusive POB, data rules, and
+  the App Management integration.
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-# Overview
-
-### Required plan
-
-This feature is part of our product, Recurly RevRec. \[<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+<div class="rp-page">
+  <div class="rp-overview">Recurly RevRec can handle subscription data from both the Apple App Store and the Google Play Store. A few straightforward configurations — contract grouping, an exclusive performance obligation, a set of data rules, and the App Management integration job — get your app store data flowing in and recognizing revenue correctly. This page walks through each one in order.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Part of Recurly RevRec — <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">learn more</a></div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#definition"><span class="rp-toc-num">1</span>Definition</a>
+    <a class="rp-toc-pill" href="#key-benefits"><span class="rp-toc-num">2</span>Key benefits</a>
+    <a class="rp-toc-pill" href="#grouping-configuration"><span class="rp-toc-num">3</span>Grouping configuration</a>
+    <a class="rp-toc-pill" href="#performance-obligation"><span class="rp-toc-num">4</span>Performance obligation</a>
+    <a class="rp-toc-pill" href="#data-rule-configuration"><span class="rp-toc-num">5</span>Data rule configuration</a>
+    <a class="rp-toc-pill" href="#app-management-integration"><span class="rp-toc-num">6</span>App Management integration</a>
+  </div>
+</div>
 
 # Definition
 
-Recurly RevRec has the capability to handle data from both the App Store and the Google Play Store data, whether it’s from Apple or Android. To manage App Management data, a few straightforward configurations must be done in Recurly RevRec.
+<div class="rp-definition">Recurly RevRec can handle subscription data from both the Apple App Store and the Google Play Store. To manage app store data, you set up a handful of straightforward configurations in Recurly RevRec that group the data, assign a performance obligation, transform it with data rules, and pull it in through an integration job.</div>
 
 # Key benefits
 
-* **Streamlined data management:** Easily group App Management data based on subscription source, ensuring accurate and efficient data handling.
-* **Flexible revenue recognition:** Define exclusive POBs for App Management data, allowing for revenue recognition on an overtime basis.
-* **Enhanced data rules:** Copy Google fees to the "App Fees" attribute and assign distinct account numbers for both Apple and Google Store data.
-* **Seamless integration:** With the App Management Integration, effortlessly flow App Management data into Recurly RevRec.
+<div class="rp-benefits">
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-layer-group" aria-hidden="true"></i></div>
+    <strong>Streamlined data management</strong>
+    <span>Group app store data by subscription source for accurate, efficient handling.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-clock" aria-hidden="true"></i></div>
+    <strong>Flexible revenue recognition</strong>
+    <span>Define an exclusive POB for app store data, recognizing revenue on an over-time basis.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
+    <strong>Enhanced data rules</strong>
+    <span>Copy Google fees to the App Fees attribute and assign distinct account numbers for Apple and Google Store data.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-plug" aria-hidden="true"></i></div>
+    <strong>Seamless integration</strong>
+    <span>Flow app store data into Recurly RevRec with the App Management integration.</span>
+  </div>
+</div>
 
 # Grouping configuration
 
-Configure your system to group order lines based on the subscription's source (Apple Store or Google Play Store).
+Configure your system to group order lines based on the subscription's source — Apple App Store or Google Play Store.
 
-The App Management data is organized by subscription. Therefore, you need to create two separate grouping rules using the contract grouping feature in Recurly RevRec:
+App store data is organized by subscription, so you'll create two separate grouping rules using the contract grouping feature:
 
-* **Apple Store Grouping Rule**: Set the grouping attribute to "Source = Apple Store."
-* **Play Store Grouping Rule**: Set the grouping attribute to "Source = Play Store."
+<ul class="rp-list">
+  <li><strong>Apple Store grouping rule:</strong> set the grouping attribute to Source = Apple Store.</li>
+  <li><strong>Play Store grouping rule:</strong> set the grouping attribute to Source = Play Store.</li>
+</ul>
 
-This setup ensures that order lines are accurately grouped by the subscription source.
+This setup ensures order lines are accurately grouped by subscription source.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/c12a5169c1ba7c997669e14fa3e4ffa32b6a7b9bb9744cec662251558ae07f88-1_Grouping_Config.png" />
+
+<Image src="https://files.readme.io/c12a5169c1ba7c997669e14fa3e4ffa32b6a7b9bb9744cec662251558ae07f88-1_Grouping_Config.png" align="center" width="75%" border={true} />
+
 
 # Performance obligation
 
-We define an exclusive Performance Obligation (POB) for App Management data, where revenue is recognized over time.
+Define an exclusive Performance Obligation (POB) for app store data, where revenue is recognized over time.
 
-This POB, known as **App Subscription**, is automatically assigned to any order line in a contract that meets the Recurly RevRec Rules for either "Play Store" or "Apple Store" data.
+This POB — called App Subscription — is automatically assigned to any order line in a contract that meets the Recurly RevRec rules for either Play Store or Apple Store data.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/e4b80b6217c0f05b40f6172ec21e405d0b1185473a5dcc1c5b23eee5e1f86555-2_POB.png" />
 
-The POB rules are based on the source of the data, ensuring that all order lines with the specified source are grouped under the **App Subscription** POB.
+<Image src="https://files.readme.io/e4b80b6217c0f05b40f6172ec21e405d0b1185473a5dcc1c5b23eee5e1f86555-2_POB.png" align="center" width="75%" border={true} />
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/77f5d669bd2139deb12466c6119b28e9a3c272e9cc04094b0691334566d27e82-3_POB_Rules.png" />
 
-The hierarchy of these rules is critical to guaranteeing the correct obligation is applied.
+The POB rules are based on the source of the data, ensuring that all order lines with the specified source are grouped under the App Subscription POB.
+
+
+<Image src="https://files.readme.io/77f5d669bd2139deb12466c6119b28e9a3c272e9cc04094b0691334566d27e82-3_POB_Rules.png" align="center" width="75%" border={true} />
+
+
+<div class="rp-callout rp-callout-important">
+  <div><strong><i class="fa-solid fa-circle-exclamation" aria-hidden="true"></i> Important</strong>The hierarchy of these rules is critical to guaranteeing the correct obligation is applied.</div>
+</div>
 
 # Data rule configuration
 
-To ensure accurate revenue recognition, you need to configure data rules that transform App Management data correctly. Specifically, you must copy the sell price from "Google Fees" lines to the "App Fees" attribute and assign proper account numbers for data originating from the Play Store and Apple Store.
+To ensure accurate revenue recognition, configure data rules that transform your app store data correctly. You'll copy the sell price from Google Fees lines into the App Fees attribute and assign the proper account numbers for Play Store and Apple Store data. There are four data rules.
 
-We have defined four data rules:
+## Data rule 1 — Copy Google fees to App Fees
 
-### Data rule 1 - Copy Google fees to app fees
+Copies the sell price from Google Fees lines into the App Fees attribute.
 
-Copies the sell price from "Google Fees" lines into the "App Fees" attribute.
+**Rule**
 
-**Rule:**
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Application attribute</td><td>Formula</td></tr>
+  <tr><td>App Fees</td><td><code>Line.SellPrice</code></td></tr>
+</table>
 
-| Application Attribute | Formula        |
-| :-------------------- | :------------- |
-| App Fees              | Line.SellPrice |
+**Criteria**
 
-**Criteria:**
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Field</td><td>Operator</td><td>Value</td></tr>
+  <tr><td>Plan</td><td>=</td><td>Google Fees</td></tr>
+</table>
 
-| Field | Operator | Value       |
-| :---- | :------- | :---------- |
-| Plan  | =        | Google Fees |
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/6ce5c2ecf7e0343039efd0c9cf37d3b8f1151eaa89492acb3b69bc867052e0d6-4_Data_Rule.png" />
+<Image src="https://files.readme.io/6ce5c2ecf7e0343039efd0c9cf37d3b8f1151eaa89492acb3b69bc867052e0d6-4_Data_Rule.png" align="center" width="75%" border={true} />
 
-### Data rule 2 - Zero out Google fees
+
+## Data rule 2 — Zero out Google fees
 
 Sets the sell price of the Google Fees plan to zero to avoid duplicative charges.
 
-**Rule:**
-
-| Application Attribute | Formula |
-| :-------------------- | :------ |
-| App Fees              | 0       |
-
-**Criteria:**
-
-| Field | Operator | Value       |
-| :---- | :------- | :---------- |
-| Plan  | =        | Google Fees |
-
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/14ab1e62d857d59865b8ed09371367da4df6e629723f87c270bf4dd280cba05d-5_Data_Rule_2.png" />
-
-### Data rule 3: Assign account numbers for Play Store data
-
-Applies the appropriate account number for all order lines with a source of "Play Store."
-
 **Rule**
 
-| Application Attribute | Formula |
-| :-------------------- | :------ |
-| Liability Account     | 23100   |
-| Revenue Account       | 33200   |
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Application attribute</td><td>Formula</td></tr>
+  <tr><td>App Fees</td><td>0</td></tr>
+</table>
 
 **Criteria**
 
-| Field  | Operator | Value      |
-| :----- | :------- | :--------- |
-| Source | =        | Play Store |
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Field</td><td>Operator</td><td>Value</td></tr>
+  <tr><td>Plan</td><td>=</td><td>Google Fees</td></tr>
+</table>
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/c5a03f8b4bcde418d6fa12a7af132d68b46cde13f32bdf02081d59614114a26f-6_Data_Rule_3.png" />
 
-### Data rule 4 - Assign account numbers for Apple Store data
+<Image src="https://files.readme.io/14ab1e62d857d59865b8ed09371367da4df6e629723f87c270bf4dd280cba05d-5_Data_Rule_2.png" align="center" width="75%" border={true} />
 
-Applies the appropriate account number for all order lines with a source of "Apple Store."
+
+## Data rule 3 — Assign account numbers for Play Store data
+
+Applies the appropriate account number for all order lines with a source of Play Store.
 
 **Rule**
 
-| Application Attribute | Formula |
-| :-------------------- | :------ |
-| Liability Account     | 23000   |
-| Revenue Account       | 33000   |
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Application attribute</td><td>Formula</td></tr>
+  <tr><td>Liability Account</td><td>23100</td></tr>
+  <tr><td>Revenue Account</td><td>33200</td></tr>
+</table>
 
 **Criteria**
 
-| Field  | Operator | Value       |
-| :----- | :------- | :---------- |
-| Source | =        | Apple Store |
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Field</td><td>Operator</td><td>Value</td></tr>
+  <tr><td>Source</td><td>=</td><td>Play Store</td></tr>
+</table>
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/a2c2dcb2dd29f02108ad4743f7102558b5593742e85cad7ece22c67ea661afd3-7_Data_Rule_4.png" />
 
-# App management integration
+<Image src="https://files.readme.io/c5a03f8b4bcde418d6fa12a7af132d68b46cde13f32bdf02081d59614114a26f-6_Data_Rule_3.png" align="center" width="75%" border={true} />
 
-Once you've configured these data rules, it's critical to run the App Management Integration job. This integration pushes all processed App Management data into Recurly RevRec.
 
-## How to enable the App Management integration?
+## Data rule 4 — Assign account numbers for Apple Store data
 
-**Navigate:** Import/Export → Scheduled Jobs → App Management Integration
+Applies the appropriate account number for all order lines with a source of Apple Store.
 
-<Image align="center" className="border" border={true} width="80% " src="https://files.readme.io/4cacd6bf89fb34de50b38315f39b77e53c155f362ea72336094c9d6406bd2152-8_App_management_Integration.png" />
+**Rule**
 
-Ensure that the job is active, then click **Run** to execute the integration.
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Application attribute</td><td>Formula</td></tr>
+  <tr><td>Liability Account</td><td>23000</td></tr>
+  <tr><td>Revenue Account</td><td>33000</td></tr>
+</table>
+
+**Criteria**
+
+<table class="rp-gw-table">
+  <tr class="rp-thead-row"><td>Field</td><td>Operator</td><td>Value</td></tr>
+  <tr><td>Source</td><td>=</td><td>Apple Store</td></tr>
+</table>
+
+
+<Image src="https://files.readme.io/a2c2dcb2dd29f02108ad4743f7102558b5593742e85cad7ece22c67ea661afd3-7_Data_Rule_4.png" align="center" width="75%" border={true} />
+
+
+# App Management integration
+
+Once your data rules are configured, run the App Management integration job. This integration pushes all processed app store data into Recurly RevRec.
+
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Open the integration job</h4><p>Go to Import/Export → Scheduled Jobs → App Management Integration.</p></div>
+  </div>
+</div>
+
+
+<Image src="https://files.readme.io/4cacd6bf89fb34de50b38315f39b77e53c155f362ea72336094c9d6406bd2152-8_App_management_Integration.png" align="center" width="75%" border={true} />
+
+
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Run the job</h4><p>Ensure the job is active, then select Run to execute the integration.</p></div>
+  </div>
+</div>
+
+<br />
