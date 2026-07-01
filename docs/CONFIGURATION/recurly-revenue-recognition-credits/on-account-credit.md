@@ -1,9 +1,9 @@
 ---
 title: On-account credit
 excerpt: >-
-  Leverage your on-account credits with Recurly Revenue Recognition. This
-  feature allows businesses to pull reports for the "on-account credit",
-  encouraging loyalty programs implementation.
+  Learn how on-account credits work in Recurly RevRec — how they're issued when
+  subscriptions are canceled, redeemed, voided, and tracked in revenue
+  recognition reports using plan codes.
 deprecated: false
 hidden: false
 metadata:
@@ -13,84 +13,95 @@ metadata:
 next:
   description: ''
 ---
-# Overview
+<div class="rp-page">
+  <div class="rp-overview">On-account credit is a balance credited to a customer's account instead of a direct refund — typically when a subscription is canceled and the customer is eligible for a refund. The credit can be applied toward future purchases and flows directly into Recurly RevRec reports for accurate financial tracking.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Available as part of Recurly RevRec</div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#definition"><span class="rp-toc-num">1</span>Definition</a>
+    <a class="rp-toc-pill" href="#key-benefits"><span class="rp-toc-num">2</span>Key benefits</a>
+    <a class="rp-toc-pill" href="#key-details"><span class="rp-toc-num">3</span>Key details</a>
+    <a class="rp-toc-pill" href="#faq"><span class="rp-toc-num">4</span>FAQ</a>
+  </div>
+</div>
 
-### Additional cost
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Additional cost</strong>To access this feature, you must have an active subscription to either Recurly RevRec or the Standard edition. Contact your Recurly account manager or <a href="mailto:support@recurly.com">support@recurly.com</a> for pricing details.</div>
+</div>
 
-To access this feature or setting, you must have an active subscription to either the Recurly RevRec or the Standard edition. For further information on pricing and how to enable this feature on your account, please contact your Recurly account manager directly, or reach out to us at [support@recurly.com](mailto:support@recurly.com).
+### Prerequisites
 
-export const PrerequisitesLimitations = ({ header }) => {
-  return (
-    <div className="flex justify-start">
-      <div className="rounded-md p-6 m-4 max-w-lg shadow-md border border-gray-300 dark:bg-gray-800 dark:border-gray-600">
-        <p className="text-lg font-bold">{header}</p>
+<ul class="rp-list">
+  <li>A cancellation and refund policy that supports account crediting.</li>
+</ul>
 
-        {/* Prerequisite */}
-        <p>
-          <i className="fa-solid fa-check mr-2" />
-          Cancellation and refund policy that supports account crediting.
-        </p>
+### Limitations
 
-        {/* Limitations */}
-        <p>
-          <i className="fa-solid fa-exclamation-triangle mr-4" />
-          On-account credits are non-transferable between accounts.
-        </p>
-        <p>
-          <i className="fa-solid fa-exclamation-triangle mr-4" />
-          Credits may be subject to expiration as per the business's terms and conditions.
-        </p>
-      </div>
-    </div>
-  );
-};
-
-<PrerequisitesLimitations header="Prerequisites & limitations" />
+<ul class="rp-list">
+  <li>On-account credits are non-transferable between accounts.</li>
+  <li>Credits may be subject to expiration per your business's terms and conditions.</li>
+</ul>
 
 # Definition
 
-On-account credit in Recurly refers to the balance credited to a customer's account instead of a direct refund. This occurs when a customer cancels a subscription plan and is eligible for a refund. Rather than returning the money to the original source, Recurly offers the option to credit the account, which can be applied towards purchases. This is accurately portrayed in the Recurly Revenue Recognition reports.
+<div class="rp-definition">On-account credit in Recurly refers to a balance credited to a customer's account instead of a direct refund. This occurs when a customer cancels a subscription and is eligible for a refund — rather than returning the money to the original source, Recurly credits the account, which can then be applied toward future purchases. These credits are accurately reflected in Recurly RevRec reports.</div>
 
-# Key benefits:
+# Key benefits
 
-* **Streamlined revenue recognition**: Incorporating on-account credits into revenue reports enhances financial accuracy by reflecting real-time customer balances and potential sales.
-* **Enhanced financial reporting**: On-account credits contribute to a more comprehensive view of financial health, allowing for precise revenue tracking and forecasting in revenue recognition reports.
-* **Increased operational efficiency**: The management of on-account credits through automated systems simplifies the reconciliation process, ensuring that credits are accurately reported in financial statements, improving overall financial transparency and compliance.
+<div class="rp-benefits">
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
+    <strong>Streamlined revenue recognition</strong>
+    <span>Incorporating on-account credits into revenue reports enhances financial accuracy by reflecting real-time customer balances and potential sales.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-file-invoice-dollar" aria-hidden="true"></i></div>
+    <strong>Enhanced financial reporting</strong>
+    <span>On-account credits contribute to a more comprehensive view of financial health, enabling precise revenue tracking and forecasting.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-gears" aria-hidden="true"></i></div>
+    <strong>Increased operational efficiency</strong>
+    <span>Automated management of on-account credits simplifies reconciliation and ensures credits are accurately reflected in financial statements.</span>
+  </div>
+</div>
 
 # Key details
 
-When a customer's subscription is canceled and a refund is issued, Recurly can credit the customer's account instead of providing a refund. This on-account credit can be utilized for any purchases within Recurly's platform.
+When a customer's subscription is canceled and a refund is due, Recurly can credit the account instead of issuing a direct refund. That on-account credit can then be used for any purchases within Recurly's platform.
 
-Upon issuing on-account credit, Recurly generates a credit invoice, reflecting the credited amount and any subsequent redemptions. The invoice is updated to show the remaining balance of the credit, offering transparency and ease of tracking for both the customer and the business.
+Upon issuing an on-account credit, Recurly generates a credit invoice reflecting the credited amount and any subsequent redemptions. The invoice updates to show the remaining balance over time, providing transparency for both the customer and your business.
 
-### Credit invoice example
+Credits and their redemptions are recorded in RevRec as distinct entries, categorized by origin (`credit-event`) and identified by unique plan codes for easy reconciliation.
 
-The credits and their redemptions are recorded in Recurly Revenue Recognition as distinct entries, allowing for clear financial tracking and reporting. These entries are categorized based on their origin (credit-event) and specified by unique plan codes, enabling easy identification and reconciliation.
 
-<Image align="center" border={true} width="80% " src="https://files.readme.io/8ed64f5-image.png" className="border" />
+<Image src="https://files.readme.io/8ed64f5-image.png" align="center" width="80%" border={true} />
 
-### Accounting table for on-account credits
 
-| Origin       | Activity                   | Plan code                  |
-| ------------ | -------------------------- | -------------------------- |
-| credit-event | on-account credit Issued   | credit-on-account          |
-| credit-event | on-account credit Redeemed | credit-on-account-redeemed |
-| credit-event | on-account credit Voided   | credit-voided              |
-| credit-event | on-account credit Refunded | credit-paid                |
+<table class="rp-params">
+  <tr class="rp-thead-row"><td>Origin</td><td>Activity</td><td>Plan code</td></tr>
+  <tr><td>credit-event</td><td>On-account credit issued</td><td><code>credit-on-account</code></td></tr>
+  <tr><td>credit-event</td><td>On-account credit redeemed</td><td><code>credit-on-account-redeemed</code></td></tr>
+  <tr><td>credit-event</td><td>On-account credit voided</td><td><code>credit-voided</code></td></tr>
+  <tr><td>credit-event</td><td>On-account credit refunded</td><td><code>credit-paid</code></td></tr>
+</table>
 
-<Image align="center" border={true} src="https://files.readme.io/ccb7b62-image.png" className="border" />
 
-This feature not only enhances customer satisfaction by providing flexible refund options but also streamlines financial processes, making it a valuable tool for businesses looking to improve their subscription management and accounting practices.
+<Image src="https://files.readme.io/ccb7b62-image.png" align="center" width="75%" border={true} />
+
 
 # FAQ
 
-**Q: How is an on-account credit created in our billing system?**
-A: When an on-account credit is issued, Recurly creates a **credit invoice** showing the initial credit amount. As the credit is redeemed, the invoice reflects the **remaining balance** over time.
+<Accordion title="How is an on-account credit created in the billing system?">
+  When an on-account credit is issued, Recurly creates a credit invoice showing the initial credit amount. As the credit is redeemed, the invoice reflects the remaining balance over time.
+</Accordion>
 
-**Q: How can I differentiate on-account credit activities in RevRec?**
-A: Look for **origin = credit-event** and these **plan codes**:
+<Accordion title="How can I differentiate on-account credit activities in RevRec?">
+  Filter by origin = credit-event and use these plan codes to identify each activity:
 
-* **Credit issued:** `credit-on-account`
-* **Credit used/redeemed:** `credit-on-account-redeemed`
-* **Credit canceled/voided:** `credit-voided`
-* **Credit refunded (paid out as cash):** `credit-paid`
+  - **Credit issued:** `credit-on-account`
+  - **Credit used/redeemed:** `credit-on-account-redeemed`
+  - **Credit canceled/voided:** `credit-voided`
+  - **Credit refunded (paid out as cash):** `credit-paid`
+</Accordion>
+
+<br />
