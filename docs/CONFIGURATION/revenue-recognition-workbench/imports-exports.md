@@ -1,6 +1,9 @@
 ---
 title: Imports and exports
-excerpt: Effortlessly Manage Your Data with Recurly's Import/Export Tool.
+excerpt: >-
+  Use the Import/Export tool in Recurly RevRec to upload transactions, events,
+  and cost files, manage the stage area, transfer journal entries, and close
+  periods.
 deprecated: false
 hidden: false
 metadata:
@@ -10,108 +13,252 @@ metadata:
 next:
   description: ''
 ---
-# Overview
-
-This feature is part of our product, Recurly RevRec. [<a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more here</a>].
+<div class="rp-page">
+  <div class="rp-overview">The Import/Export feature in Recurly RevRec provides a structured platform to import and export data types including sales orders, billings, and cost files. Use it to upload transactions, process events, manage unprocessed files in the Stage Area, transfer journal entries, and close periods — keeping your financial data accurate and your month-end process on track. This feature is part of Recurly RevRec. <a href="https://docs.recurly.com/recurly-revrec/docs/recurly-revenue-recognition-advanced" target="_blank">Learn more</a>.</div>
+  <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Available as part of Recurly RevRec</div>
+  <div class="rp-toc">
+    <a class="rp-toc-pill" href="#key-benefits"><span class="rp-toc-num">1</span>Key benefits</a>
+    <a class="rp-toc-pill" href="#transactions"><span class="rp-toc-num">2</span>Transactions</a>
+    <a class="rp-toc-pill" href="#events"><span class="rp-toc-num">3</span>Events</a>
+    <a class="rp-toc-pill" href="#stage-area"><span class="rp-toc-num">4</span>Stage area</a>
+    <a class="rp-toc-pill" href="#transfer-je"><span class="rp-toc-num">5</span>Transfer JE</a>
+    <a class="rp-toc-pill" href="#period-close"><span class="rp-toc-num">6</span>Period close</a>
+  </div>
+</div>
 
 ### Prerequisites
 
-1. An active Recurly account with administrative privileges.
-2. Familiarity with the data types and structures used in your business operations.
-3. Access to the source files intended for import or the destination directories for exports.
+<ul class="rp-list">
+  <li>An active Recurly account with administrative privileges.</li>
+  <li>Familiarity with the data types and structures used in your business operations.</li>
+  <li>Access to the source files intended for import or the destination directories for exports.</li>
+</ul>
 
 ### Limitations
 
-1. The import/export tool may have file size restrictions, ensuring that uploads/downloads remain efficient.
-2. Any changes that are made will be applied for future transactions only.
-3. The system may require specific file formats for successful data import.
-4. Real-time synchronization might not be available; data sync may occur at scheduled intervals.
+<ul class="rp-list">
+  <li>The import/export tool may have file size restrictions to keep uploads and downloads efficient.</li>
+  <li>Any changes you make apply to future transactions only.</li>
+  <li>The system may require specific file formats for a successful data import.</li>
+  <li>Real-time synchronization may not be available — data sync may occur at scheduled intervals.</li>
+</ul>
 
 # Key benefits
 
-* **Data consistency:** Ensure that your Recurly data remains consistent with other platforms or databases you might be using.
-* **Time eficiency:** Eliminate the manual entry of data, saving time and reducing potential errors.
-* **Enhanced reporting:** By importing all necessary data, generate comprehensive reports that provide deeper insights into your business operations.
-* **Flexibility:** Export your data whenever needed, ensuring you always have access to your information, irrespective of the platform.
-* **Streamlined operations:** With regular data synchronization, maintain a smooth flow of operations, ensuring all departments have access to the latest data.
+<div class="rp-benefits">
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-database" aria-hidden="true"></i></div>
+    <strong>Data consistency</strong>
+    <span>Keep your Recurly data consistent with other platforms or databases you use.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-clock" aria-hidden="true"></i></div>
+    <strong>Time efficiency</strong>
+    <span>Eliminate manual data entry to save time and reduce potential errors.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-chart-bar" aria-hidden="true"></i></div>
+    <strong>Enhanced reporting</strong>
+    <span>Import all necessary data to generate comprehensive reports with deeper insights into your operations.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-sliders" aria-hidden="true"></i></div>
+    <strong>Flexibility</strong>
+    <span>Export your data whenever needed, regardless of platform.</span>
+  </div>
+  <div class="rp-benefit">
+    <div class="rp-benefit-icon"><i class="fa-solid fa-rotate" aria-hidden="true"></i></div>
+    <strong>Streamlined operations</strong>
+    <span>Regular data synchronization keeps all departments working with the latest data.</span>
+  </div>
+</div>
 
-# Utilizing the Import/Export tool
+# Transactions
 
-The Import/Export feature in Recurly Revenue ecognition is designed to optimize the management of your data. It provides a structured platform to either import or export various data types, including but not limited to sales orders, billings, and cost files. By using this tool, users can meticulously review transactions, process them with precision, and ensure that journals are correctly posted to the GL. The primary objective is to guarantee a smooth data transfer process, which is pivotal for accurate financial analysis and informed decision-making.
+In Recurly RevRec, you can upload sales orders, billings, and cost files. These files are the backbone of revenue recognition and integral to financial reporting.
 
-## Transactions
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Note</strong>For a successful upload, column headings in your file must match the upload names specified in the attribute mapper of Recurly RevRec. Any discrepancies can prevent the file from loading.</div>
+</div>
 
-**Note:** For a successful upload, it's imperative that the column headings in your file are consistent with the upload names specified in the attribute mapper of Recurly RevRec.
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Open Transactions</h4><p>Access the Import/Export section and select "Transactions."</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Upload your file</h4><p>Select the "+" icon to add your transaction file. After uploading, save the file.</p></div>
+  </div>
+</div>
 
-In Recurly RevRec, users are equipped with the capability to upload pivotal sales orders, billings, and cost files. These files serve as the backbone for revenue recognition and are integral components in the financial reporting mechanism.
 
-### How to import transactions
+<Image src="https://files.readme.io/d9290f3-image.png" align="center" width="75%" border={true} />
 
-1. Access the Import/Export section and select "Transactions."
-2. Utilize the "+" icon to introduce your transaction file into the system. After uploading, always ensure the file is saved.\
-   ![](https://files.readme.io/d9290f3-image.png)
-3. It's crucial to ensure that the column headings in your file align with the system's attribute labels. Any discrepancies can hinder the file loading process.
-4. Once saved, transaction files are conveniently displayed as cards on the left side of the transaction import window.\
-   ![](https://files.readme.io/98ebb91-image.png)
-5. After the successful upload of transaction files, they can be accessed and scrutinized in the Revenue Workbench, providing a comprehensive overview of your revenue data.
 
-> **Notes:**
->
-> * When uploading billing files in Recurly RevRec, the supported document types are INV (invoice), IVC (invoice cancellation), CM (credit memo), and CMC (credit memo cancellation). Partial credit memos are allowed, but partial invoice cancellations are not permitted.
-> * The system collects transactions that belong to the current open period and previous periods. Transactions associated with future periods are placed in the stage area and are processed once the corresponding period is opened. This ensures accurate and timely processing of transactions in alignment with the period schedule.
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">3</div>
+    <div><h4>Verify column headings</h4><p>Confirm that the column headings in your file align with the system's attribute labels.</p></div>
+  </div>
+</div>
 
-## Events
+Once saved, transaction files appear as cards on the left side of the transaction import window.
 
-Before initiating an event file upload in Recurly RevRec, it's essential to ensure that the file has been meticulously linked with a POB (Performance Obligation) template. This linkage is paramount for the proper mapping of events, ensuring that revenue recognition is both accurate and aligned with contractual obligations.
 
-### How to upload event files
+<Image src="https://files.readme.io/98ebb91-image.png" align="center" width="75%" border={true} />
 
-1. Navigate to the Import/Export section and select "Events."
-2. Initiate the upload process for a new event file by clicking on the "+" button.\
-   ![](https://files.readme.io/b5d085e-image.png)
-3. Assign a name to the event file. By default, the system will adopt the name of the uploaded file. Subsequently, select the relevant event from the dropdown menu. These events are essentially predefined templates established in the system.
-4. Once all the necessary details are populated, save the file. The system will then process the uploaded event file in accordance with the configurations set for that specific event, ensuring that revenue recognition is both accurate and compliant with established rules.
 
-## Stage area
+After a successful upload, transaction files can be accessed and reviewed in the Revenue Workbench for a comprehensive overview of your revenue data.
 
-The Stage Area in Recurly RevRec contains four tabs: Contracts, Documents, Cost, and Events. Unprocessed files related to each tab will be displayed under their respective tabs. There are several reasons why files may remain unprocessed in the Stage Area:
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Billing file details</strong>
+    <ul>
+      <li>Supported document types for billing file uploads are INV (invoice), IVC (invoice cancellation), CM (credit memo), and CMC (credit memo cancellation). Partial credit memos are allowed, but partial invoice cancellations are not permitted.</li>
+      <li>The system collects transactions belonging to the current open period and previous periods. Transactions for future periods are placed in the Stage Area and processed once the corresponding period is opened.</li>
+    </ul>
+  </div>
+</div>
 
-* **Error in the file:** If there are any errors encountered during the upload of Contracts, Documents, Cost, or Event files, those files will be placed in the Stage Area. The system usually displays error messages corresponding to each transaction, indicating the issue that needs to be addressed.
-* **Future transactions:** If any transactions have a future date or period assigned to them and they are uploaded into the system during the current period, these transactions will be held in the Stage Area until the applicable period for those transactions is opened in the system. This ensures that transactions are processed accurately based on their respective periods.
-* **Scheduled processing:** If the scheduled jobs for transaction import or event import are not run or are inactive, it can cause transactions to remain stuck in the Stage Area. It is important to ensure that the scheduled jobs are active and properly configured to process the transactions as intended.
+# Events
 
-### How to view and delete data in the stage area
+Before uploading an event file in Recurly RevRec, ensure the file has been linked with a POB (Performance Obligation) template. This linkage is required for proper event mapping and accurate revenue recognition aligned with contractual obligations.
 
-1. To access the Stage Area, navigate to Import/Export.
-2. The "Status" tab provides a structured view of the files, allowing users to filter and view files based on specific criteria.
-3. To delete specific data, select the transaction under the respective tab, click the Delete icon, and confirm the deletion. Always remember to save changes to finalize the removal.
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Open Events</h4><p>Navigate to the Import/Export section and select "Events."</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Start a new upload</h4><p>Select the "+" button to initiate the upload process for a new event file.</p></div>
+  </div>
+</div>
 
-## Transfer JE
 
-**Note:** The month-end close process is a structured two-step approach. The initial step involves the meticulous transfer and verification of journal entries, laying the foundation for a confident period closure.
+<Image src="https://files.readme.io/b5d085e-image.png" align="center" width="75%" border={true} />
 
-1. **Navigation:** Go to Import / Export → Transfer JE.
-2. **Click** on the journal card of the primary book to access the journal entries.
-3. To double-check and ensure that all entries created are accurate and reflect the correct financial transactions for the period, **follow** these steps:
-   1. **Run the Asset Report:** Generate the Asset Report for the period. Verify that the total of the scheduled column in the asset account matches the total amount displayed in the revenue waterfall report.
-   2. **Run the Liability Report:** Generate the Liability Report for the period. Confirm that the total of the scheduled column in the liability account matches the total amount shown in the revenue waterfall report.
-   3. **Run the Revenue Waterfall Report:** Generate the Revenue Waterfall Report for the period. Validate that the total amount displayed in the waterfall matches the combined total of the scheduled columns in both the asset and liability accounts.
-   4. **Run the Revenue Insight Report:** Generate the Revenue Insight Report. Verify that the scheduled balance in the report matches the total amount displayed in the revenue waterfall report for the period.
-4. After completing the reconciliation process, follow these steps to finalize the transfer of journal entries:
 
-   1. **Click** on   "Approve for Transfer" for the Journal card of the Primary book. This action indicates that the journal entries have been reviewed and approved for transfer.
-   2. Once the entries have been approved, **click** on "Mark as trasnfered" . This step confirms that the journal entries have been successfully transferred and recorded.
-   3. Before proceeding to the next step, **ensure**that the journal card is "summarized." This summarization consolidates the entries and ensures accurate reporting. Please note that it is crucial to wait until the journal card is summarized before moving forward.
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">3</div>
+    <div><h4>Name the file and select the event</h4><p>Assign a name to the event file — by default the system uses the uploaded file's name. Then select the relevant event from the dropdown menu. These are predefined event templates established in the system.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">4</div>
+    <div><h4>Save</h4><p>Once all details are populated, save the file. The system processes the uploaded event file according to the configurations set for that event, ensuring accurate and compliant revenue recognition.</p></div>
+  </div>
+</div>
 
-      <Image align="center" className="border" border={true} src="https://files.readme.io/250214f-image.png" />
+# Stage area
 
-## Period close
+The Stage Area contains four tabs — Contracts, Documents, Cost, and Events. Unprocessed files appear under their respective tabs. Files may remain unprocessed for the following reasons:
 
-After the meticulous process of transferring journal entries, the final step is to close the period:
+<ul class="rp-list">
+  <li><strong>Error in the file:</strong> If errors are encountered during upload, those files are placed in the Stage Area. The system displays error messages for each transaction indicating the issue to address.</li>
+  <li><strong>Future transactions:</strong> Transactions with a future date or period are held in the Stage Area until the applicable period is opened in the system.</li>
+  <li><strong>Scheduled processing:</strong> If the scheduled jobs for transaction or event import are inactive or not running, transactions may remain stuck in the Stage Area. Ensure scheduled jobs are active and properly configured.</li>
+</ul>
 
-1. Access the Period Close option via Import/Export.
-2. Initiate the next period by selecting "Open New Period."
-3. Confirm the action and proceed.
+## Viewing and deleting data in the Stage Area
 
-   <Image align="center" className="border" border={true} src="https://files.readme.io/993b248-image.png" />
-4. Allow the system to seamlessly transition to the next period, ensuring continuity in your financial operations.
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Open the Stage Area</h4><p>Navigate to Import/Export to access the Stage Area.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Filter files</h4><p>Use the Status tab to filter and view files based on specific criteria.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">3</div>
+    <div><h4>Delete data</h4><p>To remove specific data, select the transaction under its respective tab, select the Delete icon, and confirm the deletion. Save your changes to finalize the removal.</p></div>
+  </div>
+</div>
+
+# Transfer JE
+
+<div class="rp-callout rp-callout-note">
+  <div><strong><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Note</strong>The month-end close process is a structured two-step approach. The first step involves transferring and verifying journal entries — laying the foundation for a confident period closure.</div>
+</div>
+
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Navigate to Transfer JE</h4><p>Go to Import/Export → Transfer JE.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Open the journal card</h4><p>Select the journal card of the primary book to access its journal entries.</p></div>
+  </div>
+</div>
+
+## Reconciliation checks
+
+Before finalizing the transfer, run the following reports to verify all entries are accurate.
+
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Run the Asset Report</h4><p>Generate the Asset Report for the period. Verify that the total of the scheduled column in the asset account matches the total in the revenue waterfall report.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Run the Liability Report</h4><p>Generate the Liability Report for the period. Confirm that the total of the scheduled column in the liability account matches the total in the revenue waterfall report.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">3</div>
+    <div><h4>Run the Revenue Waterfall Report</h4><p>Generate the Revenue Waterfall Report for the period. Validate that the total amount in the waterfall matches the combined total of the scheduled columns in both the asset and liability accounts.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">4</div>
+    <div><h4>Run the Revenue Insight Report</h4><p>Generate the Revenue Insight Report. Verify that the scheduled balance matches the total in the revenue waterfall report for the period.</p></div>
+  </div>
+</div>
+
+## Finalizing the transfer
+
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Approve for Transfer</h4><p>Select "Approve for Transfer" for the journal card of the Primary book to indicate the entries have been reviewed and approved.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Mark as transferred</h4><p>Once approved, select "Mark as Transferred" to confirm the journal entries have been successfully transferred and recorded.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">3</div>
+    <div><h4>Wait for summarization</h4><p>Before proceeding, ensure the journal card is summarized. This consolidates the entries for accurate reporting. Don't move to the next step until summarization is complete.</p></div>
+  </div>
+</div>
+
+
+<Image src="https://files.readme.io/250214f-image.png" align="center" width="75%" border={true} />
+
+
+# Period close
+
+After transferring journal entries, the final step is to close the period.
+
+<div class="rp-steps">
+  <div class="rp-step">
+    <div class="rp-step-num">1</div>
+    <div><h4>Open Period Close</h4><p>Access the Period Close option via Import/Export.</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">2</div>
+    <div><h4>Open the next period</h4><p>Select "Open New Period."</p></div>
+  </div>
+  <div class="rp-step">
+    <div class="rp-step-num">3</div>
+    <div><h4>Confirm and proceed</h4><p>Confirm the action and allow the system to transition to the next period, ensuring continuity in your financial operations.</p></div>
+  </div>
+</div>
+
+
+<Image src="https://files.readme.io/993b248-image.png" align="center" width="75%" border={true} />
+
+
+<br />
