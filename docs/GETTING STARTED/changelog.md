@@ -1,5 +1,5 @@
 ---
-title: Changelog
+title: Recurly RevRec Changelog
 deprecated: false
 hidden: true
 metadata:
