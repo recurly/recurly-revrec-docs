@@ -1,15 +1,13 @@
 ---
 title: Payments
+excerpt: >-
+  How RevRec's Payment Integration syncs cash receipts, manual payments, and
+  credits from RSM in real time, and how to set it up.
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Title: Payments
-Metadata description: How RevRec's Payment Integration syncs cash receipts, manual payments, and credits from RSM in real time, and how to set it up.
-
-\---PASTE INTO EDITOR BELOW---
-
 <div class="rp-page">
   <div class="rp-overview">This page walks you through Recurly's Payment Integration for Revenue Recognition (RevRec) — how it captures cash receipts, manual payments, and on-account credits in real time, and what changes once you turn it on. You'll find the setup steps, the new Payments tab in the Revenue Workbench, and a full reference for the journal entries the system generates automatically.</div>
   <div class="rp-plan"><i class="fa-solid fa-key" aria-hidden="true"></i> Available on all Recurly plans</div>
