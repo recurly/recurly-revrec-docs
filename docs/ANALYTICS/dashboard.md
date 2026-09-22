@@ -103,7 +103,7 @@ The Revenue Metrics section provides a centralized view of revenue-related activ
 
 ## Drill down into a metric
 
-Each metric tile supports drill-down reporting. Select the drill-down icon on a tile to open the detailed transaction lines behind that total, including supporting data such as customer names and invoice IDs.
+Each metric tile supports drill-down reporting. Select the total on a tile to reveal the drill-down option, then open it to see the individual transaction lines behind that number, including supporting data such as customer names and invoice IDs.
 
 
 <Image src="https://files.readme.io/512204060f2406acf8f9c948d8a0b6fc65b034a7e8f2bf17495d94975b63d97f-Img_3.png" align="center" width="75%" border={true} />
@@ -111,11 +111,13 @@ Each metric tile supports drill-down reporting. Select the drill-down icon on a 
 
 ## Revenue metric tiles
 
+The Revenue Metrics section displays seven tiles.
+
 <table class="rp-gw-table">
   <tr class="rp-thead-row"><td>Tile</td><td>What it shows</td><td>Example</td><td>Audit note</td></tr>
-  <tr><td>Current Period Billings</td><td>The gross invoice value for all invoices with a bill date in the selected period, including subscriptions, one-time charges, and setup fees.</td><td>A customer signs up on March 15 for a $1,200 annual plan. Even though only part of that amount is earned in March, the tile shows $1,200 for March.</td><td>Should match the Billing Transaction Details Report.</td></tr>
+  <tr><td>Current Period Billings</td><td>The gross invoice value — before any revenue deferral logic is applied — for all invoices with a bill date in the selected period, including subscriptions, one-time charges, and setup fees.</td><td>A customer signs up on March 15 for a $1,200 annual plan. Even though only part of that amount is earned in March, the tile shows $1,200 for March.</td><td>Should match the Billing Transaction Details Report.</td></tr>
   <tr><td>Deferred Revenue Balance</td><td>The ending deferred revenue liability as of the last day of the selected period.</td><td>A customer pays $120 on December 31 for a 12-month subscription starting January 1. After $10 is recognized in January, the balance shows $110.</td><td>Should match the ending balance in the Liability Balance Rollforward.</td></tr>
-  <tr><td>Revenue from Unbilled Services</td><td>Revenue recognized for delivered services that haven't yet been billed.</td><td>A $1,200 subscription uses an Upon Booking release setup, but only $800 has been invoiced so far. The remaining $400 appears here.</td><td>This value is the sum of the Asset Balances Report and the Unbilled Balances Report. The unbilled balance appears only when the unbilled flag is set to Y for the subscription line.</td></tr>
+  <tr><td>Revenue from Unbilled Services</td><td>Revenue recognized for delivered services that haven't yet been billed. This often happens when a service starts mid-month but isn't billed until the next cycle, or with milestone-based recognition.</td><td>A $1,200 subscription uses an Upon Booking release setup, but only $800 has been invoiced so far. The remaining $400 appears here.</td><td>This value is the sum of the Asset Balances Report and the Unbilled Balances Report. The unbilled balance appears only when the unbilled flag is set to Y for the subscription line.</td></tr>
   <tr><td>Refunds and Adjustments</td><td>Credit memos, voided invoices, refunds, and similar transactions that reduce billings or recognized revenue.</td><td>A customer is overcharged $100 in February, and a credit memo is issued in March. The tile shows -$100 in March.</td><td>Reflects contra-revenue activity processed during the selected accounting period.</td></tr>
   <tr><td>Current Billing Revenue</td><td>Revenue from invoices created in the current period that is also recognized in the same period.</td><td>A monthly subscription for $30 is billed on April 1 and fully earned by April 30. The tile shows $30 for April.</td><td>Validate by reviewing revenue waterfall data where the invoice date and invoice start date fall within the same reporting period.</td></tr>
   <tr><td>Deferred Revenue Recognized</td><td>Revenue released in the current period from deferred balances created in prior periods.</td><td>A customer paid for an annual plan in January. In August, one monthly portion of that payment is recognized and appears in this tile.</td><td>Represents revenue released from previously recorded deferred revenue liability.</td></tr>
@@ -164,5 +166,3 @@ This structure helps your team reconcile deferred revenue activity directly agai
   <tr><td>Revenue Recognized</td><td>Revenue earned during the selected period and released from the balance sheet to the income statement.</td><td>If $10,000 of deferred revenue is earned in January, that amount appears here.</td></tr>
   <tr><td>Ending Balance</td><td>Deferred revenue remaining at the end of the selected period. This becomes the beginning balance for the next period.</td><td>Start with $50,000, add $20,000 in new billings, and subtract $15,000 in recognized revenue to end with $55,000.</td></tr>
 </table>
-
-<br />
