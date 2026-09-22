@@ -57,7 +57,7 @@ metadata:
 Select the dashboard icon in the Revenue Recognition menu bar.
 
 
-<Image src="https://files.readme.io/392a120d1642141a30b0537dd9eba05a8cc52050d112d63391a44b363f01e1d5-Img_1.png" align="center" width="75%" border={true} />
+<Image src="https://files.readme.io/a7a646ad2e1c09d4d31bcfdd9389bced6bbc61b3cf5a1c2f7cd67904d65e660b-Img_1.png" align="center" width="75%" border={true} />
 
 
 The dashboard turns complex transactional data into a clear, audit-ready reporting interface that helps your team in three ways:
@@ -84,7 +84,7 @@ The dashboard has two main sections.
 The Revenue Metrics section provides a centralized view of revenue-related activity. Use the filters at the top of the dashboard to customize what you see.
 
 
-<Image src="https://files.readme.io/b6dfefbfb1a626cbf74f58420adbdc589bc1fecedbef79e7f6cf0f2879d2e925-Img_2.png" align="center" width="75%" border={true} />
+<Image src="https://files.readme.io/98650b997de4aa873981c76d94337f4310efafd90e4ede043a574bfc009c249e-Screenshot_2026-09-11_at_6.18.30_AM.png" align="center" width="100%" border={true} />
 
 
 ## Revenue metrics filters
@@ -106,8 +106,16 @@ The Revenue Metrics section provides a centralized view of revenue-related activ
 Each metric tile supports drill-down reporting. Select the total on a tile to reveal the drill-down option, then open it to see the individual transaction lines behind that number, including supporting data such as customer names and invoice IDs.
 
 
-<Image src="https://files.readme.io/512204060f2406acf8f9c948d8a0b6fc65b034a7e8f2bf17495d94975b63d97f-Img_3.png" align="center" width="75%" border={true} />
+<Image src="https://files.readme.io/76c9afb131116036aca6c60b8ef1395c977832301ad6e65204791338ee3793fb-Screenshot_2026-09-11_at_6.20.34_AM.png" align="center" width="75%" border={true} />
 
+
+<br />
+
+Example: Click any specific total (e.g., "Current Period Billings"). The system will open a detailed list of the individual transaction lines, customer names, and invoice IDs that comprise that total. This provides a full audit trail for any figure on the dashboard.
+
+![](https://files.readme.io/bf98dfb97b55188bb78bc4da260b598c9e159ed97dc5fa9384483ae83817a8ad-Screenshot_2026-09-11_at_6.28.31_AM.png)
+
+<br />
 
 ## Revenue metric tiles
 
@@ -129,7 +137,7 @@ The Revenue Metrics section displays seven tiles.
 The Liability Balance Rollforward is the audit engine of the dashboard. It shows how deferred revenue moves from the beginning to the end of a selected period, quarter, or year — confirming that every billed amount is either recognized as revenue or remains recorded as a liability.
 
 
-<Image src="https://files.readme.io/5ce4c64f258bbd7dd90ad656f6b8a666e52539c4eb3ccbc98125c1ece04faf54-Img_4.png" align="center" width="75%" border={true} />
+<Image src="https://files.readme.io/e6c5bb6be6a2ba0d449ce53437659622ab10d8eb3fcb926154d9507c28adac9e-Img_5.png" align="center" width="75%" border={true} />
 
 
 ## Rollforward filters
